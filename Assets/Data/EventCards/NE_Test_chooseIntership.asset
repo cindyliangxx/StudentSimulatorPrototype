@@ -10,28 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38821783587d8b74a97a61057b9fa572, type: 3}
-  m_Name: NE_2
+  m_Name: NE_Test_chooseIntership
   m_EditorClassIdentifier: 
-  cardId: 2
-  title: test2Title
-  description: test2Description
-  leftChoiceText: LeftChoice
-  rightChoiceText: RightChoice
+  cardId: 4
+  title: ChoseInternship
+  description: ChoseInternshipDES
+  leftChoiceText: LC
+  rightChoiceText: RC
   leftChoiceEffect:
-    Changes:
-    - StatType: 3
-      Amount: 20
-    - StatType: 4
-      Amount: 20
+    Changes: []
     setFlags: []
   rightChoiceEffect:
-    Changes:
-    - StatType: 3
-      Amount: -20
-    - StatType: 4
-      Amount: -20
-    setFlags: []
-  isSpecialEvent: 1
+    Changes: []
+    setFlags:
+    - ChoseInternship
+  isSpecialEvent: 0
   debugNote: 
   requiredFlags: []
   blockedFlags: []

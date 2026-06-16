@@ -33,6 +33,11 @@ public class PlayerStats
 
     public void ApplyEffect(ChoiceEffect effect)
     {
+        if (effect == null || effect.Changes == null)
+        {
+            return;
+        }
+
         foreach (StatChange change in effect.Changes)
         {
             int nextValue = GetValue(change.StatType) + change.Amount;

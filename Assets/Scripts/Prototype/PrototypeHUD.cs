@@ -3,12 +3,15 @@ using UnityEngine.UI;
 
 public class PrototypeHUD : MonoBehaviour
 {
+    private const float ChoiceButtonHeight = 72f;
+
     private GameManager gameManager;
     private Text titleText;
     private Text descriptionText;
     private Text statsText;
     private Text progressText;
     private Text specialText;
+    private Text storyFlagsText;
     private Text endingText;
     private Button leftButton;
     private Button rightButton;
@@ -87,6 +90,7 @@ public class PrototypeHUD : MonoBehaviour
         statsText = CreateText("Stats", root.transform, 18, FontStyle.Normal, TextAnchor.MiddleLeft);
         progressText = CreateText("Progress", root.transform, 18, FontStyle.Normal, TextAnchor.MiddleLeft);
         specialText = CreateText("Special", root.transform, 18, FontStyle.Normal, TextAnchor.MiddleLeft);
+        storyFlagsText = CreateText("StoryFlags", root.transform, 18, FontStyle.Normal, TextAnchor.MiddleLeft);
         endingText = CreateText("Ending", root.transform, 20, FontStyle.Bold, TextAnchor.MiddleCenter);
         endingText.color = new Color(0.85f, 0.1f, 0.1f);
 
@@ -97,7 +101,11 @@ public class PrototypeHUD : MonoBehaviour
         buttonLayout.childControlHeight = true;
         buttonLayout.childForceExpandWidth = true;
         buttonLayout.childForceExpandHeight = true;
-        buttonRow.AddComponent<LayoutElement>().preferredHeight = 72f;
+
+        LayoutElement buttonRowLayout = buttonRow.AddComponent<LayoutElement>();
+        buttonRowLayout.minHeight = ChoiceButtonHeight;
+        buttonRowLayout.preferredHeight = ChoiceButtonHeight;
+        buttonRowLayout.flexibleHeight = 0f;
 
         leftButton = CreateButton("LeftButton", buttonRow.transform, out leftButtonText, out leftButtonImage);
         rightButton = CreateButton("RightButton", buttonRow.transform, out rightButtonText, out rightButtonImage);
@@ -137,6 +145,17 @@ public class PrototypeHUD : MonoBehaviour
     {
         GameObject buttonObject = new GameObject(objectName, typeof(RectTransform));
         buttonObject.transform.SetParent(parent, false);
+
+        RectTransform buttonRect = buttonObject.GetComponent<RectTransform>();
+        buttonRect.anchorMin = new Vector2(0f, 0.5f);
+        buttonRect.anchorMax = new Vector2(1f, 0.5f);
+        buttonRect.pivot = new Vector2(0.5f, 0.5f);
+        buttonRect.sizeDelta = new Vector2(0f, ChoiceButtonHeight);
+
+        LayoutElement buttonLayout = buttonObject.AddComponent<LayoutElement>();
+        buttonLayout.minHeight = ChoiceButtonHeight;
+        buttonLayout.preferredHeight = ChoiceButtonHeight;
+        buttonLayout.flexibleHeight = 0f;
 
         image = buttonObject.AddComponent<Image>();
         image.color = normalButtonColor;
@@ -209,8 +228,8 @@ public class PrototypeHUD : MonoBehaviour
         EventCardData card = gameManager.CurrentCard;
         bool hasCard = card != null;
 
-        titleText.text = hasCard ? card.Title : "No Card";
-        descriptionText.text = hasCard ? card.Description : "No event card is available.";
+        titleText.text = gameManager.IsGameOver ? gameManager.EndingTitle : hasCard ? card.Title : "No Card";
+        descriptionText.text = gameManager.IsGameOver ? gameManager.EndingDescription : hasCard ? card.Description : "No event card is available.";
         leftButtonText.text = hasCard ? card.LeftChoiceText : "Left";
         rightButtonText.text = hasCard ? card.RightChoiceText : "Right";
 
@@ -221,9 +240,12 @@ public class PrototypeHUD : MonoBehaviour
             $"Social: {gameManager.PlayerStats.GetValue(StatType.Social)}   " +
             $"Money: {gameManager.PlayerStats.GetValue(StatType.Money)}";
 
-        progressText.text = $"Completed normal events: {gameManager.TotalNormalCardsCompleted}";
+        progressText.text =
+            $"Completed normal events: {gameManager.TotalNormalCardsCompleted}   " +
+            $"Resolved events: {gameManager.TotalResolvedEvents}/{gameManager.MaxEventsBeforeEnding}";
         specialText.text = $"Special event active: {(gameManager.IsCurrentCardSpecial ? "Yes" : "No")}";
-        endingText.text = gameManager.IsGameOver ? gameManager.EndingText : string.Empty;
+        storyFlagsText.text = $"Story flags: {GetStoryFlagsText()}";
+        endingText.text = gameManager.IsGameOver ? $"Ending type: {gameManager.CurrentEndingType}" : string.Empty;
 
         leftButton.interactable = hasCard && !gameManager.IsGameOver;
         rightButton.interactable = hasCard && !gameManager.IsGameOver;
@@ -239,5 +261,16 @@ public class PrototypeHUD : MonoBehaviour
     private void OnRightClicked()
     {
         gameManager.ChooseRight();
+    }
+
+    private string GetStoryFlagsText()
+    {
+        System.Collections.Generic.List<string> flags = gameManager.StoryFlags.GetAllFlags();
+        if (flags.Count == 0)
+        {
+            return "None";
+        }
+
+        return string.Join(", ", flags);
     }
 }

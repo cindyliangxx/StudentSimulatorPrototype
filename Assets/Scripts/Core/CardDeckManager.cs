@@ -7,55 +7,81 @@ public class CardDeckManager : MonoBehaviour
 
     [SerializeField] private List<EventCardAsset> normalCardAssets = new List<EventCardAsset>();
     [SerializeField] private List<EventCardAsset> specialCardAssets = new List<EventCardAsset>();
+    [SerializeField] private int maxEventsBeforeEnding = 15;
 
     private readonly List<EventCardData> normalCards = new List<EventCardData>();
     private readonly List<EventCardData> specialCards = new List<EventCardData>();
+    private PlayerStats playerStats;
+    private StoryFlagManager storyFlags;
     private int normalCardIndex;
     private int specialCardIndex;
+    private int normalAssetIndex;
+    private int specialAssetIndex;
     private int normalCardsSinceSpecial;
 
     public int TotalNormalCardsCompleted { get; private set; }
+    public int TotalResolvedEvents { get; private set; }
+    public int MaxEventsBeforeEnding => Mathf.Max(1, maxEventsBeforeEnding);
 
-    public void InitializeTestData()
+    public void InitializeTestData(PlayerStats stats, StoryFlagManager flagManager)
     {
+        playerStats = stats;
+        storyFlags = flagManager;
         normalCards.Clear();
         specialCards.Clear();
         normalCardIndex = 0;
         specialCardIndex = 0;
+        normalAssetIndex = 0;
+        specialAssetIndex = 0;
         normalCardsSinceSpecial = 0;
         TotalNormalCardsCompleted = 0;
+        TotalResolvedEvents = 0;
 
-        if (!BuildCardsFromAssets(normalCardAssets, normalCards))
-        {
-            BuildNormalCards();
-        }
-
-        if (!BuildCardsFromAssets(specialCardAssets, specialCards))
-        {
-            BuildSpecialCards();
-        }
+        BuildNormalCards();
+        BuildSpecialCards();
     }
 
     public EventCardData DrawNextCard()
     {
-        if (normalCardsSinceSpecial >= NormalCardsBeforeSpecial && specialCards.Count > 0)
+        bool shouldDrawSpecial = normalCardsSinceSpecial >= NormalCardsBeforeSpecial;
+
+        if (shouldDrawSpecial)
         {
             normalCardsSinceSpecial = 0;
-            return DrawFromDeck(specialCards, ref specialCardIndex);
+            EventCardData specialCard = DrawCardFromAssets(specialCardAssets, ref specialAssetIndex, true);
+            if (specialCard != null)
+            {
+                return specialCard;
+            }
+
+            Debug.LogWarning("[CardDeck] No eligible special EventCardAsset found. Using hardcoded special fallback card.");
+            return DrawAndLogFallback(specialCards, ref specialCardIndex, true);
         }
 
-        return DrawFromDeck(normalCards, ref normalCardIndex);
+        EventCardData normalCard = DrawCardFromAssets(normalCardAssets, ref normalAssetIndex, false);
+        if (normalCard != null)
+        {
+            return normalCard;
+        }
+
+        Debug.LogWarning("[CardDeck] No eligible normal EventCardAsset found. Using hardcoded normal fallback card.");
+        return DrawAndLogFallback(normalCards, ref normalCardIndex, false);
     }
 
     public void MarkCardCompleted(EventCardData card)
     {
-        if (card == null || card.IsSpecial)
+        if (card == null)
         {
             return;
         }
 
-        TotalNormalCardsCompleted++;
-        normalCardsSinceSpecial++;
+        TotalResolvedEvents++;
+
+        if (!card.IsSpecial)
+        {
+            TotalNormalCardsCompleted++;
+            normalCardsSinceSpecial++;
+        }
     }
 
     private static EventCardData DrawFromDeck(List<EventCardData> deck, ref int index)
@@ -70,12 +96,14 @@ public class CardDeckManager : MonoBehaviour
         return card;
     }
 
-    private static bool BuildCardsFromAssets(List<EventCardAsset> cardAssets, List<EventCardData> targetDeck)
+    private EventCardData DrawCardFromAssets(List<EventCardAsset> cardAssets, ref int assetIndex, bool requireSpecial)
     {
         if (cardAssets == null || cardAssets.Count == 0)
         {
-            return false;
+            return null;
         }
+
+        List<EventCardAsset> eligibleCards = new List<EventCardAsset>();
 
         foreach (EventCardAsset cardAsset in cardAssets)
         {
@@ -84,10 +112,45 @@ public class CardDeckManager : MonoBehaviour
                 continue;
             }
 
-            targetDeck.Add(cardAsset.ToEventCardData());
+            if (cardAsset.isSpecialEvent != requireSpecial)
+            {
+                continue;
+            }
+
+            if (cardAsset.AreConditionsMet(playerStats, storyFlags, out string failedReason))
+            {
+                eligibleCards.Add(cardAsset);
+            }
+            else
+            {
+                Debug.Log($"[CardDeck] Filtered out '{cardAsset.title}': {failedReason}.");
+            }
         }
 
-        return targetDeck.Count > 0;
+        if (eligibleCards.Count == 0)
+        {
+            return null;
+        }
+
+        EventCardAsset selectedAsset = eligibleCards[assetIndex % eligibleCards.Count];
+        assetIndex = (assetIndex + 1) % eligibleCards.Count;
+        EventCardData selectedCard = selectedAsset.ToEventCardData();
+
+        Debug.Log($"[CardDeck] Drew card: {selectedCard.Title}. Special: {selectedCard.IsSpecial}");
+        return selectedCard;
+    }
+
+    private static EventCardData DrawAndLogFallback(List<EventCardData> deck, ref int index, bool isSpecialFallback)
+    {
+        EventCardData card = DrawFromDeck(deck, ref index);
+        if (card == null)
+        {
+            Debug.LogWarning("[CardDeck] No fallback card is available.");
+            return null;
+        }
+
+        Debug.Log($"[CardDeck] Drew card: {card.Title}. Special: {isSpecialFallback}");
+        return card;
     }
 
     private void BuildNormalCards()

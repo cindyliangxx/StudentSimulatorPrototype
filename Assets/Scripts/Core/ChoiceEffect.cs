@@ -23,6 +23,7 @@ public class StatChange
 public class ChoiceEffect
 {
     public List<StatChange> Changes = new List<StatChange>();
+    public List<string> setFlags = new List<string>();
 
     public ChoiceEffect()
     {
@@ -35,7 +36,7 @@ public class ChoiceEffect
 
     public string ToLogString()
     {
-        if (Changes.Count == 0)
+        if (Changes == null || Changes.Count == 0)
         {
             return "No stat changes";
         }

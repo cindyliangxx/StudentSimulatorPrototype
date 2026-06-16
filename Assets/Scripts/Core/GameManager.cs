@@ -4,15 +4,22 @@ using UnityEngine;
 public class GameManager
 {
     private readonly PlayerStats playerStats = new PlayerStats();
+    private readonly StoryFlagManager storyFlagManager = new StoryFlagManager();
     private readonly CardDeckManager deckManager;
     private readonly EndingManager endingManager = new EndingManager();
 
     public EventCardData CurrentCard { get; private set; }
     public bool IsGameOver { get; private set; }
     public string EndingText { get; private set; }
+    public string EndingTitle { get; private set; }
+    public string EndingDescription { get; private set; }
+    public EndingType CurrentEndingType { get; private set; }
 
     public PlayerStats PlayerStats => playerStats;
+    public StoryFlagManager StoryFlags => storyFlagManager;
     public int TotalNormalCardsCompleted => deckManager.TotalNormalCardsCompleted;
+    public int TotalResolvedEvents => deckManager.TotalResolvedEvents;
+    public int MaxEventsBeforeEnding => deckManager.MaxEventsBeforeEnding;
     public bool IsCurrentCardSpecial => CurrentCard != null && CurrentCard.IsSpecial;
 
     public event Action StateChanged;
@@ -25,9 +32,13 @@ public class GameManager
     public void StartNewGame()
     {
         playerStats.Reset();
-        deckManager.InitializeTestData();
+        storyFlagManager.Reset();
+        deckManager.InitializeTestData(playerStats, storyFlagManager);
         IsGameOver = false;
         EndingText = string.Empty;
+        EndingTitle = string.Empty;
+        EndingDescription = string.Empty;
+        CurrentEndingType = EndingType.None;
         CurrentCard = deckManager.DrawNextCard();
         StateChanged?.Invoke();
     }
@@ -57,6 +68,7 @@ public class GameManager
 
         // Apply first, then log both the change and the resulting prototype state.
         playerStats.ApplyEffect(effect);
+        ApplyStoryFlags(effect);
         string afterStats = GetStatsLogString();
 
         Debug.Log(
@@ -67,14 +79,45 @@ public class GameManager
 
         if (playerStats.TryGetFailedStat(out StatType failedStat))
         {
-            IsGameOver = true;
-            EndingText = endingManager.GetFailureEnding(failedStat);
-            Debug.Log(EndingText);
-            StateChanged?.Invoke();
+            EnterEnding(endingManager.GetFailureEnding(failedStat));
+            return;
+        }
+
+        if (deckManager.TotalResolvedEvents >= deckManager.MaxEventsBeforeEnding)
+        {
+            EnterEnding(endingManager.GetFinalEnding(playerStats, storyFlagManager));
             return;
         }
 
         CurrentCard = deckManager.DrawNextCard();
+        StateChanged?.Invoke();
+    }
+
+    private void ApplyStoryFlags(ChoiceEffect effect)
+    {
+        if (effect == null || effect.setFlags == null)
+        {
+            return;
+        }
+
+        foreach (string flag in effect.setFlags)
+        {
+            if (storyFlagManager.AddFlag(flag))
+            {
+                Debug.Log($"[StoryFlag] Added: {flag.Trim()}");
+            }
+        }
+    }
+
+    private void EnterEnding(EndingResult endingResult)
+    {
+        IsGameOver = true;
+        CurrentCard = null;
+        CurrentEndingType = endingResult.Type;
+        EndingTitle = endingResult.Title;
+        EndingDescription = endingResult.Description;
+        EndingText = endingResult.ToDisplayText();
+        Debug.Log($"[Ending] Entered {endingResult.Type}: {endingResult.Title}");
         StateChanged?.Invoke();
     }
 

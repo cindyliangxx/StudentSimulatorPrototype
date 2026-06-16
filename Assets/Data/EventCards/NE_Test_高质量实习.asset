@@ -10,30 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38821783587d8b74a97a61057b9fa572, type: 3}
-  m_Name: NE_2
+  m_Name: "NE_Test_\u9AD8\u8D28\u91CF\u5B9E\u4E60"
   m_EditorClassIdentifier: 
-  cardId: 2
-  title: test2Title
-  description: test2Description
-  leftChoiceText: LeftChoice
-  rightChoiceText: RightChoice
+  cardId: 7
+  title: "\u9AD8\u8D28\u91CF\u5B9E\u4E60\u673A\u4F1A"
+  description: 
+  leftChoiceText: 
+  rightChoiceText: 
   leftChoiceEffect:
-    Changes:
-    - StatType: 3
-      Amount: 20
-    - StatType: 4
-      Amount: 20
+    Changes: []
     setFlags: []
   rightChoiceEffect:
-    Changes:
-    - StatType: 3
-      Amount: -20
-    - StatType: 4
-      Amount: -20
+    Changes: []
     setFlags: []
-  isSpecialEvent: 1
+  isSpecialEvent: 0
   debugNote: 
   requiredFlags: []
   blockedFlags: []
-  statConditions: []
+  statConditions:
+  - statType: 2
+    compareType: 0
+    threshold: 60
   debugConditionNote: 
