@@ -21,10 +21,14 @@ MonoBehaviour:
     Changes:
     - StatType: 0
       Amount: 10
-    setFlags:
-    - HelpedFriend
+    setFlags: []
   rightChoiceEffect:
     Changes: []
-    setFlags: []
+    setFlags:
+    - HelpedFriend
   isSpecialEvent: 0
   debugNote: 
+  requiredFlags: []
+  blockedFlags: []
+  statConditions: []
+  debugConditionNote: 

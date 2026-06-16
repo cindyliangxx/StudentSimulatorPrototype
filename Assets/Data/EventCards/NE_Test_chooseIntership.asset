@@ -21,7 +21,9 @@ MonoBehaviour:
     Changes: []
     setFlags: []
   rightChoiceEffect:
-    Changes: []
+    Changes:
+    - StatType: 2
+      Amount: 30
     setFlags:
     - ChoseInternship
   isSpecialEvent: 0

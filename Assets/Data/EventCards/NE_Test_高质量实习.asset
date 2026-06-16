@@ -18,11 +18,14 @@ MonoBehaviour:
   leftChoiceText: 
   rightChoiceText: 
   leftChoiceEffect:
-    Changes: []
+    Changes:
+    - StatType: 0
+      Amount: 20
     setFlags: []
   rightChoiceEffect:
     Changes: []
-    setFlags: []
+    setFlags:
+    - QuestionedLoop
   isSpecialEvent: 0
   debugNote: 
   requiredFlags: []

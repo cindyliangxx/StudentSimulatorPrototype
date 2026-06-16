@@ -25,11 +25,7 @@ MonoBehaviour:
       Amount: 20
     setFlags: []
   rightChoiceEffect:
-    Changes:
-    - StatType: 3
-      Amount: -20
-    - StatType: 4
-      Amount: -20
+    Changes: []
     setFlags: []
   isSpecialEvent: 1
   debugNote: 
