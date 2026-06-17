@@ -27,6 +27,12 @@ MonoBehaviour:
     setFlags:
     - HelpedFriend
   isSpecialEvent: 0
+  weight: 1
+  useMaxPriority: 0
+  cooldownTurns: 0
+  isHiddenCard: 0
+  minResolvedEvents: 0
+  maxResolvedEvents: -1
   debugNote: 
   requiredFlags: []
   blockedFlags: []

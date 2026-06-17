@@ -4,6 +4,7 @@ using UnityEngine.EventSystems;
 public class CardDragController : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUpHandler
 {
     [SerializeField] private float dragThreshold = 160f;
+    [SerializeField] private float maxRotationDegrees = 9f;
 
     private GameManager gameManager;
     private PrototypeHUD hud;
@@ -37,6 +38,7 @@ public class CardDragController : MonoBehaviour, IPointerDownHandler, IDragHandl
 
         isDragging = false;
         rectTransform.anchoredPosition = startPosition;
+        rectTransform.localRotation = Quaternion.identity;
         hud?.ClearDragHint();
     }
 
@@ -71,6 +73,8 @@ public class CardDragController : MonoBehaviour, IPointerDownHandler, IDragHandl
 
         Vector2 delta = pointerCurrentPosition - pointerStartPosition;
         rectTransform.anchoredPosition = startPosition + new Vector2(delta.x, 0f);
+        float normalizedOffset = Mathf.Clamp(delta.x / dragThreshold, -1f, 1f);
+        rectTransform.localRotation = Quaternion.Euler(0f, 0f, -normalizedOffset * maxRotationDegrees);
         hud?.SetDragHint(delta.x);
     }
 

@@ -36,6 +36,6 @@ public class StatCondition
     public string ToDebugString()
     {
         string symbol = compareType == StatCompareType.GreaterOrEqual ? ">=" : "<=";
-        return $"{statType} {symbol} {threshold}";
+        return $"{StatTypeUtility.GetDisplayName(statType)} {symbol} {threshold}";
     }
 }

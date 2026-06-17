@@ -18,16 +18,25 @@ public class PlayerStats
 
     public void Reset()
     {
-        values[StatType.Body] = InitialValue;
-        values[StatType.Mental] = InitialValue;
-        values[StatType.Academic] = InitialValue;
-        values[StatType.Social] = InitialValue;
-        values[StatType.Money] = InitialValue;
+        values.Clear();
+
+        foreach (StatType statType in StatTypeUtility.CoreStats)
+        {
+            values[statType] = InitialValue;
+        }
+
         StatsChanged?.Invoke();
     }
 
     public int GetValue(StatType statType)
     {
+        statType = StatTypeUtility.Normalize(statType);
+
+        if (!values.ContainsKey(statType))
+        {
+            values[statType] = InitialValue;
+        }
+
         return values[statType];
     }
 
@@ -38,27 +47,37 @@ public class PlayerStats
             return;
         }
 
-        foreach (StatChange change in effect.Changes)
+        Dictionary<StatType, int> mergedChanges = effect.GetMergedStatChanges();
+
+        foreach (KeyValuePair<StatType, int> change in mergedChanges)
         {
-            int nextValue = GetValue(change.StatType) + change.Amount;
-            values[change.StatType] = Clamp(nextValue);
+            int nextValue = GetValue(change.Key) + change.Value;
+            values[change.Key] = Clamp(nextValue);
         }
 
         StatsChanged?.Invoke();
     }
 
+    public int GetEffectiveChange(StatType statType, int rawAmount)
+    {
+        statType = StatTypeUtility.Normalize(statType);
+        int currentValue = GetValue(statType);
+        int nextValue = Clamp(currentValue + rawAmount);
+        return nextValue - currentValue;
+    }
+
     public bool TryGetFailedStat(out StatType failedStat)
     {
-        foreach (KeyValuePair<StatType, int> pair in values)
+        foreach (StatType statType in StatTypeUtility.CoreStats)
         {
-            if (pair.Value <= MinValue)
+            if (GetValue(statType) <= MinValue)
             {
-                failedStat = pair.Key;
+                failedStat = statType;
                 return true;
             }
         }
 
-        failedStat = StatType.Body;
+        failedStat = StatType.Health;
         return false;
     }
 

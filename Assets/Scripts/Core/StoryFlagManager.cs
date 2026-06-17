@@ -24,6 +24,16 @@ public class StoryFlagManager
         return flags.Contains(flag.Trim());
     }
 
+    public bool RemoveFlag(string flag)
+    {
+        if (string.IsNullOrWhiteSpace(flag))
+        {
+            return false;
+        }
+
+        return flags.Remove(flag.Trim());
+    }
+
     public List<string> GetAllFlags()
     {
         List<string> allFlags = new List<string>(flags);

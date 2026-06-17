@@ -24,6 +24,8 @@ public class ChoiceEffect
 {
     public List<StatChange> Changes = new List<StatChange>();
     public List<string> setFlags = new List<string>();
+    public List<string> clearFlags = new List<string>();
+    public string nextCardId;
 
     public ChoiceEffect()
     {
@@ -34,27 +36,59 @@ public class ChoiceEffect
         Changes.AddRange(statChanges);
     }
 
+    public Dictionary<StatType, int> GetMergedStatChanges()
+    {
+        Dictionary<StatType, int> mergedChanges = new Dictionary<StatType, int>();
+
+        if (Changes == null)
+        {
+            return mergedChanges;
+        }
+
+        foreach (StatChange change in Changes)
+        {
+            StatType statType = StatTypeUtility.Normalize(change.StatType);
+
+            if (!mergedChanges.ContainsKey(statType))
+            {
+                mergedChanges[statType] = 0;
+            }
+
+            mergedChanges[statType] += change.Amount;
+        }
+
+        return mergedChanges;
+    }
+
     public string ToLogString()
     {
-        if (Changes == null || Changes.Count == 0)
+        Dictionary<StatType, int> mergedChanges = GetMergedStatChanges();
+
+        if (mergedChanges.Count == 0)
         {
             return "No stat changes";
         }
 
         StringBuilder builder = new StringBuilder();
+        int index = 0;
 
-        for (int i = 0; i < Changes.Count; i++)
+        foreach (StatType statType in StatTypeUtility.CoreStats)
         {
-            StatChange change = Changes[i];
-            if (i > 0)
+            if (!mergedChanges.TryGetValue(statType, out int amount))
+            {
+                continue;
+            }
+
+            if (index > 0)
             {
                 builder.Append(", ");
             }
 
-            builder.Append(change.StatType);
+            builder.Append(StatTypeUtility.GetDisplayName(statType));
             builder.Append(' ');
-            builder.Append(change.Amount >= 0 ? "+" : string.Empty);
-            builder.Append(change.Amount);
+            builder.Append(amount >= 0 ? "+" : string.Empty);
+            builder.Append(amount);
+            index++;
         }
 
         return builder.ToString();

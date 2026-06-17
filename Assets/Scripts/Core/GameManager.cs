@@ -69,13 +69,19 @@ public class GameManager
         // Apply first, then log both the change and the resulting prototype state.
         playerStats.ApplyEffect(effect);
         ApplyStoryFlags(effect);
+        if (effect != null && !string.IsNullOrWhiteSpace(effect.nextCardId))
+        {
+            deckManager.QueueNextCard(effect.nextCardId);
+        }
+
         string afterStats = GetStatsLogString();
+        string effectLog = effect != null ? effect.ToLogString() : "No effect";
 
         Debug.Log(
             $"Card: {selectedCard.Title}. Direction: {direction}. Choice: {choiceText}. " +
-            $"Changes: {effect.ToLogString()}. Before: {beforeStats}. After: {afterStats}");
+            $"Changes: {effectLog}. Before: {beforeStats}. After: {afterStats}");
 
-        deckManager.MarkCardCompleted(CurrentCard);
+        deckManager.MarkCardCompleted(selectedCard);
 
         if (playerStats.TryGetFailedStat(out StatType failedStat))
         {
@@ -95,16 +101,30 @@ public class GameManager
 
     private void ApplyStoryFlags(ChoiceEffect effect)
     {
-        if (effect == null || effect.setFlags == null)
+        if (effect == null)
         {
             return;
         }
 
-        foreach (string flag in effect.setFlags)
+        if (effect.setFlags != null)
         {
-            if (storyFlagManager.AddFlag(flag))
+            foreach (string flag in effect.setFlags)
             {
-                Debug.Log($"[StoryFlag] Added: {flag.Trim()}");
+                if (storyFlagManager.AddFlag(flag))
+                {
+                    Debug.Log($"[StoryFlag] Added: {flag.Trim()}");
+                }
+            }
+        }
+
+        if (effect.clearFlags != null)
+        {
+            foreach (string flag in effect.clearFlags)
+            {
+                if (storyFlagManager.RemoveFlag(flag))
+                {
+                    Debug.Log($"[StoryFlag] Removed: {flag.Trim()}");
+                }
             }
         }
     }
@@ -124,8 +144,7 @@ public class GameManager
     private string GetStatsLogString()
     {
         return
-            $"Body={playerStats.GetValue(StatType.Body)}, " +
-            $"Mental={playerStats.GetValue(StatType.Mental)}, " +
+            $"Health={playerStats.GetValue(StatType.Health)}, " +
             $"Academic={playerStats.GetValue(StatType.Academic)}, " +
             $"Social={playerStats.GetValue(StatType.Social)}, " +
             $"Money={playerStats.GetValue(StatType.Money)}";
