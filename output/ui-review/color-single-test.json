@@ -1,0 +1,444 @@
+﻿[
+    {
+        "status":  "error",
+        "errorCode":  "TYPE_MISMATCH",
+        "error":  "Can not convert Object to String.",
+        "skill":  "component_set_property",
+        "details":  {
+                        "typeErrors":  [
+                                           {
+                                               "parameter":  "value",
+                                               "expectedType":  "string",
+                                               "error":  "Can not convert Object to String."
+                                           }
+                                       ]
+                    },
+        "retryStrategy":  "fix_and_retry"
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "gameObject":  "TopPanel",
+                       "component":  "Image",
+                       "fullTypeName":  "UnityEngine.UI.Image",
+                       "properties":  [
+                                          {
+                                              "name":  "sprite",
+                                              "type":  "Sprite",
+                                              "fullType":  "UnityEngine.Sprite",
+                                              "value":  "panel",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "overrideSprite",
+                                              "type":  "Sprite",
+                                              "fullType":  "UnityEngine.Sprite",
+                                              "value":  "panel",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "type",
+                                              "type":  "Type",
+                                              "fullType":  "UnityEngine.UI.Image+Type",
+                                              "value":  "Sliced",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "preserveAspect",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "False",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "fillCenter",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "True",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "fillMethod",
+                                              "type":  "FillMethod",
+                                              "fullType":  "UnityEngine.UI.Image+FillMethod",
+                                              "value":  "Radial360",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "fillAmount",
+                                              "type":  "Single",
+                                              "fullType":  "System.Single",
+                                              "value":  "1",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "fillClockwise",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "True",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "fillOrigin",
+                                              "type":  "Int32",
+                                              "fullType":  "System.Int32",
+                                              "value":  "0",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "eventAlphaThreshold",
+                                              "type":  "Single",
+                                              "fullType":  "System.Single",
+                                              "value":  "1",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "alphaHitTestMinimumThreshold",
+                                              "type":  "Single",
+                                              "fullType":  "System.Single",
+                                              "value":  "0",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "useSpriteMesh",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "False",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "mainTexture",
+                                              "type":  "Texture",
+                                              "fullType":  "UnityEngine.Texture",
+                                              "value":  "panel",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "hasBorder",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "True",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "pixelsPerUnitMultiplier",
+                                              "type":  "Single",
+                                              "fullType":  "System.Single",
+                                              "value":  "1",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "pixelsPerUnit",
+                                              "type":  "Single",
+                                              "fullType":  "System.Single",
+                                              "value":  "1",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "material",
+                                              "type":  "Material",
+                                              "fullType":  "UnityEngine.Material",
+                                              "value":  "Default UI Material",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "minWidth",
+                                              "type":  "Single",
+                                              "fullType":  "System.Single",
+                                              "value":  "0",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "preferredWidth",
+                                              "type":  "Single",
+                                              "fullType":  "System.Single",
+                                              "value":  "120",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "flexibleWidth",
+                                              "type":  "Single",
+                                              "fullType":  "System.Single",
+                                              "value":  "-1",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "minHeight",
+                                              "type":  "Single",
+                                              "fullType":  "System.Single",
+                                              "value":  "0",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "preferredHeight",
+                                              "type":  "Single",
+                                              "fullType":  "System.Single",
+                                              "value":  "120",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "flexibleHeight",
+                                              "type":  "Single",
+                                              "fullType":  "System.Single",
+                                              "value":  "-1",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "layoutPriority",
+                                              "type":  "Int32",
+                                              "fullType":  "System.Int32",
+                                              "value":  "0",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "onCullStateChanged",
+                                              "type":  "CullStateChangedEvent",
+                                              "fullType":  "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent",
+                                              "value":  "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent UnityEngine.UI.MaskableGraphic+CullStateChangedEvent",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "maskable",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "True",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "isMaskingGraphic",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "False",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "color",
+                                              "type":  "Color",
+                                              "fullType":  "UnityEngine.Color",
+                                              "value":  "(0.4313726, 0.4039216, 0.372549, 1)",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "raycastTarget",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "False",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "raycastPadding",
+                                              "type":  "Vector4",
+                                              "fullType":  "UnityEngine.Vector4",
+                                              "value":  "(0, 0, 0, 0)",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "depth",
+                                              "type":  "Int32",
+                                              "fullType":  "System.Int32",
+                                              "value":  "6",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "rectTransform",
+                                              "type":  "RectTransform",
+                                              "fullType":  "UnityEngine.RectTransform",
+                                              "value":  "TopPanel",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "canvas",
+                                              "type":  "Canvas",
+                                              "fullType":  "UnityEngine.Canvas",
+                                              "value":  "GameCanvas",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "canvasRenderer",
+                                              "type":  "CanvasRenderer",
+                                              "fullType":  "UnityEngine.CanvasRenderer",
+                                              "value":  "TopPanel",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "defaultMaterial",
+                                              "type":  "Material",
+                                              "fullType":  "UnityEngine.Material",
+                                              "value":  "Default UI Material",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "materialForRendering",
+                                              "type":  "Material",
+                                              "fullType":  "UnityEngine.Material",
+                                              "value":  "Default UI Material",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "destroyCancellationToken",
+                                              "type":  "CancellationToken",
+                                              "fullType":  "System.Threading.CancellationToken",
+                                              "value":  "System.Threading.CancellationToken",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "useGUILayout",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "True",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "runInEditMode",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "True",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "enabled",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "True",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "isActiveAndEnabled",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "True",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "transform",
+                                              "type":  "Transform",
+                                              "fullType":  "UnityEngine.Transform",
+                                              "value":  "TopPanel",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "gameObject",
+                                              "type":  "GameObject",
+                                              "fullType":  "UnityEngine.GameObject",
+                                              "value":  "TopPanel",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "tag",
+                                              "type":  "String",
+                                              "fullType":  "System.String",
+                                              "value":  "Untagged",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "rigidbody",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "rigidbody2D",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "camera",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "light",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "animation",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "constantForce",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "renderer",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "audio",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "networkView",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "collider",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "collider2D",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "hingeJoint",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "particleSystem",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "name",
+                                              "type":  "String",
+                                              "fullType":  "System.String",
+                                              "value":  "TopPanel",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "hideFlags",
+                                              "type":  "HideFlags",
+                                              "fullType":  "UnityEngine.HideFlags",
+                                              "value":  "None",
+                                              "canWrite":  true
+                                          }
+                                      ],
+                       "fields":  [
+
+                                  ]
+                   }
+    }
+]

@@ -1,0 +1,69 @@
+﻿[
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "totalItems":  4,
+                       "successCount":  4,
+                       "failCount":  0,
+                       "results":  [
+                                       {
+                                           "target":  "MobileLeaderboard",
+                                           "entityId":  "24318",
+                                           "success":  true,
+                                           "active":  false
+                                       },
+                                       {
+                                           "target":  "UnityAds",
+                                           "entityId":  "25412",
+                                           "success":  true,
+                                           "active":  false
+                                       },
+                                       {
+                                           "target":  "AdmobAds",
+                                           "entityId":  "25204",
+                                           "success":  true,
+                                           "active":  false
+                                       },
+                                       {
+                                           "target":  "Inventory",
+                                           "entityId":  "23112",
+                                           "success":  true,
+                                           "active":  false
+                                       }
+                                   ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "executed":  "File/Save"
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "scene":  "Game",
+                       "totalIssues":  0,
+                       "summary":  {
+                                       "errors":  0,
+                                       "warnings":  0,
+                                       "info":  0
+                                   },
+                       "issues":  [
+
+                                  ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "count":  0,
+                       "issues":  [
+
+                                  ]
+                   }
+    }
+]

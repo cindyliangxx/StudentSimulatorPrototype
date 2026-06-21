@@ -1,0 +1,42 @@
+﻿[
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "totalItems":  4,
+                       "successCount":  4,
+                       "failCount":  0,
+                       "results":  [
+                                       {
+                                           "target":  "TopPanel",
+                                           "success":  true,
+                                           "property":  "color"
+                                       },
+                                       {
+                                           "target":  "BottomMenuPanel",
+                                           "success":  true,
+                                           "property":  "color"
+                                       },
+                                       {
+                                           "target":  "DayCounterBackground",
+                                           "success":  true,
+                                           "property":  "color"
+                                       },
+                                       {
+                                           "target":  "YearsValue",
+                                           "success":  true,
+                                           "property":  "color"
+                                       }
+                                   ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "path":  "Assets/Screenshots/ui-pass2-1920x1080.png",
+                       "width":  1920,
+                       "height":  1080
+                   }
+    }
+]

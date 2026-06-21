@@ -1,0 +1,592 @@
+﻿[
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "totalItems":  4,
+                       "successCount":  4,
+                       "failCount":  0,
+                       "results":  [
+                                       {
+                                           "success":  true,
+                                           "name":  "BottomMenuPanel",
+                                           "entityId":  "24414",
+                                           "instanceId":  24414,
+                                           "path":  "GameCanvas/GamePanel/BottomMenuPanel",
+                                           "anchorMin":  {
+                                                             "x":  0.5,
+                                                             "y":  0.0
+                                                         },
+                                           "anchorMax":  {
+                                                             "x":  0.5,
+                                                             "y":  0.0
+                                                         },
+                                           "pivot":  {
+                                                         "x":  0.5,
+                                                         "y":  0.5
+                                                     },
+                                           "anchoredPosition3D":  {
+                                                                      "x":  0.0,
+                                                                      "y":  130.0,
+                                                                      "z":  0.0
+                                                                  },
+                                           "sizeDelta":  {
+                                                             "x":  560.0,
+                                                             "y":  100.0
+                                                         },
+                                           "offsetMin":  {
+                                                             "x":  -280.0,
+                                                             "y":  80.0
+                                                         },
+                                           "offsetMax":  {
+                                                             "x":  280.0,
+                                                             "y":  180.0
+                                                         },
+                                           "localPosition":  {
+                                                                 "x":  0.0,
+                                                                 "y":  -409.795349,
+                                                                 "z":  0.0
+                                                             },
+                                           "localEulerAngles":  {
+                                                                    "x":  0.0,
+                                                                    "y":  0.0,
+                                                                    "z":  0.0
+                                                                },
+                                           "localScale":  {
+                                                              "x":  1.0,
+                                                              "y":  1.0,
+                                                              "z":  1.0
+                                                          },
+                                           "rect":  {
+                                                        "width":  560.0,
+                                                        "height":  100.0
+                                                    }
+                                       },
+                                       {
+                                           "success":  true,
+                                           "name":  "MenuButtonPanel",
+                                           "entityId":  "24896",
+                                           "instanceId":  24896,
+                                           "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel",
+                                           "anchorMin":  {
+                                                             "x":  0.5,
+                                                             "y":  0.5
+                                                         },
+                                           "anchorMax":  {
+                                                             "x":  0.5,
+                                                             "y":  0.5
+                                                         },
+                                           "pivot":  {
+                                                         "x":  0.5,
+                                                         "y":  0.5
+                                                     },
+                                           "anchoredPosition3D":  {
+                                                                      "x":  0.0,
+                                                                      "y":  0.0,
+                                                                      "z":  0.0
+                                                                  },
+                                           "sizeDelta":  {
+                                                             "x":  420.0,
+                                                             "y":  86.0
+                                                         },
+                                           "offsetMin":  {
+                                                             "x":  -210.0,
+                                                             "y":  -43.0
+                                                         },
+                                           "offsetMax":  {
+                                                             "x":  210.0,
+                                                             "y":  43.0
+                                                         },
+                                           "localPosition":  {
+                                                                 "x":  0.0,
+                                                                 "y":  0.0,
+                                                                 "z":  0.0
+                                                             },
+                                           "localEulerAngles":  {
+                                                                    "x":  0.0,
+                                                                    "y":  0.0,
+                                                                    "z":  0.0
+                                                                },
+                                           "localScale":  {
+                                                              "x":  1.0,
+                                                              "y":  1.0,
+                                                              "z":  1.0
+                                                          },
+                                           "rect":  {
+                                                        "width":  420.0,
+                                                        "height":  86.0
+                                                    }
+                                       },
+                                       {
+                                           "success":  true,
+                                           "name":  "DayCounterBackground",
+                                           "entityId":  "26076",
+                                           "instanceId":  26076,
+                                           "path":  "GameCanvas/GamePanel/TopPanel/PlayerPanel/DayCounterBackground",
+                                           "anchorMin":  {
+                                                             "x":  0.5,
+                                                             "y":  0.5
+                                                         },
+                                           "anchorMax":  {
+                                                             "x":  0.5,
+                                                             "y":  0.5
+                                                         },
+                                           "pivot":  {
+                                                         "x":  0.5,
+                                                         "y":  0.5
+                                                     },
+                                           "anchoredPosition3D":  {
+                                                                      "x":  0.0,
+                                                                      "y":  0.0,
+                                                                      "z":  0.0
+                                                                  },
+                                           "sizeDelta":  {
+                                                             "x":  190.0,
+                                                             "y":  64.0
+                                                         },
+                                           "offsetMin":  {
+                                                             "x":  -95.0,
+                                                             "y":  -32.0
+                                                         },
+                                           "offsetMax":  {
+                                                             "x":  95.0,
+                                                             "y":  32.0
+                                                         },
+                                           "localPosition":  {
+                                                                 "x":  0.0,
+                                                                 "y":  0.0,
+                                                                 "z":  0.0
+                                                             },
+                                           "localEulerAngles":  {
+                                                                    "x":  0.0,
+                                                                    "y":  0.0,
+                                                                    "z":  0.0
+                                                                },
+                                           "localScale":  {
+                                                              "x":  1.0,
+                                                              "y":  1.0,
+                                                              "z":  1.0
+                                                          },
+                                           "rect":  {
+                                                        "width":  190.0,
+                                                        "height":  64.0
+                                                    }
+                                       },
+                                       {
+                                           "success":  true,
+                                           "name":  "YearsValue",
+                                           "entityId":  "25516",
+                                           "instanceId":  25516,
+                                           "path":  "GameCanvas/GamePanel/TopPanel/PlayerPanel/YearsValue",
+                                           "anchorMin":  {
+                                                             "x":  0.5,
+                                                             "y":  0.5
+                                                         },
+                                           "anchorMax":  {
+                                                             "x":  0.5,
+                                                             "y":  0.5
+                                                         },
+                                           "pivot":  {
+                                                         "x":  0.5,
+                                                         "y":  0.5
+                                                     },
+                                           "anchoredPosition3D":  {
+                                                                      "x":  0.0,
+                                                                      "y":  0.0,
+                                                                      "z":  0.0
+                                                                  },
+                                           "sizeDelta":  {
+                                                             "x":  190.0,
+                                                             "y":  64.0
+                                                         },
+                                           "offsetMin":  {
+                                                             "x":  -95.0,
+                                                             "y":  -32.0
+                                                         },
+                                           "offsetMax":  {
+                                                             "x":  95.0,
+                                                             "y":  32.0
+                                                         },
+                                           "localPosition":  {
+                                                                 "x":  0.0,
+                                                                 "y":  0.0,
+                                                                 "z":  0.0
+                                                             },
+                                           "localEulerAngles":  {
+                                                                    "x":  0.0,
+                                                                    "y":  0.0,
+                                                                    "z":  0.0
+                                                                },
+                                           "localScale":  {
+                                                              "x":  1.0,
+                                                              "y":  1.0,
+                                                              "z":  1.0
+                                                          },
+                                           "rect":  {
+                                                        "width":  190.0,
+                                                        "height":  64.0
+                                                    }
+                                       }
+                                   ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "totalItems":  4,
+                       "successCount":  4,
+                       "failCount":  0,
+                       "results":  [
+                                       {
+                                           "success":  true,
+                                           "name":  "ArmySlider",
+                                           "entityId":  "25540",
+                                           "instanceId":  25540,
+                                           "path":  "GameCanvas/GamePanel/TopPanel/MainStatsPanel/ArmySlider",
+                                           "anchorMin":  {
+                                                             "x":  0.0,
+                                                             "y":  1.0
+                                                         },
+                                           "anchorMax":  {
+                                                             "x":  0.0,
+                                                             "y":  1.0
+                                                         },
+                                           "pivot":  {
+                                                         "x":  0.5,
+                                                         "y":  0.5
+                                                     },
+                                           "anchoredPosition3D":  {
+                                                                      "x":  55.0,
+                                                                      "y":  -60.0,
+                                                                      "z":  0.0
+                                                                  },
+                                           "sizeDelta":  {
+                                                             "x":  96.0,
+                                                             "y":  96.0
+                                                         },
+                                           "offsetMin":  {
+                                                             "x":  7.0,
+                                                             "y":  -108.0
+                                                         },
+                                           "offsetMax":  {
+                                                             "x":  103.0,
+                                                             "y":  -12.0
+                                                         },
+                                           "localPosition":  {
+                                                                 "x":  -270.0,
+                                                                 "y":  -5.0,
+                                                                 "z":  0.0
+                                                             },
+                                           "localEulerAngles":  {
+                                                                    "x":  0.0,
+                                                                    "y":  0.0,
+                                                                    "z":  0.0
+                                                                },
+                                           "localScale":  {
+                                                              "x":  1.0,
+                                                              "y":  1.0,
+                                                              "z":  1.0
+                                                          },
+                                           "rect":  {
+                                                        "width":  96.0,
+                                                        "height":  96.0
+                                                    }
+                                       },
+                                       {
+                                           "success":  true,
+                                           "name":  "PeopleSlider",
+                                           "entityId":  "25328",
+                                           "instanceId":  25328,
+                                           "path":  "GameCanvas/GamePanel/TopPanel/MainStatsPanel/PeopleSlider",
+                                           "anchorMin":  {
+                                                             "x":  0.0,
+                                                             "y":  1.0
+                                                         },
+                                           "anchorMax":  {
+                                                             "x":  0.0,
+                                                             "y":  1.0
+                                                         },
+                                           "pivot":  {
+                                                         "x":  0.5,
+                                                         "y":  0.5
+                                                     },
+                                           "anchoredPosition3D":  {
+                                                                      "x":  235.0,
+                                                                      "y":  -60.0,
+                                                                      "z":  0.0
+                                                                  },
+                                           "sizeDelta":  {
+                                                             "x":  96.0,
+                                                             "y":  96.0
+                                                         },
+                                           "offsetMin":  {
+                                                             "x":  187.0,
+                                                             "y":  -108.0
+                                                         },
+                                           "offsetMax":  {
+                                                             "x":  283.0,
+                                                             "y":  -12.0
+                                                         },
+                                           "localPosition":  {
+                                                                 "x":  -90.0,
+                                                                 "y":  -5.0,
+                                                                 "z":  0.0
+                                                             },
+                                           "localEulerAngles":  {
+                                                                    "x":  0.0,
+                                                                    "y":  0.0,
+                                                                    "z":  0.0
+                                                                },
+                                           "localScale":  {
+                                                              "x":  1.0,
+                                                              "y":  1.0,
+                                                              "z":  1.0
+                                                          },
+                                           "rect":  {
+                                                        "width":  96.0,
+                                                        "height":  96.0
+                                                    }
+                                       },
+                                       {
+                                           "success":  true,
+                                           "name":  "ReligionSlider",
+                                           "entityId":  "24998",
+                                           "instanceId":  24998,
+                                           "path":  "GameCanvas/GamePanel/TopPanel/MainStatsPanel/ReligionSlider",
+                                           "anchorMin":  {
+                                                             "x":  0.0,
+                                                             "y":  1.0
+                                                         },
+                                           "anchorMax":  {
+                                                             "x":  0.0,
+                                                             "y":  1.0
+                                                         },
+                                           "pivot":  {
+                                                         "x":  0.5,
+                                                         "y":  0.5
+                                                     },
+                                           "anchoredPosition3D":  {
+                                                                      "x":  415.0,
+                                                                      "y":  -60.0,
+                                                                      "z":  0.0
+                                                                  },
+                                           "sizeDelta":  {
+                                                             "x":  96.0,
+                                                             "y":  96.0
+                                                         },
+                                           "offsetMin":  {
+                                                             "x":  367.0,
+                                                             "y":  -108.0
+                                                         },
+                                           "offsetMax":  {
+                                                             "x":  463.0,
+                                                             "y":  -12.0
+                                                         },
+                                           "localPosition":  {
+                                                                 "x":  90.0,
+                                                                 "y":  -5.0,
+                                                                 "z":  0.0
+                                                             },
+                                           "localEulerAngles":  {
+                                                                    "x":  0.0,
+                                                                    "y":  0.0,
+                                                                    "z":  0.0
+                                                                },
+                                           "localScale":  {
+                                                              "x":  1.0,
+                                                              "y":  1.0,
+                                                              "z":  1.0
+                                                          },
+                                           "rect":  {
+                                                        "width":  96.0,
+                                                        "height":  96.0
+                                                    }
+                                       },
+                                       {
+                                           "success":  true,
+                                           "name":  "MoneySlider",
+                                           "entityId":  "24600",
+                                           "instanceId":  24600,
+                                           "path":  "GameCanvas/GamePanel/TopPanel/MainStatsPanel/MoneySlider",
+                                           "anchorMin":  {
+                                                             "x":  0.0,
+                                                             "y":  1.0
+                                                         },
+                                           "anchorMax":  {
+                                                             "x":  0.0,
+                                                             "y":  1.0
+                                                         },
+                                           "pivot":  {
+                                                         "x":  0.5,
+                                                         "y":  0.5
+                                                     },
+                                           "anchoredPosition3D":  {
+                                                                      "x":  595.0,
+                                                                      "y":  -60.0,
+                                                                      "z":  0.0
+                                                                  },
+                                           "sizeDelta":  {
+                                                             "x":  96.0,
+                                                             "y":  96.0
+                                                         },
+                                           "offsetMin":  {
+                                                             "x":  547.0,
+                                                             "y":  -108.0
+                                                         },
+                                           "offsetMax":  {
+                                                             "x":  643.0,
+                                                             "y":  -12.0
+                                                         },
+                                           "localPosition":  {
+                                                                 "x":  270.0,
+                                                                 "y":  -5.0,
+                                                                 "z":  0.0
+                                                             },
+                                           "localEulerAngles":  {
+                                                                    "x":  0.0,
+                                                                    "y":  0.0,
+                                                                    "z":  0.0
+                                                                },
+                                           "localScale":  {
+                                                              "x":  1.0,
+                                                              "y":  1.0,
+                                                              "z":  1.0
+                                                          },
+                                           "rect":  {
+                                                        "width":  96.0,
+                                                        "height":  96.0
+                                                    }
+                                       }
+                                   ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "totalItems":  4,
+                       "successCount":  4,
+                       "failCount":  0,
+                       "results":  [
+                                       {
+                                           "target":  "MainStatsPanel",
+                                           "success":  true,
+                                           "property":  "spacing"
+                                       },
+                                       {
+                                           "target":  "MenuButtonPanel",
+                                           "success":  true,
+                                           "property":  "spacing"
+                                       },
+                                       {
+                                           "target":  "MenuButtonPanel",
+                                           "success":  true,
+                                           "property":  "childAlignment"
+                                       },
+                                       {
+                                           "target":  "MenuButtonPanel",
+                                           "success":  true,
+                                           "property":  "childForceExpandWidth"
+                                       }
+                                   ]
+                   }
+    },
+    {
+        "status":  "error",
+        "errorCode":  "SEMANTIC_INVALID",
+        "error":  "Input string was not in a correct format.",
+        "skill":  "component_set_property_batch",
+        "details":  {
+                        "semanticErrors":  [
+                                               {
+                                                   "field":  "items[0]",
+                                                   "error":  "Input string was not in a correct format."
+                                               },
+                                               {
+                                                   "field":  "items[1]",
+                                                   "error":  "Input string was not in a correct format."
+                                               },
+                                               {
+                                                   "field":  "items[2]",
+                                                   "error":  "Input string was not in a correct format."
+                                               },
+                                               {
+                                                   "field":  "items[3]",
+                                                   "error":  "Input string was not in a correct format."
+                                               }
+                                           ],
+                        "warnings":  null
+                    },
+        "retryStrategy":  "fix_and_retry"
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "totalItems":  2,
+                       "successCount":  2,
+                       "failCount":  0,
+                       "results":  [
+                                       {
+                                           "target":  "YearsValue",
+                                           "success":  true,
+                                           "property":  "fontSize"
+                                       },
+                                       {
+                                           "target":  "YearsValue",
+                                           "success":  true,
+                                           "property":  "alignment"
+                                       }
+                                   ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "totalItems":  3,
+                       "successCount":  3,
+                       "failCount":  0,
+                       "results":  [
+                                       {
+                                           "success":  true,
+                                           "gameObject":  "Years",
+                                           "component":  "ValueScript",
+                                           "propertyPath":  "value",
+                                           "valueSet":  "1"
+                                       },
+                                       {
+                                           "success":  true,
+                                           "gameObject":  "Years",
+                                           "component":  "ValueScript",
+                                           "propertyPath":  "limits.randomMin",
+                                           "valueSet":  "1"
+                                       },
+                                       {
+                                           "success":  true,
+                                           "gameObject":  "Years",
+                                           "component":  "ValueScript",
+                                           "propertyPath":  "limits.randomMax",
+                                           "valueSet":  "1"
+                                       }
+                                   ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "name":  "YearsValue",
+                       "text":  "?1?",
+                       "usingTMP":  false
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "name":  "Main Camera"
+                   }
+    }
+]

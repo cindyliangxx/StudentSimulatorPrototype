@@ -1,0 +1,471 @@
+﻿{
+    "status":  "success",
+    "result":  {
+                   "success":  true,
+                   "gameObject":  "Years",
+                   "component":  "ValueScript",
+                   "fullTypeName":  "ValueScript",
+                   "properties":  [
+                                      {
+                                          "propertyPath":  "m_Script",
+                                          "name":  "m_Script",
+                                          "displayName":  "Script",
+                                          "propertyType":  "ObjectReference",
+                                          "type":  "PPtr\u003cMonoScript\u003e",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "5034:UnityEditor.MonoScript:ValueScript"
+                                      },
+                                      {
+                                          "propertyPath":  "valueType",
+                                          "name":  "valueType",
+                                          "displayName":  "Value Type",
+                                          "propertyType":  "Enum",
+                                          "type":  "Enum",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "4"
+                                      },
+                                      {
+                                          "propertyPath":  "value",
+                                          "name":  "value",
+                                          "displayName":  "Value",
+                                          "propertyType":  "Float",
+                                          "type":  "float",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "0"
+                                      },
+                                      {
+                                          "propertyPath":  "debugValueChanges",
+                                          "name":  "debugValueChanges",
+                                          "displayName":  "Debug Value Changes",
+                                          "propertyType":  "Boolean",
+                                          "type":  "bool",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "False"
+                                      },
+                                      {
+                                          "propertyPath":  "UserInterface",
+                                          "name":  "UserInterface",
+                                          "displayName":  "User Interface",
+                                          "propertyType":  "Generic",
+                                          "type":  "uiConfig",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "Generic"
+                                      },
+                                      {
+                                          "propertyPath":  "UserInterface.uiScrollbar",
+                                          "name":  "uiScrollbar",
+                                          "displayName":  "Ui Scrollbar",
+                                          "propertyType":  "ObjectReference",
+                                          "type":  "PPtr\u003c$Scrollbar\u003e",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "null"
+                                      },
+                                      {
+                                          "propertyPath":  "UserInterface.uiSlider",
+                                          "name":  "uiSlider",
+                                          "displayName":  "Ui Slider",
+                                          "propertyType":  "ObjectReference",
+                                          "type":  "PPtr\u003c$Slider\u003e",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "null"
+                                      },
+                                      {
+                                          "propertyPath":  "UserInterface.lerpEnable",
+                                          "name":  "lerpEnable",
+                                          "displayName":  "Lerp Enable",
+                                          "propertyType":  "Boolean",
+                                          "type":  "bool",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "False"
+                                      },
+                                      {
+                                          "propertyPath":  "UserInterface.lerpSpeed",
+                                          "name":  "lerpSpeed",
+                                          "displayName":  "Lerp Speed",
+                                          "propertyType":  "Float",
+                                          "type":  "float",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "15"
+                                      },
+                                      {
+                                          "propertyPath":  "UserInterface.formatter",
+                                          "name":  "formatter",
+                                          "displayName":  "Formatter",
+                                          "propertyType":  "String",
+                                          "type":  "string",
+                                          "isArray":  true,
+                                          "editable":  true,
+                                          "value":  "第0天"
+                                      },
+                                      {
+                                          "propertyPath":  "UserInterface.lerpedValue",
+                                          "name":  "lerpedValue",
+                                          "displayName":  "Lerped Value",
+                                          "propertyType":  "Float",
+                                          "type":  "float",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "0"
+                                      },
+                                      {
+                                          "propertyPath":  "UserInterface.textValue",
+                                          "name":  "textValue",
+                                          "displayName":  "Text Value",
+                                          "propertyType":  "ObjectReference",
+                                          "type":  "PPtr\u003c$Text\u003e",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "25520:UnityEngine.UI.Text:YearsValue"
+                                      },
+                                      {
+                                          "propertyPath":  "UserInterface.showActualization",
+                                          "name":  "showActualization",
+                                          "displayName":  "Show Actualization",
+                                          "propertyType":  "Boolean",
+                                          "type":  "bool",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "False"
+                                      },
+                                      {
+                                          "propertyPath":  "UserInterface.miniatureSprite",
+                                          "name":  "miniatureSprite",
+                                          "displayName":  "Miniature Sprite",
+                                          "propertyType":  "ObjectReference",
+                                          "type":  "PPtr\u003c$Sprite\u003e",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "null"
+                                      },
+                                      {
+                                          "propertyPath":  "UserInterface.valueDependingIcons",
+                                          "name":  "valueDependingIcons",
+                                          "displayName":  "Value Depending Icons",
+                                          "propertyType":  "Generic",
+                                          "type":  "valueDependantIcon",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "Generic"
+                                      },
+                                      {
+                                          "propertyPath":  "UserInterface.valueDependingIcons.baseIcons",
+                                          "name":  "baseIcons",
+                                          "displayName":  "Base Icons",
+                                          "propertyType":  "Generic",
+                                          "type":  "vector",
+                                          "isArray":  true,
+                                          "editable":  true,
+                                          "value":  "Generic"
+                                      },
+                                      {
+                                          "propertyPath":  "UserInterface.valueDependingIcons.baseIcons.Array.size",
+                                          "name":  "size",
+                                          "displayName":  "Size",
+                                          "propertyType":  "ArraySize",
+                                          "type":  "ArraySize",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "0"
+                                      },
+                                      {
+                                          "propertyPath":  "UserInterface.valueDependingIcons.valueIcon",
+                                          "name":  "valueIcon",
+                                          "displayName":  "Value Icon",
+                                          "propertyType":  "Generic",
+                                          "type":  "valueToIcon",
+                                          "isArray":  true,
+                                          "editable":  true,
+                                          "value":  "Generic"
+                                      },
+                                      {
+                                          "propertyPath":  "UserInterface.valueDependingIcons.valueIcon.Array.size",
+                                          "name":  "size",
+                                          "displayName":  "Size",
+                                          "propertyType":  "ArraySize",
+                                          "type":  "ArraySize",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "0"
+                                      },
+                                      {
+                                          "propertyPath":  "UserInterface.valueChangePreview",
+                                          "name":  "valueChangePreview",
+                                          "displayName":  "Value Change Preview",
+                                          "propertyType":  "Generic",
+                                          "type":  "uiValueChange",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "Generic"
+                                      },
+                                      {
+                                          "propertyPath":  "UserInterface.valueChangePreview.valueChangeImage",
+                                          "name":  "valueChangeImage",
+                                          "displayName":  "Value Change Image",
+                                          "propertyType":  "ObjectReference",
+                                          "type":  "PPtr\u003c$Image\u003e",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "null"
+                                      },
+                                      {
+                                          "propertyPath":  "UserInterface.valueChangePreview.valueChangeText",
+                                          "name":  "valueChangeText",
+                                          "displayName":  "Value Change Text",
+                                          "propertyType":  "ObjectReference",
+                                          "type":  "PPtr\u003c$Text\u003e",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "null"
+                                      },
+                                      {
+                                          "propertyPath":  "limits",
+                                          "name":  "limits",
+                                          "displayName":  "Limits",
+                                          "propertyType":  "Generic",
+                                          "type":  "valueLimits",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "Generic"
+                                      },
+                                      {
+                                          "propertyPath":  "limits.min",
+                                          "name":  "min",
+                                          "displayName":  "Min",
+                                          "propertyType":  "Float",
+                                          "type":  "float",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "0"
+                                      },
+                                      {
+                                          "propertyPath":  "limits.max",
+                                          "name":  "max",
+                                          "displayName":  "Max",
+                                          "propertyType":  "Float",
+                                          "type":  "float",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "10000"
+                                      },
+                                      {
+                                          "propertyPath":  "limits.randomMin",
+                                          "name":  "randomMin",
+                                          "displayName":  "Random Min",
+                                          "propertyType":  "Float",
+                                          "type":  "float",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "0"
+                                      },
+                                      {
+                                          "propertyPath":  "limits.randomMax",
+                                          "name":  "randomMax",
+                                          "displayName":  "Random Max",
+                                          "propertyType":  "Float",
+                                          "type":  "float",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "0"
+                                      },
+                                      {
+                                          "propertyPath":  "limits.roundToWholeNumbers",
+                                          "name":  "roundToWholeNumbers",
+                                          "displayName":  "Round To Whole Numbers",
+                                          "propertyType":  "Boolean",
+                                          "type":  "bool",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "True"
+                                      },
+                                      {
+                                          "propertyPath":  "keepValue",
+                                          "name":  "keepValue",
+                                          "displayName":  "Keep Value",
+                                          "propertyType":  "Boolean",
+                                          "type":  "bool",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "False"
+                                      },
+                                      {
+                                          "propertyPath":  "events",
+                                          "name":  "events",
+                                          "displayName":  "Events",
+                                          "propertyType":  "Generic",
+                                          "type":  "valueEvents",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "Generic"
+                                      },
+                                      {
+                                          "propertyPath":  "events.OnIncrease",
+                                          "name":  "OnIncrease",
+                                          "displayName":  "On Increase",
+                                          "propertyType":  "Generic",
+                                          "type":  "mEvent",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "Generic"
+                                      },
+                                      {
+                                          "propertyPath":  "events.OnIncrease.m_PersistentCalls",
+                                          "name":  "m_PersistentCalls",
+                                          "displayName":  "Persistent Calls",
+                                          "propertyType":  "Generic",
+                                          "type":  "PersistentCallGroup",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "Generic"
+                                      },
+                                      {
+                                          "propertyPath":  "events.OnIncrease.m_PersistentCalls.m_Calls",
+                                          "name":  "m_Calls",
+                                          "displayName":  "Calls",
+                                          "propertyType":  "Generic",
+                                          "type":  "PersistentCall",
+                                          "isArray":  true,
+                                          "editable":  true,
+                                          "value":  "Generic"
+                                      },
+                                      {
+                                          "propertyPath":  "events.OnIncrease.m_PersistentCalls.m_Calls.Array.size",
+                                          "name":  "size",
+                                          "displayName":  "Size",
+                                          "propertyType":  "ArraySize",
+                                          "type":  "ArraySize",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "0"
+                                      },
+                                      {
+                                          "propertyPath":  "events.OnDecrease",
+                                          "name":  "OnDecrease",
+                                          "displayName":  "On Decrease",
+                                          "propertyType":  "Generic",
+                                          "type":  "mEvent",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "Generic"
+                                      },
+                                      {
+                                          "propertyPath":  "events.OnDecrease.m_PersistentCalls",
+                                          "name":  "m_PersistentCalls",
+                                          "displayName":  "Persistent Calls",
+                                          "propertyType":  "Generic",
+                                          "type":  "PersistentCallGroup",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "Generic"
+                                      },
+                                      {
+                                          "propertyPath":  "events.OnDecrease.m_PersistentCalls.m_Calls",
+                                          "name":  "m_Calls",
+                                          "displayName":  "Calls",
+                                          "propertyType":  "Generic",
+                                          "type":  "PersistentCall",
+                                          "isArray":  true,
+                                          "editable":  true,
+                                          "value":  "Generic"
+                                      },
+                                      {
+                                          "propertyPath":  "events.OnDecrease.m_PersistentCalls.m_Calls.Array.size",
+                                          "name":  "size",
+                                          "displayName":  "Size",
+                                          "propertyType":  "ArraySize",
+                                          "type":  "ArraySize",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "0"
+                                      },
+                                      {
+                                          "propertyPath":  "events.OnMax",
+                                          "name":  "OnMax",
+                                          "displayName":  "On Max",
+                                          "propertyType":  "Generic",
+                                          "type":  "mEvent",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "Generic"
+                                      },
+                                      {
+                                          "propertyPath":  "events.OnMax.m_PersistentCalls",
+                                          "name":  "m_PersistentCalls",
+                                          "displayName":  "Persistent Calls",
+                                          "propertyType":  "Generic",
+                                          "type":  "PersistentCallGroup",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "Generic"
+                                      },
+                                      {
+                                          "propertyPath":  "events.OnMax.m_PersistentCalls.m_Calls",
+                                          "name":  "m_Calls",
+                                          "displayName":  "Calls",
+                                          "propertyType":  "Generic",
+                                          "type":  "PersistentCall",
+                                          "isArray":  true,
+                                          "editable":  true,
+                                          "value":  "Generic"
+                                      },
+                                      {
+                                          "propertyPath":  "events.OnMax.m_PersistentCalls.m_Calls.Array.size",
+                                          "name":  "size",
+                                          "displayName":  "Size",
+                                          "propertyType":  "ArraySize",
+                                          "type":  "ArraySize",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "0"
+                                      },
+                                      {
+                                          "propertyPath":  "events.OnMin",
+                                          "name":  "OnMin",
+                                          "displayName":  "On Min",
+                                          "propertyType":  "Generic",
+                                          "type":  "mEvent",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "Generic"
+                                      },
+                                      {
+                                          "propertyPath":  "events.OnMin.m_PersistentCalls",
+                                          "name":  "m_PersistentCalls",
+                                          "displayName":  "Persistent Calls",
+                                          "propertyType":  "Generic",
+                                          "type":  "PersistentCallGroup",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "Generic"
+                                      },
+                                      {
+                                          "propertyPath":  "events.OnMin.m_PersistentCalls.m_Calls",
+                                          "name":  "m_Calls",
+                                          "displayName":  "Calls",
+                                          "propertyType":  "Generic",
+                                          "type":  "PersistentCall",
+                                          "isArray":  true,
+                                          "editable":  true,
+                                          "value":  "Generic"
+                                      },
+                                      {
+                                          "propertyPath":  "events.OnMin.m_PersistentCalls.m_Calls.Array.size",
+                                          "name":  "size",
+                                          "displayName":  "Size",
+                                          "propertyType":  "ArraySize",
+                                          "type":  "ArraySize",
+                                          "isArray":  false,
+                                          "editable":  true,
+                                          "value":  "0"
+                                      }
+                                  ]
+               }
+}

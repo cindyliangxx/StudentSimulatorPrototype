@@ -1,0 +1,9 @@
+﻿{
+    "status":  "success",
+    "result":  {
+                   "success":  true,
+                   "path":  "Assets/Screenshots/camera-screenshot-1920x1080.png",
+                   "width":  1920,
+                   "height":  1080
+               }
+}

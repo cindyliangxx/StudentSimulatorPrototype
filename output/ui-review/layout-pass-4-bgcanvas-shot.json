@@ -1,0 +1,133 @@
+﻿[
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "name":  "StudentBackgroundCanvas",
+                       "entityId":  "-1722",
+                       "instanceId":  -1722,
+                       "renderMode":  "ScreenSpaceOverlay"
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "name":  "StudentBackgroundPanel",
+                       "entityId":  "-1740",
+                       "instanceId":  -1740,
+                       "parent":  "StudentBackgroundCanvas"
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "gameObject":  "StudentBackgroundCanvas",
+                       "component":  "Canvas",
+                       "property":  "sortingOrder",
+                       "valueSet":  "-100",
+                       "valueType":  "Int32"
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "gameObject":  "StudentBackgroundCanvas",
+                       "component":  "Canvas",
+                       "property":  "overrideSorting",
+                       "valueSet":  "True",
+                       "valueType":  "Boolean"
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "name":  "StudentBackgroundPanel",
+                       "entityId":  "-1740",
+                       "instanceId":  -1740,
+                       "path":  "StudentBackgroundCanvas/StudentBackgroundPanel",
+                       "anchorMin":  {
+                                         "x":  0.0,
+                                         "y":  0.0
+                                     },
+                       "anchorMax":  {
+                                         "x":  1.0,
+                                         "y":  1.0
+                                     },
+                       "pivot":  {
+                                     "x":  0.5,
+                                     "y":  0.5
+                                 },
+                       "anchoredPosition3D":  {
+                                                  "x":  0.0,
+                                                  "y":  0.0,
+                                                  "z":  0.0
+                                              },
+                       "sizeDelta":  {
+                                         "x":  0.0,
+                                         "y":  0.0
+                                     },
+                       "offsetMin":  {
+                                         "x":  0.0,
+                                         "y":  0.0
+                                     },
+                       "offsetMax":  {
+                                         "x":  0.0,
+                                         "y":  0.0
+                                     },
+                       "localPosition":  {
+                                             "x":  0.0,
+                                             "y":  0.0,
+                                             "z":  0.0
+                                         },
+                       "localEulerAngles":  {
+                                                "x":  0.0,
+                                                "y":  0.0,
+                                                "z":  0.0
+                                            },
+                       "localScale":  {
+                                          "x":  1.0,
+                                          "y":  1.0,
+                                          "z":  1.0
+                                      },
+                       "rect":  {
+                                    "width":  733.0,
+                                    "height":  412.0
+                                }
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "gameObject":  "StudentBackgroundPanel",
+                       "component":  "Image",
+                       "property":  "raycastTarget",
+                       "valueSet":  "False",
+                       "valueType":  "Boolean"
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "gameObject":  "StudentBackgroundPanel",
+                       "component":  "Image",
+                       "property":  "color",
+                       "valueSet":  "RGBA(0.860, 0.810, 0.720, 1.000)",
+                       "valueType":  "Color"
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "path":  "Assets/Screenshots/ui-pass4-1920x1080.png",
+                       "width":  1920,
+                       "height":  1080
+                   }
+    }
+]

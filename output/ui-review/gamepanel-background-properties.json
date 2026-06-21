@@ -1,0 +1,41 @@
+﻿[
+    {
+        "status":  "success",
+        "result":  {
+                       "gameObject":  "GamePanel",
+                       "entityId":  "25262",
+                       "instanceId":  25262,
+                       "path":  "GameCanvas/GamePanel",
+                       "componentCount":  3,
+                       "components":  [
+                                          {
+                                              "type":  "RectTransform",
+                                              "fullType":  "UnityEngine.RectTransform",
+                                              "enabled":  true,
+                                              "keyProperties":  {
+                                                                    "position":  "(0, 0, 0)",
+                                                                    "rotation":  "(0, 0, 0)",
+                                                                    "scale":  "(1, 1, 1)"
+                                                                }
+                                          },
+                                          {
+                                              "type":  "CanvasRenderer",
+                                              "fullType":  "UnityEngine.CanvasRenderer",
+                                              "enabled":  true
+                                          },
+                                          {
+                                              "type":  "SafeArea",
+                                              "fullType":  "Crystal.SafeArea",
+                                              "enabled":  true
+                                          }
+                                      ]
+                   }
+    },
+    {
+        "status":  "error",
+        "errorCode":  "SKILL_ERROR",
+        "error":  "Component not found: Image",
+        "skill":  "component_get_properties",
+        "retryStrategy":  "abort"
+    }
+]

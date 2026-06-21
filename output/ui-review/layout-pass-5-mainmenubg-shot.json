@@ -1,0 +1,80 @@
+﻿[
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "name":  "MainMenuCard",
+                       "entityId":  "23308",
+                       "instanceId":  23308,
+                       "path":  "GameCanvas/Cards/MainMenuCard",
+                       "anchorMin":  {
+                                         "x":  0.5,
+                                         "y":  0.5
+                                     },
+                       "anchorMax":  {
+                                         "x":  0.5,
+                                         "y":  0.5
+                                     },
+                       "pivot":  {
+                                     "x":  0.5,
+                                     "y":  0.5
+                                 },
+                       "anchoredPosition3D":  {
+                                                  "x":  0.0,
+                                                  "y":  0.0,
+                                                  "z":  0.0
+                                              },
+                       "sizeDelta":  {
+                                         "x":  3700.0,
+                                         "y":  2100.0
+                                     },
+                       "offsetMin":  {
+                                         "x":  -1850.0,
+                                         "y":  -1050.0
+                                     },
+                       "offsetMax":  {
+                                         "x":  1850.0,
+                                         "y":  1050.0
+                                     },
+                       "localPosition":  {
+                                             "x":  0.0,
+                                             "y":  0.0,
+                                             "z":  0.0
+                                         },
+                       "localEulerAngles":  {
+                                                "x":  0.0,
+                                                "y":  0.0,
+                                                "z":  0.0
+                                            },
+                       "localScale":  {
+                                          "x":  1.0,
+                                          "y":  1.0,
+                                          "z":  1.0
+                                      },
+                       "rect":  {
+                                    "width":  3700.0,
+                                    "height":  2100.0
+                                }
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "gameObject":  "MainMenuCard",
+                       "component":  "Image",
+                       "property":  "raycastTarget",
+                       "valueSet":  "False",
+                       "valueType":  "Boolean"
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "path":  "Assets/Screenshots/ui-pass5-1920x1080.png",
+                       "width":  1920,
+                       "height":  1080
+                   }
+    }
+]

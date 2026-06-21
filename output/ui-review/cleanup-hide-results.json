@@ -1,0 +1,142 @@
+﻿[
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "totalItems":  4,
+                       "successCount":  4,
+                       "failCount":  0,
+                       "results":  [
+                                       {
+                                           "target":  "InventoryPanel",
+                                           "entityId":  "25030",
+                                           "success":  true,
+                                           "active":  false
+                                       },
+                                       {
+                                           "target":  "InventoryPanel_landscape",
+                                           "entityId":  "25690",
+                                           "success":  true,
+                                           "active":  false
+                                       },
+                                       {
+                                           "target":  "PersonalStatsPanel_landscape",
+                                           "entityId":  "23708",
+                                           "success":  true,
+                                           "active":  false
+                                       },
+                                       {
+                                           "target":  "FirstStartPanel",
+                                           "entityId":  "23350",
+                                           "success":  true,
+                                           "active":  false
+                                       }
+                                   ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "totalItems":  4,
+                       "successCount":  4,
+                       "failCount":  0,
+                       "results":  [
+                                       {
+                                           "target":  "WarPanel",
+                                           "entityId":  "25046",
+                                           "success":  true,
+                                           "active":  false
+                                       },
+                                       {
+                                           "target":  "AchievementsPopupPanel",
+                                           "entityId":  "26020",
+                                           "success":  true,
+                                           "active":  false
+                                       },
+                                       {
+                                           "target":  "UpdatedStatsPanel",
+                                           "entityId":  "25234",
+                                           "success":  true,
+                                           "active":  false
+                                       },
+                                       {
+                                           "target":  "StatsButton",
+                                           "entityId":  "25088",
+                                           "success":  true,
+                                           "active":  false
+                                       }
+                                   ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "totalItems":  4,
+                       "successCount":  4,
+                       "failCount":  0,
+                       "results":  [
+                                       {
+                                           "target":  "LeaderboardButton",
+                                           "entityId":  "23536",
+                                           "success":  true,
+                                           "active":  false
+                                       },
+                                       {
+                                           "target":  "AchievementsButton",
+                                           "entityId":  "23426",
+                                           "success":  true,
+                                           "active":  false
+                                       },
+                                       {
+                                           "target":  "PlayerInfoPanel",
+                                           "entityId":  "24592",
+                                           "success":  true,
+                                           "active":  false
+                                       },
+                                       {
+                                           "target":  "HighscorePanel",
+                                           "entityId":  "22922",
+                                           "success":  true,
+                                           "active":  false
+                                       }
+                                   ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "totalItems":  4,
+                       "successCount":  4,
+                       "failCount":  0,
+                       "results":  [
+                                       {
+                                           "target":  "AchievementsPanel",
+                                           "entityId":  "23376",
+                                           "success":  true,
+                                           "active":  false
+                                       },
+                                       {
+                                           "target":  "AdmobPanel",
+                                           "entityId":  "25806",
+                                           "success":  true,
+                                           "active":  false
+                                       },
+                                       {
+                                           "target":  "IAP_Panel",
+                                           "entityId":  "25982",
+                                           "success":  true,
+                                           "active":  false
+                                       },
+                                       {
+                                           "target":  "CreditsGroup",
+                                           "entityId":  "25682",
+                                           "success":  true,
+                                           "active":  false
+                                       }
+                                   ]
+                   }
+    }
+]

@@ -1,0 +1,1085 @@
+﻿[
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "sceneName":  "Game",
+                       "totalObjects":  403,
+                       "scopeObjects":  7,
+                       "exportedObjects":  7,
+                       "truncated":  false,
+                       "objects":  [
+                                       {
+                                           "path":  "GameCanvas/Cards",
+                                           "name":  "Cards",
+                                           "active":  true,
+                                           "tag":  "Untagged",
+                                           "layer":  "Default",
+                                           "components":  [
+                                                              {
+                                                                  "type":  "RectTransform",
+                                                                  "props":  {
+                                                                                "anchoredPosition":  "(0, 120)",
+                                                                                "sizeDelta":  "(0, 0)",
+                                                                                "anchorMin":  "(0, 0)",
+                                                                                "anchorMax":  "(1, 1)",
+                                                                                "pivot":  "(0.5, 0.5)"
+                                                                            }
+                                                              }
+                                                          ],
+                                           "children":  [
+                                                            "GameCanvas/Cards/MainMenuCard"
+                                                        ]
+                                       },
+                                       {
+                                           "path":  "GameCanvas/Cards/MainMenuCard",
+                                           "name":  "MainMenuCard",
+                                           "active":  true,
+                                           "tag":  "Untagged",
+                                           "layer":  "Default",
+                                           "components":  [
+                                                              {
+                                                                  "type":  "RectTransform",
+                                                                  "props":  {
+                                                                                "anchoredPosition":  "(0, 0)",
+                                                                                "sizeDelta":  "(0, 0)",
+                                                                                "anchorMin":  "(0, 0)",
+                                                                                "anchorMax":  "(1, 1)",
+                                                                                "pivot":  "(0.5, 0.5)"
+                                                                            }
+                                                              },
+                                                              {
+                                                                  "type":  "CanvasRenderer",
+                                                                  "props":  {
+                                                                                "enabled":  null
+                                                                            }
+                                                              },
+                                                              {
+                                                                  "type":  "Image",
+                                                                  "kind":  "MonoBehaviour",
+                                                                  "fields":  {
+                                                                                 "m_Material":  {
+                                                                                                    "type":  "ObjectReference",
+                                                                                                    "value":  "null"
+                                                                                                },
+                                                                                 "m_Color":  {
+                                                                                                 "type":  "Color",
+                                                                                                 "value":  "(0.86, 0.81, 0.72, 1.00)"
+                                                                                             },
+                                                                                 "m_RaycastTarget":  {
+                                                                                                         "type":  "Boolean",
+                                                                                                         "value":  true
+                                                                                                     },
+                                                                                 "m_RaycastPadding":  {
+                                                                                                          "type":  "Vector4",
+                                                                                                          "value":  "(0, 0, 0, 0)"
+                                                                                                      },
+                                                                                 "m_Maskable":  {
+                                                                                                    "type":  "Boolean",
+                                                                                                    "value":  true
+                                                                                                },
+                                                                                 "m_OnCullStateChanged":  {
+                                                                                                              "type":  "Generic",
+                                                                                                              "value":  "Generic"
+                                                                                                          },
+                                                                                 "m_Sprite":  {
+                                                                                                  "type":  "Sprite",
+                                                                                                  "value":  "white"
+                                                                                              },
+                                                                                 "m_Type":  {
+                                                                                                "type":  "Enum",
+                                                                                                "value":  "Simple"
+                                                                                            },
+                                                                                 "m_PreserveAspect":  {
+                                                                                                          "type":  "Boolean",
+                                                                                                          "value":  false
+                                                                                                      },
+                                                                                 "m_FillCenter":  {
+                                                                                                      "type":  "Boolean",
+                                                                                                      "value":  true
+                                                                                                  },
+                                                                                 "m_FillMethod":  {
+                                                                                                      "type":  "Enum",
+                                                                                                      "value":  "Radial 360"
+                                                                                                  },
+                                                                                 "m_FillAmount":  {
+                                                                                                      "type":  "Float",
+                                                                                                      "value":  1.0
+                                                                                                  },
+                                                                                 "m_FillClockwise":  {
+                                                                                                         "type":  "Boolean",
+                                                                                                         "value":  true
+                                                                                                     },
+                                                                                 "m_FillOrigin":  {
+                                                                                                      "type":  "Integer",
+                                                                                                      "value":  0
+                                                                                                  },
+                                                                                 "m_UseSpriteMesh":  {
+                                                                                                         "type":  "Boolean",
+                                                                                                         "value":  false
+                                                                                                     },
+                                                                                 "m_PixelsPerUnitMultiplier":  {
+                                                                                                                   "type":  "Float",
+                                                                                                                   "value":  1.0
+                                                                                                               }
+                                                                             }
+                                                              },
+                                                              {
+                                                                  "type":  "Animator",
+                                                                  "props":  {
+                                                                                "controller":  "Template03",
+                                                                                "enabled":  true
+                                                                            }
+                                                              },
+                                                              {
+                                                                  "type":  "EventScript",
+                                                                  "kind":  "MonoBehaviour",
+                                                                  "fields":  {
+                                                                                 "textFields":  {
+                                                                                                    "type":  "Generic",
+                                                                                                    "value":  "Generic"
+                                                                                                },
+                                                                                 "isHighPriorityCard":  {
+                                                                                                            "type":  "Boolean",
+                                                                                                            "value":  false
+                                                                                                        },
+                                                                                 "isDrawable":  {
+                                                                                                    "type":  "Boolean",
+                                                                                                    "value":  true
+                                                                                                },
+                                                                                 "cardPropability":  {
+                                                                                                         "type":  "Float",
+                                                                                                         "value":  1.0
+                                                                                                     },
+                                                                                 "maxDraws":  {
+                                                                                                  "type":  "Integer",
+                                                                                                  "value":  100
+                                                                                              },
+                                                                                 "redrawBlockCnt":  {
+                                                                                                        "type":  "Integer",
+                                                                                                        "value":  0
+                                                                                                    },
+                                                                                 "conditions":  {
+                                                                                                    "type":  "Generic",
+                                                                                                    "value":  "condition[0]"
+                                                                                                },
+                                                                                 "Results":  {
+                                                                                                 "type":  "Generic",
+                                                                                                 "value":  "Generic"
+                                                                                             },
+                                                                                 "swipeType":  {
+                                                                                                   "type":  "Enum",
+                                                                                                   "value":  "Left Right"
+                                                                                               },
+                                                                                 "additionalChoices":  {
+                                                                                                           "type":  "Boolean",
+                                                                                                           "value":  false
+                                                                                                       },
+                                                                                 "changeExtrasOnCardDespawn":  {
+                                                                                                                   "type":  "Generic",
+                                                                                                                   "value":  "C_AdditionalModifiers[0]"
+                                                                                                               },
+                                                                                 "changeValueOnCardDespawn":  {
+                                                                                                                  "type":  "Generic",
+                                                                                                                  "value":  "resultModifier[0]"
+                                                                                                              },
+                                                                                 "OnCardSpawn":  {
+                                                                                                     "type":  "Generic",
+                                                                                                     "value":  "Generic"
+                                                                                                 },
+                                                                                 "OnCardDespawn":  {
+                                                                                                       "type":  "Generic",
+                                                                                                       "value":  "Generic"
+                                                                                                   },
+                                                                                 "OnSwipeLeft":  {
+                                                                                                     "type":  "Generic",
+                                                                                                     "value":  "Generic"
+                                                                                                 },
+                                                                                 "OnSwipeRight":  {
+                                                                                                      "type":  "Generic",
+                                                                                                      "value":  "Generic"
+                                                                                                  },
+                                                                                 "OnSwipeUp":  {
+                                                                                                   "type":  "Generic",
+                                                                                                   "value":  "Generic"
+                                                                                               },
+                                                                                 "OnSwipeDown":  {
+                                                                                                     "type":  "Generic",
+                                                                                                     "value":  "Generic"
+                                                                                                 },
+                                                                                 "OnAdditionalChoice_0":  {
+                                                                                                              "type":  "Generic",
+                                                                                                              "value":  "Generic"
+                                                                                                          },
+                                                                                 "OnAdditionalChoice_1":  {
+                                                                                                              "type":  "Generic",
+                                                                                                              "value":  "Generic"
+                                                                                                          }
+                                                                             }
+                                                              }
+                                                          ],
+                                           "children":  [
+                                                            "GameCanvas/Cards/MainMenuCard/Card"
+                                                        ]
+                                       },
+                                       {
+                                           "path":  "GameCanvas/Cards/MainMenuCard/Card",
+                                           "name":  "Card",
+                                           "active":  true,
+                                           "tag":  "Untagged",
+                                           "layer":  "Default",
+                                           "components":  [
+                                                              {
+                                                                  "type":  "RectTransform",
+                                                                  "props":  {
+                                                                                "anchoredPosition":  "(0, -150)",
+                                                                                "sizeDelta":  "(840, 1240)",
+                                                                                "anchorMin":  "(0.5, 0.5)",
+                                                                                "anchorMax":  "(0.5, 0.5)",
+                                                                                "pivot":  "(0.5, 0.5)"
+                                                                            }
+                                                              },
+                                                              {
+                                                                  "type":  "CanvasRenderer",
+                                                                  "props":  {
+                                                                                "enabled":  null
+                                                                            }
+                                                              },
+                                                              {
+                                                                  "type":  "Image",
+                                                                  "kind":  "MonoBehaviour",
+                                                                  "fields":  {
+                                                                                 "m_Material":  {
+                                                                                                    "type":  "ObjectReference",
+                                                                                                    "value":  "null"
+                                                                                                },
+                                                                                 "m_Color":  {
+                                                                                                 "type":  "Color",
+                                                                                                 "value":  "(0.93, 0.68, 0.05, 1.00)"
+                                                                                             },
+                                                                                 "m_RaycastTarget":  {
+                                                                                                         "type":  "Boolean",
+                                                                                                         "value":  false
+                                                                                                     },
+                                                                                 "m_RaycastPadding":  {
+                                                                                                          "type":  "Vector4",
+                                                                                                          "value":  "(0, 0, 0, 0)"
+                                                                                                      },
+                                                                                 "m_Maskable":  {
+                                                                                                    "type":  "Boolean",
+                                                                                                    "value":  true
+                                                                                                },
+                                                                                 "m_OnCullStateChanged":  {
+                                                                                                              "type":  "Generic",
+                                                                                                              "value":  "Generic"
+                                                                                                          },
+                                                                                 "m_Sprite":  {
+                                                                                                  "type":  "Sprite",
+                                                                                                  "value":  "card_front03"
+                                                                                              },
+                                                                                 "m_Type":  {
+                                                                                                "type":  "Enum",
+                                                                                                "value":  "Simple"
+                                                                                            },
+                                                                                 "m_PreserveAspect":  {
+                                                                                                          "type":  "Boolean",
+                                                                                                          "value":  false
+                                                                                                      },
+                                                                                 "m_FillCenter":  {
+                                                                                                      "type":  "Boolean",
+                                                                                                      "value":  true
+                                                                                                  },
+                                                                                 "m_FillMethod":  {
+                                                                                                      "type":  "Enum",
+                                                                                                      "value":  "Radial 360"
+                                                                                                  },
+                                                                                 "m_FillAmount":  {
+                                                                                                      "type":  "Float",
+                                                                                                      "value":  1.0
+                                                                                                  },
+                                                                                 "m_FillClockwise":  {
+                                                                                                         "type":  "Boolean",
+                                                                                                         "value":  true
+                                                                                                     },
+                                                                                 "m_FillOrigin":  {
+                                                                                                      "type":  "Integer",
+                                                                                                      "value":  0
+                                                                                                  },
+                                                                                 "m_UseSpriteMesh":  {
+                                                                                                         "type":  "Boolean",
+                                                                                                         "value":  false
+                                                                                                     },
+                                                                                 "m_PixelsPerUnitMultiplier":  {
+                                                                                                                   "type":  "Float",
+                                                                                                                   "value":  1.0
+                                                                                                               }
+                                                                             }
+                                                              }
+                                                          ],
+                                           "children":  [
+                                                            "GameCanvas/Cards/MainMenuCard/Card/Icon",
+                                                            "GameCanvas/Cards/MainMenuCard/Card/TitleText",
+                                                            "GameCanvas/Cards/MainMenuCard/Card/QuestionText",
+                                                            "GameCanvas/Cards/MainMenuCard/Card/CardBack"
+                                                        ]
+                                       },
+                                       {
+                                           "path":  "GameCanvas/Cards/MainMenuCard/Card/Icon",
+                                           "name":  "Icon",
+                                           "active":  true,
+                                           "tag":  "Untagged",
+                                           "layer":  "Default",
+                                           "components":  [
+                                                              {
+                                                                  "type":  "RectTransform",
+                                                                  "props":  {
+                                                                                "anchoredPosition":  "(0, 0)",
+                                                                                "sizeDelta":  "(400, 400)",
+                                                                                "anchorMin":  "(0.5, 0.5)",
+                                                                                "anchorMax":  "(0.5, 0.5)",
+                                                                                "pivot":  "(0.5, 0.5)"
+                                                                            }
+                                                              },
+                                                              {
+                                                                  "type":  "CanvasRenderer",
+                                                                  "props":  {
+                                                                                "enabled":  null
+                                                                            }
+                                                              },
+                                                              {
+                                                                  "type":  "Image",
+                                                                  "kind":  "MonoBehaviour",
+                                                                  "fields":  {
+                                                                                 "m_Material":  {
+                                                                                                    "type":  "ObjectReference",
+                                                                                                    "value":  "null"
+                                                                                                },
+                                                                                 "m_Color":  {
+                                                                                                 "type":  "Color",
+                                                                                                 "value":  "(0.93, 0.68, 0.05, 1.00)"
+                                                                                             },
+                                                                                 "m_RaycastTarget":  {
+                                                                                                         "type":  "Boolean",
+                                                                                                         "value":  false
+                                                                                                     },
+                                                                                 "m_RaycastPadding":  {
+                                                                                                          "type":  "Vector4",
+                                                                                                          "value":  "(0, 0, 0, 0)"
+                                                                                                      },
+                                                                                 "m_Maskable":  {
+                                                                                                    "type":  "Boolean",
+                                                                                                    "value":  true
+                                                                                                },
+                                                                                 "m_OnCullStateChanged":  {
+                                                                                                              "type":  "Generic",
+                                                                                                              "value":  "Generic"
+                                                                                                          },
+                                                                                 "m_Sprite":  {
+                                                                                                  "type":  "Sprite",
+                                                                                                  "value":  "kings_large"
+                                                                                              },
+                                                                                 "m_Type":  {
+                                                                                                "type":  "Enum",
+                                                                                                "value":  "Simple"
+                                                                                            },
+                                                                                 "m_PreserveAspect":  {
+                                                                                                          "type":  "Boolean",
+                                                                                                          "value":  true
+                                                                                                      },
+                                                                                 "m_FillCenter":  {
+                                                                                                      "type":  "Boolean",
+                                                                                                      "value":  true
+                                                                                                  },
+                                                                                 "m_FillMethod":  {
+                                                                                                      "type":  "Enum",
+                                                                                                      "value":  "Radial 360"
+                                                                                                  },
+                                                                                 "m_FillAmount":  {
+                                                                                                      "type":  "Float",
+                                                                                                      "value":  1.0
+                                                                                                  },
+                                                                                 "m_FillClockwise":  {
+                                                                                                         "type":  "Boolean",
+                                                                                                         "value":  true
+                                                                                                     },
+                                                                                 "m_FillOrigin":  {
+                                                                                                      "type":  "Integer",
+                                                                                                      "value":  0
+                                                                                                  },
+                                                                                 "m_UseSpriteMesh":  {
+                                                                                                         "type":  "Boolean",
+                                                                                                         "value":  false
+                                                                                                     },
+                                                                                 "m_PixelsPerUnitMultiplier":  {
+                                                                                                                   "type":  "Float",
+                                                                                                                   "value":  1.0
+                                                                                                               }
+                                                                             }
+                                                              }
+                                                          ],
+                                           "children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "path":  "GameCanvas/Cards/MainMenuCard/Card/TitleText",
+                                           "name":  "TitleText",
+                                           "active":  true,
+                                           "tag":  "Untagged",
+                                           "layer":  "Default",
+                                           "components":  [
+                                                              {
+                                                                  "type":  "RectTransform",
+                                                                  "props":  {
+                                                                                "anchoredPosition":  "(0, 450)",
+                                                                                "sizeDelta":  "(800, 200)",
+                                                                                "anchorMin":  "(0.5, 0.5)",
+                                                                                "anchorMax":  "(0.5, 0.5)",
+                                                                                "pivot":  "(0.5, 0.5)"
+                                                                            }
+                                                              },
+                                                              {
+                                                                  "type":  "CanvasRenderer",
+                                                                  "props":  {
+                                                                                "enabled":  null
+                                                                            }
+                                                              },
+                                                              {
+                                                                  "type":  "Text",
+                                                                  "kind":  "MonoBehaviour",
+                                                                  "fields":  {
+                                                                                 "m_Material":  {
+                                                                                                    "type":  "ObjectReference",
+                                                                                                    "value":  "null"
+                                                                                                },
+                                                                                 "m_Color":  {
+                                                                                                 "type":  "Color",
+                                                                                                 "value":  "(0.93, 0.68, 0.05, 1.00)"
+                                                                                             },
+                                                                                 "m_RaycastTarget":  {
+                                                                                                         "type":  "Boolean",
+                                                                                                         "value":  false
+                                                                                                     },
+                                                                                 "m_RaycastPadding":  {
+                                                                                                          "type":  "Vector4",
+                                                                                                          "value":  "(0, 0, 0, 0)"
+                                                                                                      },
+                                                                                 "m_Maskable":  {
+                                                                                                    "type":  "Boolean",
+                                                                                                    "value":  true
+                                                                                                },
+                                                                                 "m_OnCullStateChanged":  {
+                                                                                                              "type":  "Generic",
+                                                                                                              "value":  "Generic"
+                                                                                                          },
+                                                                                 "m_FontData":  {
+                                                                                                    "type":  "Generic",
+                                                                                                    "value":  "Generic"
+                                                                                                },
+                                                                                 "m_Text":  {
+                                                                                                "type":  "String",
+                                                                                                "value":  "KINGS"
+                                                                                            }
+                                                                             }
+                                                              }
+                                                          ],
+                                           "children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "path":  "GameCanvas/Cards/MainMenuCard/Card/QuestionText",
+                                           "name":  "QuestionText",
+                                           "active":  true,
+                                           "tag":  "Untagged",
+                                           "layer":  "Default",
+                                           "components":  [
+                                                              {
+                                                                  "type":  "RectTransform",
+                                                                  "props":  {
+                                                                                "anchoredPosition":  "(0, -480)",
+                                                                                "sizeDelta":  "(800, 200)",
+                                                                                "anchorMin":  "(0.5, 0.5)",
+                                                                                "anchorMax":  "(0.5, 0.5)",
+                                                                                "pivot":  "(0.5, 0.5)"
+                                                                            }
+                                                              },
+                                                              {
+                                                                  "type":  "CanvasRenderer",
+                                                                  "props":  {
+                                                                                "enabled":  null
+                                                                            }
+                                                              },
+                                                              {
+                                                                  "type":  "Text",
+                                                                  "kind":  "MonoBehaviour",
+                                                                  "fields":  {
+                                                                                 "m_Material":  {
+                                                                                                    "type":  "ObjectReference",
+                                                                                                    "value":  "null"
+                                                                                                },
+                                                                                 "m_Color":  {
+                                                                                                 "type":  "Color",
+                                                                                                 "value":  "(1.00, 1.00, 1.00, 1.00)"
+                                                                                             },
+                                                                                 "m_RaycastTarget":  {
+                                                                                                         "type":  "Boolean",
+                                                                                                         "value":  false
+                                                                                                     },
+                                                                                 "m_RaycastPadding":  {
+                                                                                                          "type":  "Vector4",
+                                                                                                          "value":  "(0, 0, 0, 0)"
+                                                                                                      },
+                                                                                 "m_Maskable":  {
+                                                                                                    "type":  "Boolean",
+                                                                                                    "value":  true
+                                                                                                },
+                                                                                 "m_OnCullStateChanged":  {
+                                                                                                              "type":  "Generic",
+                                                                                                              "value":  "Generic"
+                                                                                                          },
+                                                                                 "m_FontData":  {
+                                                                                                    "type":  "Generic",
+                                                                                                    "value":  "Generic"
+                                                                                                },
+                                                                                 "m_Text":  {
+                                                                                                "type":  "String",
+                                                                                                "value":  "swipe to start"
+                                                                                            }
+                                                                             }
+                                                              }
+                                                          ],
+                                           "children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "path":  "GameCanvas/Cards/MainMenuCard/Card/CardBack",
+                                           "name":  "CardBack",
+                                           "active":  false,
+                                           "tag":  "Untagged",
+                                           "layer":  "Default",
+                                           "components":  [
+                                                              {
+                                                                  "type":  "RectTransform",
+                                                                  "props":  {
+                                                                                "anchoredPosition":  "(0, 0)",
+                                                                                "sizeDelta":  "(900, 1240)",
+                                                                                "anchorMin":  "(0.5, 0.5)",
+                                                                                "anchorMax":  "(0.5, 0.5)",
+                                                                                "pivot":  "(0.5, 0.5)"
+                                                                            }
+                                                              },
+                                                              {
+                                                                  "type":  "CanvasRenderer",
+                                                                  "props":  {
+                                                                                "enabled":  null
+                                                                            }
+                                                              },
+                                                              {
+                                                                  "type":  "Image",
+                                                                  "kind":  "MonoBehaviour",
+                                                                  "fields":  {
+                                                                                 "m_Material":  {
+                                                                                                    "type":  "ObjectReference",
+                                                                                                    "value":  "null"
+                                                                                                },
+                                                                                 "m_Color":  {
+                                                                                                 "type":  "Color",
+                                                                                                 "value":  "(0.93, 0.68, 0.05, 1.00)"
+                                                                                             },
+                                                                                 "m_RaycastTarget":  {
+                                                                                                         "type":  "Boolean",
+                                                                                                         "value":  false
+                                                                                                     },
+                                                                                 "m_RaycastPadding":  {
+                                                                                                          "type":  "Vector4",
+                                                                                                          "value":  "(0, 0, 0, 0)"
+                                                                                                      },
+                                                                                 "m_Maskable":  {
+                                                                                                    "type":  "Boolean",
+                                                                                                    "value":  true
+                                                                                                },
+                                                                                 "m_OnCullStateChanged":  {
+                                                                                                              "type":  "Generic",
+                                                                                                              "value":  "Generic"
+                                                                                                          },
+                                                                                 "m_Sprite":  {
+                                                                                                  "type":  "Sprite",
+                                                                                                  "value":  "card_back03"
+                                                                                              },
+                                                                                 "m_Type":  {
+                                                                                                "type":  "Enum",
+                                                                                                "value":  "Simple"
+                                                                                            },
+                                                                                 "m_PreserveAspect":  {
+                                                                                                          "type":  "Boolean",
+                                                                                                          "value":  true
+                                                                                                      },
+                                                                                 "m_FillCenter":  {
+                                                                                                      "type":  "Boolean",
+                                                                                                      "value":  true
+                                                                                                  },
+                                                                                 "m_FillMethod":  {
+                                                                                                      "type":  "Enum",
+                                                                                                      "value":  "Radial 360"
+                                                                                                  },
+                                                                                 "m_FillAmount":  {
+                                                                                                      "type":  "Float",
+                                                                                                      "value":  1.0
+                                                                                                  },
+                                                                                 "m_FillClockwise":  {
+                                                                                                         "type":  "Boolean",
+                                                                                                         "value":  true
+                                                                                                     },
+                                                                                 "m_FillOrigin":  {
+                                                                                                      "type":  "Integer",
+                                                                                                      "value":  0
+                                                                                                  },
+                                                                                 "m_UseSpriteMesh":  {
+                                                                                                         "type":  "Boolean",
+                                                                                                         "value":  false
+                                                                                                     },
+                                                                                 "m_PixelsPerUnitMultiplier":  {
+                                                                                                                   "type":  "Float",
+                                                                                                                   "value":  1.0
+                                                                                                               }
+                                                                             }
+                                                              }
+                                                          ],
+                                           "children":  [
+
+                                                        ]
+                                       }
+                                   ],
+                       "references":  null,
+                       "codeDependencies":  null
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "gameObject":  "MainMenuCard",
+                       "component":  "Image",
+                       "fullTypeName":  "UnityEngine.UI.Image",
+                       "properties":  [
+                                          {
+                                              "name":  "sprite",
+                                              "type":  "Sprite",
+                                              "fullType":  "UnityEngine.Sprite",
+                                              "value":  "white",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "overrideSprite",
+                                              "type":  "Sprite",
+                                              "fullType":  "UnityEngine.Sprite",
+                                              "value":  "white",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "type",
+                                              "type":  "Type",
+                                              "fullType":  "UnityEngine.UI.Image+Type",
+                                              "value":  "Simple",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "preserveAspect",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "False",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "fillCenter",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "True",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "fillMethod",
+                                              "type":  "FillMethod",
+                                              "fullType":  "UnityEngine.UI.Image+FillMethod",
+                                              "value":  "Radial360",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "fillAmount",
+                                              "type":  "Single",
+                                              "fullType":  "System.Single",
+                                              "value":  "1",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "fillClockwise",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "True",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "fillOrigin",
+                                              "type":  "Int32",
+                                              "fullType":  "System.Int32",
+                                              "value":  "0",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "eventAlphaThreshold",
+                                              "type":  "Single",
+                                              "fullType":  "System.Single",
+                                              "value":  "1",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "alphaHitTestMinimumThreshold",
+                                              "type":  "Single",
+                                              "fullType":  "System.Single",
+                                              "value":  "0",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "useSpriteMesh",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "False",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "mainTexture",
+                                              "type":  "Texture",
+                                              "fullType":  "UnityEngine.Texture",
+                                              "value":  "white",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "hasBorder",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "False",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "pixelsPerUnitMultiplier",
+                                              "type":  "Single",
+                                              "fullType":  "System.Single",
+                                              "value":  "1",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "pixelsPerUnit",
+                                              "type":  "Single",
+                                              "fullType":  "System.Single",
+                                              "value":  "1",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "material",
+                                              "type":  "Material",
+                                              "fullType":  "UnityEngine.Material",
+                                              "value":  "Default UI Material",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "minWidth",
+                                              "type":  "Single",
+                                              "fullType":  "System.Single",
+                                              "value":  "0",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "preferredWidth",
+                                              "type":  "Single",
+                                              "fullType":  "System.Single",
+                                              "value":  "32",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "flexibleWidth",
+                                              "type":  "Single",
+                                              "fullType":  "System.Single",
+                                              "value":  "-1",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "minHeight",
+                                              "type":  "Single",
+                                              "fullType":  "System.Single",
+                                              "value":  "0",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "preferredHeight",
+                                              "type":  "Single",
+                                              "fullType":  "System.Single",
+                                              "value":  "32",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "flexibleHeight",
+                                              "type":  "Single",
+                                              "fullType":  "System.Single",
+                                              "value":  "-1",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "layoutPriority",
+                                              "type":  "Int32",
+                                              "fullType":  "System.Int32",
+                                              "value":  "0",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "onCullStateChanged",
+                                              "type":  "CullStateChangedEvent",
+                                              "fullType":  "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent",
+                                              "value":  "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent UnityEngine.UI.MaskableGraphic+CullStateChangedEvent",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "maskable",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "True",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "isMaskingGraphic",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "False",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "color",
+                                              "type":  "Color",
+                                              "fullType":  "UnityEngine.Color",
+                                              "value":  "(0.86, 0.81, 0.72, 1)",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "raycastTarget",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "True",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "raycastPadding",
+                                              "type":  "Vector4",
+                                              "fullType":  "UnityEngine.Vector4",
+                                              "value":  "(0, 0, 0, 0)",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "depth",
+                                              "type":  "Int32",
+                                              "fullType":  "System.Int32",
+                                              "value":  "0",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "rectTransform",
+                                              "type":  "RectTransform",
+                                              "fullType":  "UnityEngine.RectTransform",
+                                              "value":  "MainMenuCard",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "canvas",
+                                              "type":  "Canvas",
+                                              "fullType":  "UnityEngine.Canvas",
+                                              "value":  "GameCanvas",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "canvasRenderer",
+                                              "type":  "CanvasRenderer",
+                                              "fullType":  "UnityEngine.CanvasRenderer",
+                                              "value":  "MainMenuCard",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "defaultMaterial",
+                                              "type":  "Material",
+                                              "fullType":  "UnityEngine.Material",
+                                              "value":  "Default UI Material",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "materialForRendering",
+                                              "type":  "Material",
+                                              "fullType":  "UnityEngine.Material",
+                                              "value":  "Default UI Material",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "destroyCancellationToken",
+                                              "type":  "CancellationToken",
+                                              "fullType":  "System.Threading.CancellationToken",
+                                              "value":  "System.Threading.CancellationToken",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "useGUILayout",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "True",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "runInEditMode",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "True",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "enabled",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "False",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "isActiveAndEnabled",
+                                              "type":  "Boolean",
+                                              "fullType":  "System.Boolean",
+                                              "value":  "False",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "transform",
+                                              "type":  "Transform",
+                                              "fullType":  "UnityEngine.Transform",
+                                              "value":  "MainMenuCard",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "gameObject",
+                                              "type":  "GameObject",
+                                              "fullType":  "UnityEngine.GameObject",
+                                              "value":  "MainMenuCard",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "tag",
+                                              "type":  "String",
+                                              "fullType":  "System.String",
+                                              "value":  "Untagged",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "rigidbody",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "rigidbody2D",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "camera",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "light",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "animation",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "constantForce",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "renderer",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "audio",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "networkView",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "collider",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "collider2D",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "hingeJoint",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "particleSystem",
+                                              "type":  "Component",
+                                              "fullType":  "UnityEngine.Component",
+                                              "value":  "(error reading)",
+                                              "canWrite":  false
+                                          },
+                                          {
+                                              "name":  "name",
+                                              "type":  "String",
+                                              "fullType":  "System.String",
+                                              "value":  "MainMenuCard",
+                                              "canWrite":  true
+                                          },
+                                          {
+                                              "name":  "hideFlags",
+                                              "type":  "HideFlags",
+                                              "fullType":  "UnityEngine.HideFlags",
+                                              "value":  "None",
+                                              "canWrite":  true
+                                          }
+                                      ],
+                       "fields":  [
+
+                                  ]
+                   }
+    }
+]

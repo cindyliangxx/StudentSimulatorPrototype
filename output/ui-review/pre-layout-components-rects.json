@@ -1,0 +1,391 @@
+﻿[
+    {
+        "status":  "success",
+        "result":  {
+                       "gameObject":  "TopPanel",
+                       "entityId":  "25368",
+                       "instanceId":  25368,
+                       "path":  "GameCanvas/GamePanel/TopPanel",
+                       "componentCount":  5,
+                       "components":  [
+                                          {
+                                              "type":  "RectTransform",
+                                              "fullType":  "UnityEngine.RectTransform",
+                                              "enabled":  true,
+                                              "keyProperties":  {
+                                                                    "position":  "(0, 808.8316, 0)",
+                                                                    "rotation":  "(0, 0, 0)",
+                                                                    "scale":  "(1, 1, 1)"
+                                                                }
+                                          },
+                                          {
+                                              "type":  "CanvasRenderer",
+                                              "fullType":  "UnityEngine.CanvasRenderer",
+                                              "enabled":  true
+                                          },
+                                          {
+                                              "type":  "GridLayoutGroup",
+                                              "fullType":  "UnityEngine.UI.GridLayoutGroup",
+                                              "enabled":  true
+                                          },
+                                          {
+                                              "type":  "ContentSizeFitter",
+                                              "fullType":  "UnityEngine.UI.ContentSizeFitter",
+                                              "enabled":  true
+                                          },
+                                          {
+                                              "type":  "Image",
+                                              "fullType":  "UnityEngine.UI.Image",
+                                              "enabled":  true
+                                          }
+                                      ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "name":  "TopPanel",
+                       "entityId":  "25368",
+                       "instanceId":  25368,
+                       "path":  "GameCanvas/GamePanel/TopPanel",
+                       "anchorMin":  {
+                                         "x":  0.0,
+                                         "y":  1.0
+                                     },
+                       "anchorMax":  {
+                                         "x":  1.0,
+                                         "y":  1.0
+                                     },
+                       "pivot":  {
+                                     "x":  0.5,
+                                     "y":  0.5
+                                 },
+                       "anchoredPosition3D":  {
+                                                  "x":  0.0,
+                                                  "y":  -85.0,
+                                                  "z":  0.0
+                                              },
+                       "sizeDelta":  {
+                                         "x":  -500.0,
+                                         "y":  180.0
+                                     },
+                       "offsetMin":  {
+                                         "x":  250.0,
+                                         "y":  -175.0
+                                     },
+                       "offsetMax":  {
+                                         "x":  -250.0,
+                                         "y":  5.0
+                                     },
+                       "localPosition":  {
+                                             "x":  0.0,
+                                             "y":  454.795349,
+                                             "z":  0.0
+                                         },
+                       "localEulerAngles":  {
+                                                "x":  0.0,
+                                                "y":  0.0,
+                                                "z":  0.0
+                                            },
+                       "localScale":  {
+                                          "x":  1.0,
+                                          "y":  1.0,
+                                          "z":  1.0
+                                      },
+                       "rect":  {
+                                    "width":  1420.72815,
+                                    "height":  180.0
+                                }
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "gameObject":  "PlayerPanel",
+                       "entityId":  "24098",
+                       "instanceId":  24098,
+                       "path":  "GameCanvas/GamePanel/TopPanel/PlayerPanel",
+                       "componentCount":  4,
+                       "components":  [
+                                          {
+                                              "type":  "RectTransform",
+                                              "fullType":  "UnityEngine.RectTransform",
+                                              "enabled":  true,
+                                              "keyProperties":  {
+                                                                    "position":  "(-533.5355, 808.8316, 0)",
+                                                                    "rotation":  "(0, 0, 0)",
+                                                                    "scale":  "(1, 1, 1)"
+                                                                }
+                                          },
+                                          {
+                                              "type":  "CanvasRenderer",
+                                              "fullType":  "UnityEngine.CanvasRenderer",
+                                              "enabled":  true
+                                          },
+                                          {
+                                              "type":  "LayoutElement",
+                                              "fullType":  "UnityEngine.UI.LayoutElement",
+                                              "enabled":  true
+                                          },
+                                          {
+                                              "type":  "Image",
+                                              "fullType":  "UnityEngine.UI.Image",
+                                              "enabled":  false
+                                          }
+                                      ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "name":  "PlayerPanel",
+                       "entityId":  "24098",
+                       "instanceId":  24098,
+                       "path":  "GameCanvas/GamePanel/TopPanel/PlayerPanel",
+                       "anchorMin":  {
+                                         "x":  0.0,
+                                         "y":  1.0
+                                     },
+                       "anchorMax":  {
+                                         "x":  0.0,
+                                         "y":  1.0
+                                     },
+                       "pivot":  {
+                                     "x":  0.5,
+                                     "y":  0.5
+                                 },
+                       "anchoredPosition3D":  {
+                                                  "x":  410.364075,
+                                                  "y":  -90.0,
+                                                  "z":  0.0
+                                              },
+                       "sizeDelta":  {
+                                         "x":  540.0,
+                                         "y":  120.0
+                                     },
+                       "offsetMin":  {
+                                         "x":  140.364075,
+                                         "y":  -150.0
+                                     },
+                       "offsetMax":  {
+                                         "x":  680.3641,
+                                         "y":  -30.0
+                                     },
+                       "localPosition":  {
+                                             "x":  -300.0,
+                                             "y":  0.0,
+                                             "z":  0.0
+                                         },
+                       "localEulerAngles":  {
+                                                "x":  0.0,
+                                                "y":  0.0,
+                                                "z":  0.0
+                                            },
+                       "localScale":  {
+                                          "x":  1.0,
+                                          "y":  1.0,
+                                          "z":  1.0
+                                      },
+                       "rect":  {
+                                    "width":  540.0,
+                                    "height":  120.0
+                                }
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "gameObject":  "MainStatsPanel",
+                       "entityId":  "24350",
+                       "instanceId":  24350,
+                       "path":  "GameCanvas/GamePanel/TopPanel/MainStatsPanel",
+                       "componentCount":  3,
+                       "components":  [
+                                          {
+                                              "type":  "RectTransform",
+                                              "fullType":  "UnityEngine.RectTransform",
+                                              "enabled":  true,
+                                              "keyProperties":  {
+                                                                    "position":  "(533.5355, 808.8316, 0)",
+                                                                    "rotation":  "(0, 0, 0)",
+                                                                    "scale":  "(1, 1, 1)"
+                                                                }
+                                          },
+                                          {
+                                              "type":  "HorizontalLayoutGroup",
+                                              "fullType":  "UnityEngine.UI.HorizontalLayoutGroup",
+                                              "enabled":  true
+                                          },
+                                          {
+                                              "type":  "LayoutElement",
+                                              "fullType":  "UnityEngine.UI.LayoutElement",
+                                              "enabled":  true
+                                          }
+                                      ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "name":  "MainStatsPanel",
+                       "entityId":  "24350",
+                       "instanceId":  24350,
+                       "path":  "GameCanvas/GamePanel/TopPanel/MainStatsPanel",
+                       "anchorMin":  {
+                                         "x":  0.0,
+                                         "y":  1.0
+                                     },
+                       "anchorMax":  {
+                                         "x":  0.0,
+                                         "y":  1.0
+                                     },
+                       "pivot":  {
+                                     "x":  0.5,
+                                     "y":  0.5
+                                 },
+                       "anchoredPosition3D":  {
+                                                  "x":  1010.36407,
+                                                  "y":  -90.0,
+                                                  "z":  0.0
+                                              },
+                       "sizeDelta":  {
+                                         "x":  540.0,
+                                         "y":  120.0
+                                     },
+                       "offsetMin":  {
+                                         "x":  740.3641,
+                                         "y":  -150.0
+                                     },
+                       "offsetMax":  {
+                                         "x":  1280.364,
+                                         "y":  -30.0
+                                     },
+                       "localPosition":  {
+                                             "x":  300.0,
+                                             "y":  0.0,
+                                             "z":  0.0
+                                         },
+                       "localEulerAngles":  {
+                                                "x":  0.0,
+                                                "y":  0.0,
+                                                "z":  0.0
+                                            },
+                       "localScale":  {
+                                          "x":  1.0,
+                                          "y":  1.0,
+                                          "z":  1.0
+                                      },
+                       "rect":  {
+                                    "width":  540.0,
+                                    "height":  120.0
+                                }
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "gameObject":  "MenuButtonPanel",
+                       "entityId":  "24896",
+                       "instanceId":  24896,
+                       "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel",
+                       "componentCount":  3,
+                       "components":  [
+                                          {
+                                              "type":  "RectTransform",
+                                              "fullType":  "UnityEngine.RectTransform",
+                                              "enabled":  true,
+                                              "keyProperties":  {
+                                                                    "position":  "(0, -835.5084, 0)",
+                                                                    "rotation":  "(0, 0, 0)",
+                                                                    "scale":  "(1, 1, 1)"
+                                                                }
+                                          },
+                                          {
+                                              "type":  "CanvasRenderer",
+                                              "fullType":  "UnityEngine.CanvasRenderer",
+                                              "enabled":  true
+                                          },
+                                          {
+                                              "type":  "HorizontalLayoutGroup",
+                                              "fullType":  "UnityEngine.UI.HorizontalLayoutGroup",
+                                              "enabled":  true
+                                          }
+                                      ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "name":  "MenuButtonPanel",
+                       "entityId":  "24896",
+                       "instanceId":  24896,
+                       "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel",
+                       "anchorMin":  {
+                                         "x":  0.5,
+                                         "y":  0.0
+                                     },
+                       "anchorMax":  {
+                                         "x":  0.5,
+                                         "y":  0.0
+                                     },
+                       "pivot":  {
+                                     "x":  0.5,
+                                     "y":  0.5
+                                 },
+                       "anchoredPosition3D":  {
+                                                  "x":  0.0,
+                                                  "y":  50.0,
+                                                  "z":  0.0
+                                              },
+                       "sizeDelta":  {
+                                         "x":  560.0,
+                                         "y":  100.0
+                                     },
+                       "offsetMin":  {
+                                         "x":  -280.0,
+                                         "y":  0.0
+                                     },
+                       "offsetMax":  {
+                                         "x":  280.0,
+                                         "y":  100.0
+                                     },
+                       "localPosition":  {
+                                             "x":  0.0,
+                                             "y":  0.0,
+                                             "z":  0.0
+                                         },
+                       "localEulerAngles":  {
+                                                "x":  0.0,
+                                                "y":  0.0,
+                                                "z":  0.0
+                                            },
+                       "localScale":  {
+                                          "x":  1.0,
+                                          "y":  1.0,
+                                          "z":  1.0
+                                      },
+                       "rect":  {
+                                    "width":  560.0,
+                                    "height":  100.0
+                                }
+                   }
+    },
+    {
+        "status":  "error",
+        "errorCode":  "SKILL_ERROR",
+        "error":  "GameObject not found: path \u0027GameCanvas/GamePanel/Cards\u0027",
+        "skill":  "component_list",
+        "retryStrategy":  "abort"
+    },
+    {
+        "status":  "error",
+        "errorCode":  "SKILL_ERROR",
+        "error":  "GameObject not found: path \u0027GameCanvas/GamePanel/Cards\u0027",
+        "skill":  "ui_get_rect_transform",
+        "retryStrategy":  "abort"
+    }
+]

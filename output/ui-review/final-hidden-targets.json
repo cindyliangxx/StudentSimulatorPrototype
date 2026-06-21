@@ -1,0 +1,719 @@
+﻿[
+    {
+        "status":  "success",
+        "result":  {
+                       "name":  "PlayerNameText",
+                       "entityId":  "24466",
+                       "instanceId":  24466,
+                       "path":  "GameCanvas/GamePanel/TopPanel/PlayerPanel/PlayerNameText",
+                       "tag":  "Untagged",
+                       "layer":  "Default",
+                       "isActive":  false,
+                       "position":  {
+                                        "x":  -802.7664,
+                                        "y":  807.053162,
+                                        "z":  0.0
+                                    },
+                       "rotation":  {
+                                        "x":  0.0,
+                                        "y":  0.0,
+                                        "z":  0.0
+                                    },
+                       "scale":  {
+                                     "x":  1.0,
+                                     "y":  1.0,
+                                     "z":  1.0
+                                 },
+                       "parent":  "PlayerPanel",
+                       "parentPath":  "GameCanvas/GamePanel/TopPanel/PlayerPanel",
+                       "childCount":  0,
+                       "children":  [
+
+                                    ],
+                       "components":  [
+                                          "RectTransform",
+                                          "CanvasRenderer",
+                                          "Text"
+                                      ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "name":  "YearsText",
+                       "entityId":  "24012",
+                       "instanceId":  24012,
+                       "path":  "GameCanvas/GamePanel/TopPanel/PlayerPanel/YearsText",
+                       "tag":  "Untagged",
+                       "layer":  "Default",
+                       "isActive":  false,
+                       "position":  {
+                                        "x":  -1213.79333,
+                                        "y":  807.053162,
+                                        "z":  0.0
+                                    },
+                       "rotation":  {
+                                        "x":  0.0,
+                                        "y":  0.0,
+                                        "z":  0.0
+                                    },
+                       "scale":  {
+                                     "x":  1.0,
+                                     "y":  1.0,
+                                     "z":  1.0
+                                 },
+                       "parent":  "PlayerPanel",
+                       "parentPath":  "GameCanvas/GamePanel/TopPanel/PlayerPanel",
+                       "childCount":  0,
+                       "children":  [
+
+                                    ],
+                       "components":  [
+                                          "RectTransform",
+                                          "CanvasRenderer",
+                                          "Text"
+                                      ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "name":  "StatsButton",
+                       "entityId":  "25088",
+                       "instanceId":  25088,
+                       "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/StatsButton",
+                       "tag":  "Untagged",
+                       "layer":  "Default",
+                       "isActive":  false,
+                       "position":  {
+                                        "x":  0.0,
+                                        "y":  -759.035,
+                                        "z":  0.0
+                                    },
+                       "rotation":  {
+                                        "x":  0.0,
+                                        "y":  0.0,
+                                        "z":  0.0
+                                    },
+                       "scale":  {
+                                     "x":  1.0,
+                                     "y":  1.0,
+                                     "z":  1.0
+                                 },
+                       "parent":  "MenuButtonPanel",
+                       "parentPath":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel",
+                       "childCount":  2,
+                       "children":  [
+                                        {
+                                            "name":  "Icon",
+                                            "entityId":  "22898",
+                                            "instanceId":  22898,
+                                            "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/StatsButton/Icon"
+                                        },
+                                        {
+                                            "name":  "selIcon",
+                                            "entityId":  "25524",
+                                            "instanceId":  25524,
+                                            "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/StatsButton/selIcon"
+                                        }
+                                    ],
+                       "components":  [
+                                          "RectTransform",
+                                          "CanvasRenderer",
+                                          "Image",
+                                          "LayoutElement",
+                                          "Button"
+                                      ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "name":  "LeaderboardButton",
+                       "entityId":  "23536",
+                       "instanceId":  23536,
+                       "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/LeaderboardButton",
+                       "tag":  "Untagged",
+                       "layer":  "Default",
+                       "isActive":  false,
+                       "position":  {
+                                        "x":  248.983246,
+                                        "y":  -759.035,
+                                        "z":  0.0
+                                    },
+                       "rotation":  {
+                                        "x":  0.0,
+                                        "y":  0.0,
+                                        "z":  0.0
+                                    },
+                       "scale":  {
+                                     "x":  1.0,
+                                     "y":  1.0,
+                                     "z":  1.0
+                                 },
+                       "parent":  "MenuButtonPanel",
+                       "parentPath":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel",
+                       "childCount":  2,
+                       "children":  [
+                                        {
+                                            "name":  "Icon",
+                                            "entityId":  "23204",
+                                            "instanceId":  23204,
+                                            "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/LeaderboardButton/Icon"
+                                        },
+                                        {
+                                            "name":  "selIcon",
+                                            "entityId":  "25580",
+                                            "instanceId":  25580,
+                                            "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/LeaderboardButton/selIcon"
+                                        }
+                                    ],
+                       "components":  [
+                                          "RectTransform",
+                                          "CanvasRenderer",
+                                          "Image",
+                                          "LayoutElement",
+                                          "Button"
+                                      ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "name":  "AchievementsButton",
+                       "entityId":  "23426",
+                       "instanceId":  23426,
+                       "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/AchievementsButton",
+                       "tag":  "Untagged",
+                       "layer":  "Default",
+                       "isActive":  false,
+                       "position":  {
+                                        "x":  497.9665,
+                                        "y":  -759.035,
+                                        "z":  0.0
+                                    },
+                       "rotation":  {
+                                        "x":  0.0,
+                                        "y":  0.0,
+                                        "z":  0.0
+                                    },
+                       "scale":  {
+                                     "x":  1.0,
+                                     "y":  1.0,
+                                     "z":  1.0
+                                 },
+                       "parent":  "MenuButtonPanel",
+                       "parentPath":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel",
+                       "childCount":  2,
+                       "children":  [
+                                        {
+                                            "name":  "Icon",
+                                            "entityId":  "23770",
+                                            "instanceId":  23770,
+                                            "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/AchievementsButton/Icon"
+                                        },
+                                        {
+                                            "name":  "selIcon",
+                                            "entityId":  "24324",
+                                            "instanceId":  24324,
+                                            "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/AchievementsButton/selIcon"
+                                        }
+                                    ],
+                       "components":  [
+                                          "RectTransform",
+                                          "CanvasRenderer",
+                                          "Image",
+                                          "LayoutElement",
+                                          "Button"
+                                      ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "name":  "InventoryPanel",
+                       "entityId":  "25030",
+                       "instanceId":  25030,
+                       "path":  "GameCanvas/InventoryPanel",
+                       "tag":  "Untagged",
+                       "layer":  "Default",
+                       "isActive":  false,
+                       "position":  {
+                                        "x":  0.0,
+                                        "y":  -853.2929,
+                                        "z":  0.0
+                                    },
+                       "rotation":  {
+                                        "x":  0.0,
+                                        "y":  0.0,
+                                        "z":  0.0
+                                    },
+                       "scale":  {
+                                     "x":  1.0,
+                                     "y":  1.0,
+                                     "z":  1.0
+                                 },
+                       "parent":  "GameCanvas",
+                       "parentPath":  "GameCanvas",
+                       "childCount":  2,
+                       "children":  [
+                                        {
+                                            "name":  "InventoryBackpanel",
+                                            "entityId":  "23392",
+                                            "instanceId":  23392,
+                                            "path":  "GameCanvas/InventoryPanel/InventoryBackpanel"
+                                        },
+                                        {
+                                            "name":  "InventoryList",
+                                            "entityId":  "24260",
+                                            "instanceId":  24260,
+                                            "path":  "GameCanvas/InventoryPanel/InventoryList"
+                                        }
+                                    ],
+                       "components":  [
+                                          "RectTransform",
+                                          "CanvasRenderer",
+                                          "Image"
+                                      ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "name":  "WarPanel",
+                       "entityId":  "25046",
+                       "instanceId":  25046,
+                       "path":  "GameCanvas/GamePanel/TopPanel/WarPanel",
+                       "tag":  "Untagged",
+                       "layer":  "Default",
+                       "isActive":  false,
+                       "position":  {
+                                        "x":  0.0,
+                                        "y":  1696.279,
+                                        "z":  0.0
+                                    },
+                       "rotation":  {
+                                        "x":  0.0,
+                                        "y":  0.0,
+                                        "z":  0.0
+                                    },
+                       "scale":  {
+                                     "x":  1.0,
+                                     "y":  1.0,
+                                     "z":  1.0
+                                 },
+                       "parent":  "TopPanel",
+                       "parentPath":  "GameCanvas/GamePanel/TopPanel",
+                       "childCount":  7,
+                       "children":  [
+                                        {
+                                            "name":  "PlayerCastleImage",
+                                            "entityId":  "25790",
+                                            "instanceId":  25790,
+                                            "path":  "GameCanvas/GamePanel/TopPanel/WarPanel/PlayerCastleImage"
+                                        },
+                                        {
+                                            "name":  "PlayerArmyImage",
+                                            "entityId":  "24878",
+                                            "instanceId":  24878,
+                                            "path":  "GameCanvas/GamePanel/TopPanel/WarPanel/PlayerArmyImage"
+                                        },
+                                        {
+                                            "name":  "EnemyCastleImage",
+                                            "entityId":  "24428",
+                                            "instanceId":  24428,
+                                            "path":  "GameCanvas/GamePanel/TopPanel/WarPanel/EnemyCastleImage"
+                                        },
+                                        {
+                                            "name":  "EnemyArmyImage",
+                                            "entityId":  "23062",
+                                            "instanceId":  23062,
+                                            "path":  "GameCanvas/GamePanel/TopPanel/WarPanel/EnemyArmyImage"
+                                        },
+                                        {
+                                            "name":  "Particle System_fight",
+                                            "entityId":  "22826",
+                                            "instanceId":  22826,
+                                            "path":  "GameCanvas/GamePanel/TopPanel/WarPanel/Particle System_fight"
+                                        },
+                                        {
+                                            "name":  "Particle System_fireworks",
+                                            "entityId":  "22958",
+                                            "instanceId":  22958,
+                                            "path":  "GameCanvas/GamePanel/TopPanel/WarPanel/Particle System_fireworks"
+                                        },
+                                        {
+                                            "name":  "Particle System_fire",
+                                            "entityId":  "25446",
+                                            "instanceId":  25446,
+                                            "path":  "GameCanvas/GamePanel/TopPanel/WarPanel/Particle System_fire"
+                                        }
+                                    ],
+                       "components":  [
+                                          "RectTransform",
+                                          "CanvasRenderer",
+                                          "Image",
+                                          "Animator",
+                                          "DelayedEvent",
+                                          "UIPositionSwitcher",
+                                          "LayoutElement"
+                                      ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "name":  "AchievementsPopupPanel",
+                       "entityId":  "26020",
+                       "instanceId":  26020,
+                       "path":  "GameCanvas/GamePanel/TopPanel/AchievementsPopupPanel",
+                       "tag":  "Untagged",
+                       "layer":  "Default",
+                       "isActive":  false,
+                       "position":  {
+                                        "x":  0.0,
+                                        "y":  2407.66,
+                                        "z":  0.0
+                                    },
+                       "rotation":  {
+                                        "x":  0.0,
+                                        "y":  0.0,
+                                        "z":  0.0
+                                    },
+                       "scale":  {
+                                     "x":  1.0,
+                                     "y":  1.0,
+                                     "z":  1.0
+                                 },
+                       "parent":  "TopPanel",
+                       "parentPath":  "GameCanvas/GamePanel/TopPanel",
+                       "childCount":  3,
+                       "children":  [
+                                        {
+                                            "name":  "AchieveIcon",
+                                            "entityId":  "24340",
+                                            "instanceId":  24340,
+                                            "path":  "GameCanvas/GamePanel/TopPanel/AchievementsPopupPanel/AchieveIcon"
+                                        },
+                                        {
+                                            "name":  "AchieveTitle",
+                                            "entityId":  "25162",
+                                            "instanceId":  25162,
+                                            "path":  "GameCanvas/GamePanel/TopPanel/AchievementsPopupPanel/AchieveTitle"
+                                        },
+                                        {
+                                            "name":  "AchieveDescription",
+                                            "entityId":  "22864",
+                                            "instanceId":  22864,
+                                            "path":  "GameCanvas/GamePanel/TopPanel/AchievementsPopupPanel/AchieveDescription"
+                                        }
+                                    ],
+                       "components":  [
+                                          "RectTransform",
+                                          "CanvasRenderer",
+                                          "Image",
+                                          "Animator",
+                                          "AudioSource",
+                                          "LayoutElement",
+                                          "GridLayoutGroup"
+                                      ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "name":  "UpdatedStatsPanel",
+                       "entityId":  "25234",
+                       "instanceId":  25234,
+                       "path":  "GameCanvas/GamePanel/TopPanel/UpdatedStatsPanel",
+                       "tag":  "Untagged",
+                       "layer":  "Default",
+                       "isActive":  false,
+                       "position":  {
+                                        "x":  0.0,
+                                        "y":  558.0699,
+                                        "z":  0.0
+                                    },
+                       "rotation":  {
+                                        "x":  0.0,
+                                        "y":  0.0,
+                                        "z":  0.0
+                                    },
+                       "scale":  {
+                                     "x":  1.0,
+                                     "y":  1.0,
+                                     "z":  1.0
+                                 },
+                       "parent":  "TopPanel",
+                       "parentPath":  "GameCanvas/GamePanel/TopPanel",
+                       "childCount":  5,
+                       "children":  [
+                                        {
+                                            "name":  "Stat1Img",
+                                            "entityId":  "25834",
+                                            "instanceId":  25834,
+                                            "path":  "GameCanvas/GamePanel/TopPanel/UpdatedStatsPanel/Stat1Img"
+                                        },
+                                        {
+                                            "name":  "Stat2Img",
+                                            "entityId":  "24978",
+                                            "instanceId":  24978,
+                                            "path":  "GameCanvas/GamePanel/TopPanel/UpdatedStatsPanel/Stat2Img"
+                                        },
+                                        {
+                                            "name":  "Stat3Img",
+                                            "entityId":  "23816",
+                                            "instanceId":  23816,
+                                            "path":  "GameCanvas/GamePanel/TopPanel/UpdatedStatsPanel/Stat3Img"
+                                        },
+                                        {
+                                            "name":  "Stat4Img",
+                                            "entityId":  "25270",
+                                            "instanceId":  25270,
+                                            "path":  "GameCanvas/GamePanel/TopPanel/UpdatedStatsPanel/Stat4Img"
+                                        },
+                                        {
+                                            "name":  "Stat5Img",
+                                            "entityId":  "23418",
+                                            "instanceId":  23418,
+                                            "path":  "GameCanvas/GamePanel/TopPanel/UpdatedStatsPanel/Stat5Img"
+                                        }
+                                    ],
+                       "components":  [
+                                          "RectTransform",
+                                          "CanvasRenderer",
+                                          "HorizontalLayoutGroup",
+                                          "InfoDisplay",
+                                          "LayoutElement"
+                                      ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "name":  "PlayerInfoPanel",
+                       "entityId":  "24592",
+                       "instanceId":  24592,
+                       "path":  "MenuCanvas/MenuPanel/PlayerInfoPanel",
+                       "tag":  "Untagged",
+                       "layer":  "Default",
+                       "isActive":  false,
+                       "position":  {
+                                        "x":  0.0,
+                                        "y":  0.0,
+                                        "z":  0.0
+                                    },
+                       "rotation":  {
+                                        "x":  0.0,
+                                        "y":  0.0,
+                                        "z":  0.0
+                                    },
+                       "scale":  {
+                                     "x":  1.0,
+                                     "y":  1.0,
+                                     "z":  1.0
+                                 },
+                       "parent":  "MenuPanel",
+                       "parentPath":  "MenuCanvas/MenuPanel",
+                       "childCount":  4,
+                       "children":  [
+                                        {
+                                            "name":  "PlayerNameText",
+                                            "entityId":  "24516",
+                                            "instanceId":  24516,
+                                            "path":  "MenuCanvas/MenuPanel/PlayerInfoPanel/PlayerNameText"
+                                        },
+                                        {
+                                            "name":  "CountryText",
+                                            "entityId":  "24962",
+                                            "instanceId":  24962,
+                                            "path":  "MenuCanvas/MenuPanel/PlayerInfoPanel/CountryText"
+                                        },
+                                        {
+                                            "name":  "PlayerImageDescription",
+                                            "entityId":  "23626",
+                                            "instanceId":  23626,
+                                            "path":  "MenuCanvas/MenuPanel/PlayerInfoPanel/PlayerImageDescription"
+                                        },
+                                        {
+                                            "name":  "PersonalStatsPanel",
+                                            "entityId":  "22914",
+                                            "instanceId":  22914,
+                                            "path":  "MenuCanvas/MenuPanel/PlayerInfoPanel/PersonalStatsPanel"
+                                        }
+                                    ],
+                       "components":  [
+                                          "RectTransform",
+                                          "CanvasRenderer",
+                                          "Image"
+                                      ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "name":  "HighscorePanel",
+                       "entityId":  "22922",
+                       "instanceId":  22922,
+                       "path":  "MenuCanvas/MenuPanel/HighscorePanel",
+                       "tag":  "Untagged",
+                       "layer":  "Default",
+                       "isActive":  false,
+                       "position":  {
+                                        "x":  0.0,
+                                        "y":  0.0,
+                                        "z":  0.0
+                                    },
+                       "rotation":  {
+                                        "x":  0.0,
+                                        "y":  0.0,
+                                        "z":  0.0
+                                    },
+                       "scale":  {
+                                     "x":  1.0,
+                                     "y":  1.0,
+                                     "z":  1.0
+                                 },
+                       "parent":  "MenuPanel",
+                       "parentPath":  "MenuCanvas/MenuPanel",
+                       "childCount":  4,
+                       "children":  [
+                                        {
+                                            "name":  "TitleText",
+                                            "entityId":  "23000",
+                                            "instanceId":  23000,
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/TitleText"
+                                        },
+                                        {
+                                            "name":  "Group1",
+                                            "entityId":  "25758",
+                                            "instanceId":  25758,
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/Group1"
+                                        },
+                                        {
+                                            "name":  "Group2",
+                                            "entityId":  "24926",
+                                            "instanceId":  24926,
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/Group2"
+                                        },
+                                        {
+                                            "name":  "MobileLeaderboardButton",
+                                            "entityId":  "23010",
+                                            "instanceId":  23010,
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/MobileLeaderboardButton"
+                                        }
+                                    ],
+                       "components":  [
+                                          "RectTransform",
+                                          "CanvasRenderer",
+                                          "Image",
+                                          "GridLayoutGroup"
+                                      ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "name":  "AchievementsPanel",
+                       "entityId":  "23376",
+                       "instanceId":  23376,
+                       "path":  "MenuCanvas/MenuPanel/AchievementsPanel",
+                       "tag":  "Untagged",
+                       "layer":  "Default",
+                       "isActive":  false,
+                       "position":  {
+                                        "x":  0.0,
+                                        "y":  0.0,
+                                        "z":  0.0
+                                    },
+                       "rotation":  {
+                                        "x":  0.0,
+                                        "y":  0.0,
+                                        "z":  0.0
+                                    },
+                       "scale":  {
+                                     "x":  1.0,
+                                     "y":  1.0,
+                                     "z":  1.0
+                                 },
+                       "parent":  "MenuPanel",
+                       "parentPath":  "MenuCanvas/MenuPanel",
+                       "childCount":  4,
+                       "children":  [
+                                        {
+                                            "name":  "TitleText",
+                                            "entityId":  "24584",
+                                            "instanceId":  24584,
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/TitleText"
+                                        },
+                                        {
+                                            "name":  "UnlockedValued",
+                                            "entityId":  "23824",
+                                            "instanceId":  23824,
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/UnlockedValued"
+                                        },
+                                        {
+                                            "name":  "Scroll View",
+                                            "entityId":  "23794",
+                                            "instanceId":  23794,
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View"
+                                        },
+                                        {
+                                            "name":  "ML_AchievementsButton",
+                                            "entityId":  "25912",
+                                            "instanceId":  25912,
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/ML_AchievementsButton"
+                                        }
+                                    ],
+                       "components":  [
+                                          "RectTransform",
+                                          "CanvasRenderer",
+                                          "Image"
+                                      ]
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "name":  "StudentBackgroundCanvas",
+                       "entityId":  "-1722",
+                       "instanceId":  -1722,
+                       "path":  "StudentBackgroundCanvas",
+                       "tag":  "Untagged",
+                       "layer":  "Default",
+                       "isActive":  false,
+                       "position":  {
+                                        "x":  366.5,
+                                        "y":  206.0,
+                                        "z":  0.0
+                                    },
+                       "rotation":  {
+                                        "x":  0.0,
+                                        "y":  0.0,
+                                        "z":  0.0
+                                    },
+                       "scale":  {
+                                     "x":  1.0,
+                                     "y":  1.0,
+                                     "z":  1.0
+                                 },
+                       "parent":  null,
+                       "parentPath":  null,
+                       "childCount":  1,
+                       "children":  [
+                                        {
+                                            "name":  "StudentBackgroundPanel",
+                                            "entityId":  "-1740",
+                                            "instanceId":  -1740,
+                                            "path":  "StudentBackgroundCanvas/StudentBackgroundPanel"
+                                        }
+                                    ],
+                       "components":  [
+                                          "RectTransform",
+                                          "Canvas",
+                                          "CanvasScaler",
+                                          "GraphicRaycaster"
+                                      ]
+                   }
+    }
+]

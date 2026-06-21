@@ -1,0 +1,22 @@
+﻿[
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "gameObject":  "MainMenuCard",
+                       "component":  "Image",
+                       "property":  "color",
+                       "valueSet":  "RGBA(0.860, 0.810, 0.720, 1.000)",
+                       "valueType":  "Color"
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "path":  "Assets/Screenshots/ui-pass3-1920x1080.png",
+                       "width":  1920,
+                       "height":  1080
+                   }
+    }
+]
