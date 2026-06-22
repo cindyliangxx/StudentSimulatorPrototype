@@ -1,0 +1,179 @@
+﻿[
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "name":  "StudentBackgroundCanvas",
+                       "entityId":  "-1722",
+                       "active":  false
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "executed":  "File/Save"
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "sceneName":  "Game",
+                       "scenePath":  "Assets/Kings/Game.unity",
+                       "isDirty":  false,
+                       "rootObjectCount":  25,
+                       "rootObjects":  [
+                                           {
+                                               "name":  "#### SCRIPTS ####",
+                                               "entityId":  "24724",
+                                               "instanceId":  24724,
+                                               "childCount":  0
+                                           },
+                                           {
+                                               "name":  "Scripts",
+                                               "entityId":  "24608",
+                                               "instanceId":  24608,
+                                               "childCount":  0
+                                           },
+                                           {
+                                               "name":  "Inventory",
+                                               "entityId":  "23112",
+                                               "instanceId":  23112,
+                                               "childCount":  0
+                                           },
+                                           {
+                                               "name":  "Quests",
+                                               "entityId":  "24436",
+                                               "instanceId":  24436,
+                                               "childCount":  0
+                                           },
+                                           {
+                                               "name":  "Timeline",
+                                               "entityId":  "24768",
+                                               "instanceId":  24768,
+                                               "childCount":  0
+                                           },
+                                           {
+                                               "name":  "GlobalMessages",
+                                               "entityId":  "24270",
+                                               "instanceId":  24270,
+                                               "childCount":  0
+                                           },
+                                           {
+                                               "name":  "MobileLeaderboard",
+                                               "entityId":  "24318",
+                                               "instanceId":  24318,
+                                               "childCount":  0
+                                           },
+                                           {
+                                               "name":  "Values",
+                                               "entityId":  "25472",
+                                               "instanceId":  25472,
+                                               "childCount":  26
+                                           },
+                                           {
+                                               "name":  "ScoreCalculator",
+                                               "entityId":  "25892",
+                                               "instanceId":  25892,
+                                               "childCount":  3
+                                           },
+                                           {
+                                               "name":  "ConditionalActions",
+                                               "entityId":  "23696",
+                                               "instanceId":  23696,
+                                               "childCount":  1
+                                           },
+                                           {
+                                               "name":  "GameLogger",
+                                               "entityId":  "24028",
+                                               "instanceId":  24028,
+                                               "childCount":  0
+                                           },
+                                           {
+                                               "name":  "UnityAds",
+                                               "entityId":  "25412",
+                                               "instanceId":  25412,
+                                               "childCount":  0
+                                           },
+                                           {
+                                               "name":  "AdmobAds",
+                                               "entityId":  "25204",
+                                               "instanceId":  25204,
+                                               "childCount":  0
+                                           },
+                                           {
+                                               "name":  "OrientationHandler",
+                                               "entityId":  "25990",
+                                               "instanceId":  25990,
+                                               "childCount":  0
+                                           },
+                                           {
+                                               "name":  "#### UI \u0026 CAMERA ####",
+                                               "entityId":  "23038",
+                                               "instanceId":  23038,
+                                               "childCount":  0
+                                           },
+                                           {
+                                               "name":  "Main Camera",
+                                               "entityId":  "24822",
+                                               "instanceId":  24822,
+                                               "childCount":  0
+                                           },
+                                           {
+                                               "name":  "BackgroundCanvas",
+                                               "entityId":  "24630",
+                                               "instanceId":  24630,
+                                               "childCount":  1
+                                           },
+                                           {
+                                               "name":  "GameCanvas",
+                                               "entityId":  "25454",
+                                               "instanceId":  25454,
+                                               "childCount":  6
+                                           },
+                                           {
+                                               "name":  "MenuCanvas",
+                                               "entityId":  "25180",
+                                               "instanceId":  25180,
+                                               "childCount":  1
+                                           },
+                                           {
+                                               "name":  "ExitCanvas",
+                                               "entityId":  "24752",
+                                               "instanceId":  24752,
+                                               "childCount":  1
+                                           },
+                                           {
+                                               "name":  "EventSystem",
+                                               "entityId":  "22882",
+                                               "instanceId":  22882,
+                                               "childCount":  0
+                                           },
+                                           {
+                                               "name":  "#### AUDIO ####",
+                                               "entityId":  "23192",
+                                               "instanceId":  23192,
+                                               "childCount":  0
+                                           },
+                                           {
+                                               "name":  "Sounds",
+                                               "entityId":  "23154",
+                                               "instanceId":  23154,
+                                               "childCount":  4
+                                           },
+                                           {
+                                               "name":  "Music",
+                                               "entityId":  "23646",
+                                               "instanceId":  23646,
+                                               "childCount":  0
+                                           },
+                                           {
+                                               "name":  "StudentBackgroundCanvas",
+                                               "entityId":  "-1722",
+                                               "instanceId":  -1722,
+                                               "childCount":  1
+                                           }
+                                       ]
+                   }
+    }
+]

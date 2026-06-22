@@ -1,0 +1,47 @@
+﻿{
+    "editorState":  {
+                        "status":  "success",
+                        "result":  {
+                                       "isPlaying":  false,
+                                       "isPaused":  false,
+                                       "isCompiling":  false,
+                                       "timeSinceStartup":  688.02205299999991,
+                                       "unityVersion":  "2022.3.62f3c1",
+                                       "platform":  "WindowsEditor"
+                                   }
+                    },
+    "health":  {
+                   "status":  "ok",
+                   "service":  "UnitySkills",
+                   "version":  "2.0.5",
+                   "unityVersion":  "2022.3.62f3c1",
+                   "instanceId":  "Kings_A6CEFAAC",
+                   "projectName":  "Kings",
+                   "serverRunning":  true,
+                   "queuedRequests":  0,
+                   "totalProcessed":  49,
+                   "autoRestart":  true,
+                   "requestTimeoutMinutes":  15,
+                   "domainReloadRecovery":  "enabled",
+                   "architecture":  "Producer-Consumer (Thread-Safe)",
+                   "currentMode":  "auto",
+                   "panelApprovalRequired":  false,
+                   "pendingCount":  0,
+                   "allowlistCount":  0,
+                   "grantedCount":  0,
+                   "threads":  {
+                                   "listenerAlive":  true,
+                                   "keepAliveAlive":  true
+                               },
+                   "compilation":  {
+                                       "isCompiling":  false,
+                                       "isUpdating":  false,
+                                       "domainReloadPending":  false
+                                   },
+                   "queueStats":  {
+                                      "queued":  0,
+                                      "totalReceived":  50
+                                  },
+                   "note":  "If you get \u0027Connection Refused\u0027, Unity may be reloading scripts. Wait 2-3 seconds and retry."
+               }
+}

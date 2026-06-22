@@ -1,0 +1,1095 @@
+﻿{
+    "manifestType":  "manifest",
+    "schemaVersion":  2,
+    "version":  "2.0.5",
+    "unityVersion":  "2022.3.62f3c1",
+    "totalSkills":  12,
+    "filtered":  true,
+    "filters":  {
+                    "category":  "Camera"
+                },
+    "categories":  [
+                       "GameObject",
+                       "Component",
+                       "Scene",
+                       "Material",
+                       "UI",
+                       "UIToolkit",
+                       "Asset",
+                       "Editor",
+                       "Script",
+                       "Audio",
+                       "Texture",
+                       "Model",
+                       "Timeline",
+                       "Physics",
+                       "Camera",
+                       "Light",
+                       "Shader",
+                       "Terrain",
+                       "NavMesh",
+                       "Prefab",
+                       "Animator",
+                       "Package",
+                       "Workflow",
+                       "Perception",
+                       "Smart",
+                       "Validation",
+                       "Optimization",
+                       "Cleaner",
+                       "Profiler",
+                       "Debug",
+                       "Console",
+                       "Event",
+                       "Test",
+                       "ScriptableObject",
+                       "ProBuilder",
+                       "XR",
+                       "Cinemachine",
+                       "Project",
+                       "AssetImport",
+                       "Sample",
+                       "Netcode",
+                       "YooAsset",
+                       "DOTween",
+                       "Graphics",
+                       "Volume",
+                       "URP",
+                       "Decal",
+                       "PostProcess",
+                       "ShaderGraph"
+                   ],
+    "operationTypes":  [
+                           "Query",
+                           "Create",
+                           "Modify",
+                           "Delete",
+                           "Execute",
+                           "Analyze"
+                       ],
+    "reservedBodyParameters":  [
+                                   "_confirm",
+                                   "verbose"
+                               ],
+    "workflowTrackedSkills":  [
+                                  "animator_add_state",
+                                  "animator_add_transition",
+                                  "asset_create_folder",
+                                  "asset_delete",
+                                  "asset_delete_batch",
+                                  "asset_duplicate",
+                                  "asset_import",
+                                  "asset_import_batch",
+                                  "asset_move",
+                                  "asset_move_batch",
+                                  "asset_reimport",
+                                  "asset_reimport_batch",
+                                  "asset_set_labels",
+                                  "audio_add_source",
+                                  "audio_create_mixer",
+                                  "audio_set_import_settings",
+                                  "audio_set_source_properties",
+                                  "camera_create",
+                                  "camera_set_culling_mask",
+                                  "camera_set_orthographic",
+                                  "camera_set_properties",
+                                  "cleaner_delete_assets",
+                                  "cleaner_delete_empty_folders",
+                                  "cleaner_fix_missing_scripts",
+                                  "component_add",
+                                  "component_add_batch",
+                                  "component_copy",
+                                  "component_copy_exact",
+                                  "component_remove",
+                                  "component_remove_batch",
+                                  "component_set_enabled",
+                                  "component_set_property",
+                                  "component_set_property_batch",
+                                  "component_set_serialized_property",
+                                  "component_set_serialized_property_batch",
+                                  "console_set_clear_on_play",
+                                  "console_set_collapse",
+                                  "console_set_pause_on_error",
+                                  "debug_set_defines",
+                                  "dotween_generate_lifetime_script",
+                                  "dotween_generate_sequence_script",
+                                  "dotween_generate_tween_script",
+                                  "dotween_pro_add_animation",
+                                  "dotween_pro_batch_add_animation",
+                                  "dotween_pro_copy_animation",
+                                  "dotween_pro_remove_animation",
+                                  "dotween_pro_set_animation_field",
+                                  "dotween_pro_set_duration",
+                                  "dotween_pro_set_ease",
+                                  "dotween_pro_set_loops",
+                                  "dotween_pro_stagger_animations",
+                                  "event_add_listener",
+                                  "event_add_listener_batch",
+                                  "event_clear_listeners",
+                                  "event_copy_listeners",
+                                  "event_remove_listener",
+                                  "event_set_listener",
+                                  "event_set_listener_state",
+                                  "gameobject_create",
+                                  "gameobject_create_batch",
+                                  "gameobject_delete",
+                                  "gameobject_delete_batch",
+                                  "gameobject_duplicate",
+                                  "gameobject_rename",
+                                  "gameobject_rename_batch",
+                                  "gameobject_set_active",
+                                  "gameobject_set_parent",
+                                  "gameobject_set_transform",
+                                  "gameobject_set_transform_batch",
+                                  "graphics_add_always_included_shader",
+                                  "graphics_remove_always_included_shader",
+                                  "graphics_set_default_render_pipeline",
+                                  "graphics_set_quality_level",
+                                  "graphics_set_quality_render_pipeline",
+                                  "graphics_set_shader_stripping",
+                                  "light_add_probe_group",
+                                  "light_add_reflection_probe",
+                                  "light_create",
+                                  "light_set_enabled",
+                                  "light_set_properties",
+                                  "material_assign",
+                                  "material_assign_batch",
+                                  "material_create",
+                                  "material_create_batch",
+                                  "material_set_color",
+                                  "material_set_colors_batch",
+                                  "material_set_emission",
+                                  "material_set_float",
+                                  "material_set_shader",
+                                  "material_set_texture",
+                                  "model_set_animation_clips",
+                                  "model_set_import_settings",
+                                  "model_set_rig",
+                                  "navmesh_add_agent",
+                                  "navmesh_add_obstacle",
+                                  "navmesh_set_agent",
+                                  "navmesh_set_obstacle",
+                                  "netcode_add_network_animator",
+                                  "netcode_add_network_behaviour_script",
+                                  "netcode_add_network_object",
+                                  "netcode_add_network_rigidbody",
+                                  "netcode_add_network_transform",
+                                  "netcode_add_to_prefabs_list",
+                                  "netcode_configure_manager",
+                                  "netcode_configure_network_object",
+                                  "netcode_configure_network_transform",
+                                  "netcode_configure_scene_management",
+                                  "netcode_create_manager",
+                                  "netcode_create_prefabs_list",
+                                  "netcode_remove_from_prefabs_list",
+                                  "netcode_remove_manager",
+                                  "netcode_remove_network_object",
+                                  "netcode_set_debug_simulator",
+                                  "netcode_set_player_prefab",
+                                  "netcode_set_relay_server_data",
+                                  "netcode_set_transport_address",
+                                  "optimize_audio_compression",
+                                  "optimize_set_lod_group",
+                                  "optimize_set_static_flags",
+                                  "physics_create_material",
+                                  "physics_set_gravity",
+                                  "physics_set_layer_collision",
+                                  "physics_set_material",
+                                  "prefab_apply",
+                                  "prefab_create",
+                                  "prefab_create_variant",
+                                  "prefab_instantiate",
+                                  "prefab_instantiate_batch",
+                                  "prefab_set_property",
+                                  "prefab_unpack",
+                                  "probuilder_bevel_edges",
+                                  "probuilder_bridge_edges",
+                                  "probuilder_center_pivot",
+                                  "probuilder_combine_meshes",
+                                  "probuilder_conform_normals",
+                                  "probuilder_create_batch",
+                                  "probuilder_create_shape",
+                                  "probuilder_delete_faces",
+                                  "probuilder_detach_faces",
+                                  "probuilder_extrude_edges",
+                                  "probuilder_extrude_faces",
+                                  "probuilder_flip_normals",
+                                  "probuilder_merge_faces",
+                                  "probuilder_move_vertices",
+                                  "probuilder_project_uv",
+                                  "probuilder_set_face_material",
+                                  "probuilder_set_material",
+                                  "probuilder_set_vertices",
+                                  "probuilder_subdivide",
+                                  "probuilder_weld_vertices",
+                                  "project_add_tag",
+                                  "scene_create",
+                                  "scene_save",
+                                  "script_append",
+                                  "script_create",
+                                  "script_create_batch",
+                                  "script_delete",
+                                  "script_move",
+                                  "script_rename",
+                                  "script_replace",
+                                  "scriptableobject_create",
+                                  "scriptableobject_delete",
+                                  "scriptableobject_import_json",
+                                  "scriptableobject_set",
+                                  "scriptableobject_set_batch",
+                                  "shader_create",
+                                  "shader_create_urp",
+                                  "shader_delete",
+                                  "shader_set_global_keyword",
+                                  "shadergraph_add_keyword",
+                                  "shadergraph_add_node",
+                                  "shadergraph_add_property",
+                                  "shadergraph_connect_nodes",
+                                  "shadergraph_create_graph",
+                                  "shadergraph_create_subgraph",
+                                  "shadergraph_disconnect_nodes",
+                                  "shadergraph_move_node",
+                                  "shadergraph_reimport",
+                                  "shadergraph_remove_keyword",
+                                  "shadergraph_remove_node",
+                                  "shadergraph_remove_property",
+                                  "shadergraph_set_node_defaults",
+                                  "shadergraph_set_node_settings",
+                                  "shadergraph_update_keyword",
+                                  "shadergraph_update_property",
+                                  "smart_align_to_ground",
+                                  "smart_distribute",
+                                  "smart_randomize_transform",
+                                  "smart_reference_bind",
+                                  "smart_replace_objects",
+                                  "smart_scene_layout",
+                                  "smart_snap_to_grid",
+                                  "sprite_set_import_settings",
+                                  "terrain_create",
+                                  "terrain_paint_texture",
+                                  "terrain_set_height",
+                                  "terrain_set_heights_batch",
+                                  "texture_set_import_settings",
+                                  "texture_set_platform_settings",
+                                  "texture_set_sprite_settings",
+                                  "texture_set_type",
+                                  "timeline_add_activation_track",
+                                  "timeline_add_animation_track",
+                                  "timeline_add_audio_track",
+                                  "timeline_add_clip",
+                                  "timeline_add_control_track",
+                                  "timeline_add_signal_track",
+                                  "timeline_create",
+                                  "timeline_remove_track",
+                                  "timeline_set_binding",
+                                  "timeline_set_duration",
+                                  "ui_add_canvas_group",
+                                  "ui_add_layout_element",
+                                  "ui_add_mask",
+                                  "ui_add_outline",
+                                  "ui_configure_selectable",
+                                  "ui_create_batch",
+                                  "ui_create_button",
+                                  "ui_create_canvas",
+                                  "ui_create_dropdown",
+                                  "ui_create_image",
+                                  "ui_create_inputfield",
+                                  "ui_create_panel",
+                                  "ui_create_rawimage",
+                                  "ui_create_scrollbar",
+                                  "ui_create_scrollview",
+                                  "ui_create_slider",
+                                  "ui_create_text",
+                                  "ui_create_toggle",
+                                  "ui_set_anchor",
+                                  "ui_set_image",
+                                  "ui_set_rect",
+                                  "ui_set_rect_transform",
+                                  "ui_set_rect_transform_batch",
+                                  "ui_set_text",
+                                  "uitk_add_element",
+                                  "uitk_add_uss_rule",
+                                  "uitk_clone_element",
+                                  "uitk_create_batch",
+                                  "uitk_create_document",
+                                  "uitk_create_editor_window",
+                                  "uitk_create_from_template",
+                                  "uitk_create_panel_settings",
+                                  "uitk_create_runtime_ui",
+                                  "uitk_create_uss",
+                                  "uitk_create_uxml",
+                                  "uitk_delete_file",
+                                  "uitk_modify_element",
+                                  "uitk_remove_element",
+                                  "uitk_remove_uss_rule",
+                                  "uitk_set_document",
+                                  "uitk_set_panel_settings",
+                                  "uitk_write_file",
+                                  "xr_add_direct_interactor",
+                                  "xr_add_grab_interactable",
+                                  "xr_add_interaction_event",
+                                  "xr_add_ray_interactor",
+                                  "xr_add_simple_interactable",
+                                  "xr_add_socket_interactor",
+                                  "xr_add_teleport_anchor",
+                                  "xr_add_teleport_area",
+                                  "xr_configure_haptics",
+                                  "xr_configure_interactable",
+                                  "xr_configure_interaction_layers",
+                                  "xr_setup_continuous_move",
+                                  "xr_setup_event_system",
+                                  "xr_setup_interaction_manager",
+                                  "xr_setup_rig",
+                                  "xr_setup_teleportation",
+                                  "xr_setup_turn_provider",
+                                  "xr_setup_ui_canvas",
+                                  "yooasset_add_collector",
+                                  "yooasset_create_collector_group",
+                                  "yooasset_create_collector_package"
+                              ],
+    "skills":  [
+                   {
+                       "name":  "camera_align_view_to_object",
+                       "description":  "Align Scene View camera to look at an object.",
+                       "category":  "Camera",
+                       "operation":  [
+                                         "Execute"
+                                     ],
+                       "tags":  [
+                                    "scene-view",
+                                    "align",
+                                    "look-at",
+                                    "focus"
+                                ],
+                       "outputs":  [
+                                       "message"
+                                   ],
+                       "requiresInput":  [
+                                             "gameObject"
+                                         ],
+                       "readOnly":  false,
+                       "tracksWorkflow":  false,
+                       "mutatesScene":  false,
+                       "mutatesAssets":  false,
+                       "mayTriggerReload":  false,
+                       "mayEnterPlayMode":  false,
+                       "supportsDryRun":  true,
+                       "riskLevel":  "low",
+                       "requiresPackages":  null,
+                       "mode":  "full",
+                       "approvalBehavior":  "grant",
+                       "parameters":  [
+                                          {
+                                              "name":  "name",
+                                              "type":  "string",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "instanceId",
+                                              "type":  "integer",
+                                              "required":  false,
+                                              "defaultValue":  "0"
+                                          },
+                                          {
+                                              "name":  "path",
+                                              "type":  "string",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "entityId",
+                                              "type":  "string",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          }
+                                      ]
+                   },
+                   {
+                       "name":  "camera_create",
+                       "description":  "Create a new Game Camera",
+                       "category":  "Camera",
+                       "operation":  [
+                                         "Create"
+                                     ],
+                       "tags":  [
+                                    "camera",
+                                    "game-camera",
+                                    "create",
+                                    "audio-listener"
+                                ],
+                       "outputs":  [
+                                       "name",
+                                       "instanceId",
+                                       "entityId"
+                                   ],
+                       "requiresInput":  null,
+                       "readOnly":  false,
+                       "tracksWorkflow":  true,
+                       "mutatesScene":  false,
+                       "mutatesAssets":  false,
+                       "mayTriggerReload":  false,
+                       "mayEnterPlayMode":  false,
+                       "supportsDryRun":  true,
+                       "riskLevel":  "low",
+                       "requiresPackages":  null,
+                       "mode":  "full",
+                       "approvalBehavior":  "grant",
+                       "parameters":  [
+                                          {
+                                              "name":  "name",
+                                              "type":  "string",
+                                              "required":  false,
+                                              "defaultValue":  "New Camera"
+                                          },
+                                          {
+                                              "name":  "x",
+                                              "type":  "number",
+                                              "required":  false,
+                                              "defaultValue":  "0"
+                                          },
+                                          {
+                                              "name":  "y",
+                                              "type":  "number",
+                                              "required":  false,
+                                              "defaultValue":  "1"
+                                          },
+                                          {
+                                              "name":  "z",
+                                              "type":  "number",
+                                              "required":  false,
+                                              "defaultValue":  "-10"
+                                          },
+                                          {
+                                              "name":  "addAudioListener",
+                                              "type":  "boolean",
+                                              "required":  false,
+                                              "defaultValue":  "False"
+                                          }
+                                      ]
+                   },
+                   {
+                       "name":  "camera_get_info",
+                       "description":  "Get Scene View camera position and rotation.",
+                       "category":  "Camera",
+                       "operation":  [
+                                         "Query"
+                                     ],
+                       "tags":  [
+                                    "scene-view",
+                                    "position",
+                                    "rotation",
+                                    "info"
+                                ],
+                       "outputs":  [
+                                       "position",
+                                       "rotation",
+                                       "pivot",
+                                       "size",
+                                       "orthographic"
+                                   ],
+                       "requiresInput":  null,
+                       "readOnly":  true,
+                       "tracksWorkflow":  false,
+                       "mutatesScene":  false,
+                       "mutatesAssets":  false,
+                       "mayTriggerReload":  false,
+                       "mayEnterPlayMode":  false,
+                       "supportsDryRun":  true,
+                       "riskLevel":  "low",
+                       "requiresPackages":  null,
+                       "mode":  "semi",
+                       "approvalBehavior":  "allow",
+                       "parameters":  [
+
+                                      ]
+                   },
+                   {
+                       "name":  "camera_get_properties",
+                       "description":  "Get Game Camera properties (supports name/entityId/instanceId/path)",
+                       "category":  "Camera",
+                       "operation":  [
+                                         "Query"
+                                     ],
+                       "tags":  [
+                                    "camera",
+                                    "properties",
+                                    "fov",
+                                    "clip-plane"
+                                ],
+                       "outputs":  [
+                                       "name",
+                                       "fieldOfView",
+                                       "nearClipPlane",
+                                       "farClipPlane",
+                                       "orthographic",
+                                       "depth",
+                                       "clearFlags"
+                                   ],
+                       "requiresInput":  [
+                                             "gameObject"
+                                         ],
+                       "readOnly":  true,
+                       "tracksWorkflow":  false,
+                       "mutatesScene":  false,
+                       "mutatesAssets":  false,
+                       "mayTriggerReload":  false,
+                       "mayEnterPlayMode":  false,
+                       "supportsDryRun":  true,
+                       "riskLevel":  "low",
+                       "requiresPackages":  null,
+                       "mode":  "semi",
+                       "approvalBehavior":  "allow",
+                       "parameters":  [
+                                          {
+                                              "name":  "name",
+                                              "type":  "string",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "instanceId",
+                                              "type":  "integer",
+                                              "required":  false,
+                                              "defaultValue":  "0"
+                                          },
+                                          {
+                                              "name":  "path",
+                                              "type":  "string",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "entityId",
+                                              "type":  "string",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          }
+                                      ]
+                   },
+                   {
+                       "name":  "camera_list",
+                       "description":  "List all cameras in the scene",
+                       "category":  "Camera",
+                       "operation":  [
+                                         "Query"
+                                     ],
+                       "tags":  [
+                                    "camera",
+                                    "list",
+                                    "scene",
+                                    "enumerate"
+                                ],
+                       "outputs":  [
+                                       "count",
+                                       "cameras"
+                                   ],
+                       "requiresInput":  null,
+                       "readOnly":  true,
+                       "tracksWorkflow":  false,
+                       "mutatesScene":  false,
+                       "mutatesAssets":  false,
+                       "mayTriggerReload":  false,
+                       "mayEnterPlayMode":  false,
+                       "supportsDryRun":  true,
+                       "riskLevel":  "low",
+                       "requiresPackages":  null,
+                       "mode":  "semi",
+                       "approvalBehavior":  "allow",
+                       "parameters":  [
+
+                                      ]
+                   },
+                   {
+                       "name":  "camera_look_at",
+                       "description":  "Focus Scene View camera on a world-space point (x/y/z only, not object name).",
+                       "category":  "Camera",
+                       "operation":  [
+                                         "Execute"
+                                     ],
+                       "tags":  [
+                                    "scene-view",
+                                    "look-at",
+                                    "focus",
+                                    "navigate"
+                                ],
+                       "outputs":  [
+                                       "success"
+                                   ],
+                       "requiresInput":  null,
+                       "readOnly":  false,
+                       "tracksWorkflow":  false,
+                       "mutatesScene":  false,
+                       "mutatesAssets":  false,
+                       "mayTriggerReload":  false,
+                       "mayEnterPlayMode":  false,
+                       "supportsDryRun":  true,
+                       "riskLevel":  "low",
+                       "requiresPackages":  null,
+                       "mode":  "full",
+                       "approvalBehavior":  "grant",
+                       "parameters":  [
+                                          {
+                                              "name":  "x",
+                                              "type":  "number",
+                                              "required":  true,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "y",
+                                              "type":  "number",
+                                              "required":  true,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "z",
+                                              "type":  "number",
+                                              "required":  true,
+                                              "defaultValue":  null
+                                          }
+                                      ]
+                   },
+                   {
+                       "name":  "camera_sceneview_screenshot",
+                       "description":  "Capture the editor SCENE VIEW (the developer\u0027s editing viewport — can overlook the whole scene incl. off-camera objects; distinct from scene_screenshot which is the Game View/player camera, and camera_screenshot which is one Game Camera). By default captures the full Scene View incl. grid/gizmos/selection (on-screen read); auto-falls back to a clean offscreen render if the editor build doesn\u0027t support it. filename is a bare filename only (no path separators); saved under Assets/Screenshots/.",
+                       "category":  "Camera",
+                       "operation":  [
+                                         "Execute"
+                                     ],
+                       "tags":  [
+                                    "screenshot",
+                                    "capture",
+                                    "scene-view",
+                                    "editor",
+                                    "gizmo"
+                                ],
+                       "outputs":  [
+                                       "path",
+                                       "width",
+                                       "height",
+                                       "mode",
+                                       "note"
+                                   ],
+                       "requiresInput":  null,
+                       "readOnly":  false,
+                       "tracksWorkflow":  false,
+                       "mutatesScene":  false,
+                       "mutatesAssets":  false,
+                       "mayTriggerReload":  false,
+                       "mayEnterPlayMode":  false,
+                       "supportsDryRun":  true,
+                       "riskLevel":  "low",
+                       "requiresPackages":  null,
+                       "mode":  "full",
+                       "approvalBehavior":  "grant",
+                       "parameters":  [
+                                          {
+                                              "name":  "filename",
+                                              "type":  "string",
+                                              "required":  false,
+                                              "defaultValue":  "sceneview.png"
+                                          },
+                                          {
+                                              "name":  "includeOverlays",
+                                              "type":  "boolean",
+                                              "required":  false,
+                                              "defaultValue":  "True"
+                                          }
+                                      ]
+                   },
+                   {
+                       "name":  "camera_screenshot",
+                       "description":  "Capture a screenshot from a Game Camera to file",
+                       "category":  "Camera",
+                       "operation":  [
+                                         "Execute"
+                                     ],
+                       "tags":  [
+                                    "screenshot",
+                                    "capture",
+                                    "render",
+                                    "png"
+                                ],
+                       "outputs":  [
+                                       "path",
+                                       "width",
+                                       "height"
+                                   ],
+                       "requiresInput":  [
+                                             "gameObject"
+                                         ],
+                       "readOnly":  false,
+                       "tracksWorkflow":  false,
+                       "mutatesScene":  false,
+                       "mutatesAssets":  false,
+                       "mayTriggerReload":  false,
+                       "mayEnterPlayMode":  false,
+                       "supportsDryRun":  true,
+                       "riskLevel":  "low",
+                       "requiresPackages":  null,
+                       "mode":  "full",
+                       "approvalBehavior":  "grant",
+                       "parameters":  [
+                                          {
+                                              "name":  "savePath",
+                                              "type":  "string",
+                                              "required":  false,
+                                              "defaultValue":  "Assets/screenshot.png"
+                                          },
+                                          {
+                                              "name":  "width",
+                                              "type":  "integer",
+                                              "required":  false,
+                                              "defaultValue":  "1920"
+                                          },
+                                          {
+                                              "name":  "height",
+                                              "type":  "integer",
+                                              "required":  false,
+                                              "defaultValue":  "1080"
+                                          },
+                                          {
+                                              "name":  "name",
+                                              "type":  "string",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "instanceId",
+                                              "type":  "integer",
+                                              "required":  false,
+                                              "defaultValue":  "0"
+                                          },
+                                          {
+                                              "name":  "path",
+                                              "type":  "string",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "entityId",
+                                              "type":  "string",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          }
+                                      ]
+                   },
+                   {
+                       "name":  "camera_set_culling_mask",
+                       "description":  "Set Game Camera culling mask by layer names (comma-separated)",
+                       "category":  "Camera",
+                       "operation":  [
+                                         "Modify"
+                                     ],
+                       "tags":  [
+                                    "camera",
+                                    "culling-mask",
+                                    "layer",
+                                    "visibility"
+                                ],
+                       "outputs":  [
+                                       "cullingMask"
+                                   ],
+                       "requiresInput":  [
+                                             "gameObject"
+                                         ],
+                       "readOnly":  false,
+                       "tracksWorkflow":  true,
+                       "mutatesScene":  false,
+                       "mutatesAssets":  false,
+                       "mayTriggerReload":  false,
+                       "mayEnterPlayMode":  false,
+                       "supportsDryRun":  true,
+                       "riskLevel":  "low",
+                       "requiresPackages":  null,
+                       "mode":  "full",
+                       "approvalBehavior":  "grant",
+                       "parameters":  [
+                                          {
+                                              "name":  "layerNames",
+                                              "type":  "string",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "name",
+                                              "type":  "string",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "instanceId",
+                                              "type":  "integer",
+                                              "required":  false,
+                                              "defaultValue":  "0"
+                                          },
+                                          {
+                                              "name":  "path",
+                                              "type":  "string",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "entityId",
+                                              "type":  "string",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          }
+                                      ]
+                   },
+                   {
+                       "name":  "camera_set_orthographic",
+                       "description":  "Switch Game Camera between orthographic and perspective mode",
+                       "category":  "Camera",
+                       "operation":  [
+                                         "Modify"
+                                     ],
+                       "tags":  [
+                                    "camera",
+                                    "orthographic",
+                                    "perspective",
+                                    "projection"
+                                ],
+                       "outputs":  [
+                                       "orthographic",
+                                       "orthographicSize"
+                                   ],
+                       "requiresInput":  [
+                                             "gameObject"
+                                         ],
+                       "readOnly":  false,
+                       "tracksWorkflow":  true,
+                       "mutatesScene":  false,
+                       "mutatesAssets":  false,
+                       "mayTriggerReload":  false,
+                       "mayEnterPlayMode":  false,
+                       "supportsDryRun":  true,
+                       "riskLevel":  "low",
+                       "requiresPackages":  null,
+                       "mode":  "full",
+                       "approvalBehavior":  "grant",
+                       "parameters":  [
+                                          {
+                                              "name":  "orthographic",
+                                              "type":  "boolean",
+                                              "required":  true,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "orthographicSize",
+                                              "type":  "number",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "name",
+                                              "type":  "string",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "instanceId",
+                                              "type":  "integer",
+                                              "required":  false,
+                                              "defaultValue":  "0"
+                                          },
+                                          {
+                                              "name":  "path",
+                                              "type":  "string",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "entityId",
+                                              "type":  "string",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          }
+                                      ]
+                   },
+                   {
+                       "name":  "camera_set_properties",
+                       "description":  "Set Game Camera properties (FOV, clip planes, clear flags, background color, depth)",
+                       "category":  "Camera",
+                       "operation":  [
+                                         "Modify"
+                                     ],
+                       "tags":  [
+                                    "camera",
+                                    "properties",
+                                    "fov",
+                                    "background"
+                                ],
+                       "outputs":  [
+                                       "name"
+                                   ],
+                       "requiresInput":  [
+                                             "gameObject"
+                                         ],
+                       "readOnly":  false,
+                       "tracksWorkflow":  true,
+                       "mutatesScene":  false,
+                       "mutatesAssets":  false,
+                       "mayTriggerReload":  false,
+                       "mayEnterPlayMode":  false,
+                       "supportsDryRun":  true,
+                       "riskLevel":  "low",
+                       "requiresPackages":  null,
+                       "mode":  "full",
+                       "approvalBehavior":  "grant",
+                       "parameters":  [
+                                          {
+                                              "name":  "name",
+                                              "type":  "string",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "instanceId",
+                                              "type":  "integer",
+                                              "required":  false,
+                                              "defaultValue":  "0"
+                                          },
+                                          {
+                                              "name":  "path",
+                                              "type":  "string",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "fieldOfView",
+                                              "type":  "number",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "nearClipPlane",
+                                              "type":  "number",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "farClipPlane",
+                                              "type":  "number",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "depth",
+                                              "type":  "number",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "clearFlags",
+                                              "type":  "string",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "bgR",
+                                              "type":  "number",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "bgG",
+                                              "type":  "number",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "bgB",
+                                              "type":  "number",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "entityId",
+                                              "type":  "string",
+                                              "required":  false,
+                                              "defaultValue":  null
+                                          }
+                                      ]
+                   },
+                   {
+                       "name":  "camera_set_transform",
+                       "description":  "Set Scene View camera position/rotation manually.",
+                       "category":  "Camera",
+                       "operation":  [
+                                         "Modify"
+                                     ],
+                       "tags":  [
+                                    "scene-view",
+                                    "position",
+                                    "rotation",
+                                    "transform"
+                                ],
+                       "outputs":  [
+                                       "message"
+                                   ],
+                       "requiresInput":  null,
+                       "readOnly":  false,
+                       "tracksWorkflow":  false,
+                       "mutatesScene":  false,
+                       "mutatesAssets":  false,
+                       "mayTriggerReload":  false,
+                       "mayEnterPlayMode":  false,
+                       "supportsDryRun":  true,
+                       "riskLevel":  "low",
+                       "requiresPackages":  null,
+                       "mode":  "full",
+                       "approvalBehavior":  "grant",
+                       "parameters":  [
+                                          {
+                                              "name":  "posX",
+                                              "type":  "number",
+                                              "required":  true,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "posY",
+                                              "type":  "number",
+                                              "required":  true,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "posZ",
+                                              "type":  "number",
+                                              "required":  true,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "rotX",
+                                              "type":  "number",
+                                              "required":  true,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "rotY",
+                                              "type":  "number",
+                                              "required":  true,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "rotZ",
+                                              "type":  "number",
+                                              "required":  true,
+                                              "defaultValue":  null
+                                          },
+                                          {
+                                              "name":  "size",
+                                              "type":  "number",
+                                              "required":  false,
+                                              "defaultValue":  "5"
+                                          },
+                                          {
+                                              "name":  "instant",
+                                              "type":  "boolean",
+                                              "required":  false,
+                                              "defaultValue":  "True"
+                                          }
+                                      ]
+                   }
+               ]
+}

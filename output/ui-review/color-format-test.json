@@ -1,0 +1,13 @@
+﻿{
+    "format":  "(0.88,0.84,0.77,0.96)",
+    "status":  "success",
+    "error":  null,
+    "result":  {
+                   "success":  true,
+                   "gameObject":  "TopPanel",
+                   "component":  "Image",
+                   "property":  "color",
+                   "valueSet":  "RGBA(0.880, 0.840, 0.770, 0.960)",
+                   "valueType":  "Color"
+               }
+}

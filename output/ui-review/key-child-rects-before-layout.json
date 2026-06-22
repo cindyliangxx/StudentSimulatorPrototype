@@ -1,0 +1,350 @@
+﻿[
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "name":  "DayCounterBackground",
+                       "entityId":  "26076",
+                       "instanceId":  26076,
+                       "path":  "GameCanvas/GamePanel/TopPanel/PlayerPanel/DayCounterBackground",
+                       "anchorMin":  {
+                                         "x":  0.5,
+                                         "y":  0.5
+                                     },
+                       "anchorMax":  {
+                                         "x":  0.5,
+                                         "y":  0.5
+                                     },
+                       "pivot":  {
+                                     "x":  0.5,
+                                     "y":  0.5
+                                 },
+                       "anchoredPosition3D":  {
+                                                  "x":  0.0,
+                                                  "y":  0.0,
+                                                  "z":  0.0
+                                              },
+                       "sizeDelta":  {
+                                         "x":  320.0,
+                                         "y":  90.0
+                                     },
+                       "offsetMin":  {
+                                         "x":  -160.0,
+                                         "y":  -45.0
+                                     },
+                       "offsetMax":  {
+                                         "x":  160.0,
+                                         "y":  45.0
+                                     },
+                       "localPosition":  {
+                                             "x":  0.0,
+                                             "y":  0.0,
+                                             "z":  0.0
+                                         },
+                       "localEulerAngles":  {
+                                                "x":  0.0,
+                                                "y":  0.0,
+                                                "z":  0.0
+                                            },
+                       "localScale":  {
+                                          "x":  1.0,
+                                          "y":  1.0,
+                                          "z":  1.0
+                                      },
+                       "rect":  {
+                                    "width":  320.0,
+                                    "height":  90.0
+                                }
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "name":  "YearsValue",
+                       "entityId":  "25516",
+                       "instanceId":  25516,
+                       "path":  "GameCanvas/GamePanel/TopPanel/PlayerPanel/YearsValue",
+                       "anchorMin":  {
+                                         "x":  0.5,
+                                         "y":  0.5
+                                     },
+                       "anchorMax":  {
+                                         "x":  0.5,
+                                         "y":  0.5
+                                     },
+                       "pivot":  {
+                                     "x":  0.5,
+                                     "y":  0.5
+                                 },
+                       "anchoredPosition3D":  {
+                                                  "x":  0.0,
+                                                  "y":  0.0,
+                                                  "z":  0.0
+                                              },
+                       "sizeDelta":  {
+                                         "x":  280.0,
+                                         "y":  90.0
+                                     },
+                       "offsetMin":  {
+                                         "x":  -140.0,
+                                         "y":  -45.0
+                                     },
+                       "offsetMax":  {
+                                         "x":  140.0,
+                                         "y":  45.0
+                                     },
+                       "localPosition":  {
+                                             "x":  0.0,
+                                             "y":  0.0,
+                                             "z":  0.0
+                                         },
+                       "localEulerAngles":  {
+                                                "x":  0.0,
+                                                "y":  0.0,
+                                                "z":  0.0
+                                            },
+                       "localScale":  {
+                                          "x":  1.0,
+                                          "y":  1.0,
+                                          "z":  1.0
+                                      },
+                       "rect":  {
+                                    "width":  280.0,
+                                    "height":  90.0
+                                }
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "name":  "BottomMenuPanel",
+                       "entityId":  "24414",
+                       "instanceId":  24414,
+                       "path":  "GameCanvas/GamePanel/BottomMenuPanel",
+                       "anchorMin":  {
+                                         "x":  0.5,
+                                         "y":  0.0
+                                     },
+                       "anchorMax":  {
+                                         "x":  0.5,
+                                         "y":  0.0
+                                     },
+                       "pivot":  {
+                                     "x":  0.5,
+                                     "y":  0.5
+                                 },
+                       "anchoredPosition3D":  {
+                                                  "x":  0.0,
+                                                  "y":  70.0,
+                                                  "z":  0.0
+                                              },
+                       "sizeDelta":  {
+                                         "x":  560.0,
+                                         "y":  100.0
+                                     },
+                       "offsetMin":  {
+                                         "x":  -280.0,
+                                         "y":  20.0
+                                     },
+                       "offsetMax":  {
+                                         "x":  280.0,
+                                         "y":  120.0
+                                     },
+                       "localPosition":  {
+                                             "x":  0.0,
+                                             "y":  -469.795349,
+                                             "z":  0.0
+                                         },
+                       "localEulerAngles":  {
+                                                "x":  0.0,
+                                                "y":  0.0,
+                                                "z":  0.0
+                                            },
+                       "localScale":  {
+                                          "x":  1.0,
+                                          "y":  1.0,
+                                          "z":  1.0
+                                      },
+                       "rect":  {
+                                    "width":  560.0,
+                                    "height":  100.0
+                                }
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "name":  "CloseMenuButton",
+                       "entityId":  "24856",
+                       "instanceId":  24856,
+                       "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/CloseMenuButton",
+                       "anchorMin":  {
+                                         "x":  0.0,
+                                         "y":  1.0
+                                     },
+                       "anchorMax":  {
+                                         "x":  0.0,
+                                         "y":  1.0
+                                     },
+                       "pivot":  {
+                                     "x":  0.5,
+                                     "y":  0.5
+                                 },
+                       "anchoredPosition3D":  {
+                                                  "x":  120.0,
+                                                  "y":  -50.0,
+                                                  "z":  0.0
+                                              },
+                       "sizeDelta":  {
+                                         "x":  80.0,
+                                         "y":  80.0
+                                     },
+                       "offsetMin":  {
+                                         "x":  80.0,
+                                         "y":  -90.0
+                                     },
+                       "offsetMax":  {
+                                         "x":  160.0,
+                                         "y":  -10.0
+                                     },
+                       "localPosition":  {
+                                             "x":  -160.0,
+                                             "y":  0.0,
+                                             "z":  0.0
+                                         },
+                       "localEulerAngles":  {
+                                                "x":  0.0,
+                                                "y":  0.0,
+                                                "z":  0.0
+                                            },
+                       "localScale":  {
+                                          "x":  1.0,
+                                          "y":  1.0,
+                                          "z":  1.0
+                                      },
+                       "rect":  {
+                                    "width":  80.0,
+                                    "height":  80.0
+                                }
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "name":  "QuestsButton",
+                       "entityId":  "23050",
+                       "instanceId":  23050,
+                       "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/QuestsButton",
+                       "anchorMin":  {
+                                         "x":  0.0,
+                                         "y":  1.0
+                                     },
+                       "anchorMax":  {
+                                         "x":  0.0,
+                                         "y":  1.0
+                                     },
+                       "pivot":  {
+                                     "x":  0.5,
+                                     "y":  0.5
+                                 },
+                       "anchoredPosition3D":  {
+                                                  "x":  280.0,
+                                                  "y":  -50.0,
+                                                  "z":  0.0
+                                              },
+                       "sizeDelta":  {
+                                         "x":  80.0,
+                                         "y":  80.0
+                                     },
+                       "offsetMin":  {
+                                         "x":  240.0,
+                                         "y":  -90.0
+                                     },
+                       "offsetMax":  {
+                                         "x":  320.0,
+                                         "y":  -10.0
+                                     },
+                       "localPosition":  {
+                                             "x":  0.0,
+                                             "y":  0.0,
+                                             "z":  0.0
+                                         },
+                       "localEulerAngles":  {
+                                                "x":  0.0,
+                                                "y":  0.0,
+                                                "z":  0.0
+                                            },
+                       "localScale":  {
+                                          "x":  1.0,
+                                          "y":  1.0,
+                                          "z":  1.0
+                                      },
+                       "rect":  {
+                                    "width":  80.0,
+                                    "height":  80.0
+                                }
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "name":  "SettingsButton",
+                       "entityId":  "24986",
+                       "instanceId":  24986,
+                       "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/SettingsButton",
+                       "anchorMin":  {
+                                         "x":  0.0,
+                                         "y":  1.0
+                                     },
+                       "anchorMax":  {
+                                         "x":  0.0,
+                                         "y":  1.0
+                                     },
+                       "pivot":  {
+                                     "x":  0.5,
+                                     "y":  0.5
+                                 },
+                       "anchoredPosition3D":  {
+                                                  "x":  440.0,
+                                                  "y":  -50.0,
+                                                  "z":  0.0
+                                              },
+                       "sizeDelta":  {
+                                         "x":  80.0,
+                                         "y":  80.0
+                                     },
+                       "offsetMin":  {
+                                         "x":  400.0,
+                                         "y":  -90.0
+                                     },
+                       "offsetMax":  {
+                                         "x":  480.0,
+                                         "y":  -10.0
+                                     },
+                       "localPosition":  {
+                                             "x":  160.0,
+                                             "y":  0.0,
+                                             "z":  0.0
+                                         },
+                       "localEulerAngles":  {
+                                                "x":  0.0,
+                                                "y":  0.0,
+                                                "z":  0.0
+                                            },
+                       "localScale":  {
+                                          "x":  1.0,
+                                          "y":  1.0,
+                                          "z":  1.0
+                                      },
+                       "rect":  {
+                                    "width":  80.0,
+                                    "height":  80.0
+                                }
+                   }
+    }
+]

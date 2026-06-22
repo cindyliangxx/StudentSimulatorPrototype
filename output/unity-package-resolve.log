@@ -1,0 +1,142 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Channel LicenseClient-24276 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 26980)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-24276" at "2026-06-21T14:30:29.0288684Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 26980, path: "D:/107 game create/unity editor/2022.3.62f3c1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.16.2+bdef8f5
+  Session Id:              bce330aa911c4c4ebebd58e543f26e5b
+  Correlation Id:          151768c60e5df2f4863f1dce43e5ce1a
+  External correlation Id: 5640052168424923590
+  Machine Id:              G+pX4Dot5L67ZGc1pCLfCUvJEEE=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-24276" (connect: 0.85s, validation: 0.07s, handshake: 0.07s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-24276-notifications" at "2026-06-21T14:30:29.1641284Z"
+[Licensing::Module] Connected to LicensingClient (PId: 26980, launch time: 0.00, total connection time: 0.99s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully updated license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.62f3c1 (1623fc0bbb97) revision 1451004'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'zh' Physical Memory: 15540 MB
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Serial number assigned to: "F4-55WH-XAAQ-MVEH-AMZE-XXXX"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+[Licensing::Client] Successfully resolved entitlement details
+
+COMMAND LINE ARGUMENTS:
+D:\107 game create\unity editor\2022.3.62f3c1\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+E:\moniUniversity\StudentSimulatorPrototype
+-logFile
+E:\moniUniversity\StudentSimulatorPrototype\output\unity-package-resolve.log
+Successfully changed project path to: E:\moniUniversity\StudentSimulatorPrototype
+E:/moniUniversity/StudentSimulatorPrototype
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [40452]  Target information:
+
+Player connection [40452]  * "[IP] 192.168.31.207 [Port] 55504 [Flags] 2 [Guid] 1356853424 [EditorId] 1356853424 [Version] 1048832 [Id] WindowsEditor(7,Zhubai-dargon) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [40452] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [40452] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[Package Manager] UpmClient::Connect -- Connected to IPC stream "Upm-45136" after 0.3 seconds.
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 51 packages:
+  Packages from [https://packages.unity.cn]:
+    com.unity.ads@4.4.2 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.ads@4.4.2)
+    com.unity.ai.navigation@1.1.6 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.ai.navigation@1.1.6)
+    com.unity.analytics@3.8.1 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.analytics@3.8.1)
+    com.unity.collab-proxy@2.7.1 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.collab-proxy@2.7.1)
+    com.unity.ide.rider@3.0.36 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.ide.rider@3.0.36)
+    com.unity.ide.visualstudio@2.0.22 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.ide.visualstudio@2.0.22)
+    com.unity.ide.vscode@1.2.5 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.ide.vscode@1.2.5)
+    com.unity.purchasing@4.11.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.purchasing@4.11.0)
+    com.unity.test-framework@1.1.33 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.test-framework@1.1.33)
+    com.unity.textmeshpro@3.0.7 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.textmeshpro@3.0.7)
+    com.unity.timeline@1.7.7 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.timeline@1.7.7)
+    com.unity.xr.legacyinputhelpers@2.1.12 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.12)
+    com.unity.ext.nunit@1.0.6 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.ext.nunit@1.0.6)
+    com.unity.services.core@1.14.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.services.core@1.14.0)
+    com.unity.services.analytics@6.0.3 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.services.analytics@6.0.3)
+    com.unity.nuget.newtonsoft-json@3.2.1 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.2d.sprite@1.0.0)
+    com.unity.2d.tilemap@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.2d.tilemap@1.0.0)
+    com.unity.ugui@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.ugui@1.0.0)
+    com.unity.modules.ai@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.ai@1.0.0)
+    com.unity.modules.androidjni@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.androidjni@1.0.0)
+    com.unity.modules.animation@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.animation@1.0.0)
+    com.unity.modules.assetbundle@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.assetbundle@1.0.0)
+    com.unity.modules.audio@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.audio@1.0.0)
+    com.unity.modules.cloth@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.cloth@1.0.0)
+    com.unity.modules.director@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.director@1.0.0)
+    com.unity.modules.imageconversion@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.imageconversion@1.0.0)
+    com.unity.modules.imgui@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.imgui@1.0.0)
+    com.unity.modules.jsonserialize@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0)
+    com.unity.modules.particlesystem@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.particlesystem@1.0.0)
+    com.unity.modules.physics@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.physics@1.0.0)
+    com.unity.modules.physics2d@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.physics2d@1.0.0)
+    com.unity.modules.screencapture@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.screencapture@1.0.0)
+    com.unity.modules.terrain@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.terrain@1.0.0)
+    com.unity.modules.terrainphysics@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0)
+    com.unity.modules.tilemap@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.tilemap@1.0.0)
+    com.unity.modules.ui@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.ui@1.0.0)
+    com.unity.modules.uielements@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.uielements@1.0.0)
+    com.unity.modules.umbra@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.umbra@1.0.0)
+    com.unity.modules.unityanalytics@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0)
+    com.unity.modules.unitywebrequest@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0)
+    com.unity.modules.vehicles@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.vehicles@1.0.0)
+    com.unity.modules.video@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.video@1.0.0)
+    com.unity.modules.vr@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.vr@1.0.0)
+    com.unity.modules.wind@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.wind@1.0.0)
+    com.unity.modules.xr@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.xr@1.0.0)
+    com.unity.modules.subsystems@1.0.0 (location: E:\moniUniversity\StudentSimulatorPrototype\Library\PackageCache\com.unity.modules.subsystems@1.0.0)
+[Subsystems] No new subsystems found in resolved package list.
+Package Manager log level set to [2]
+[Package Manager] Done registering packages in 0.18 seconds
+[Package Manager] Done resolving packages in 603.96 seconds
+[Licensing::Client] Successfully resolved entitlement details
+An error occurred while resolving packages:
+  Project has invalid dependencies:
+    com.besty.unity-skills: Error when executing git command. error: RPC failed; curl 56 Recv failure: Connection was reset
+    error: 2694 bytes of body are still expected
+    fetch-pack: unexpected disconnect while reading sideband packet
+    fatal: protocol error: bad pack header
+Exiting without the bug reporter. Application will terminate with return code 1

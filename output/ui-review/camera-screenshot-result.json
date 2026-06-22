@@ -1,0 +1,26 @@
+﻿[
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "count":  1,
+                       "objects":  [
+                                       {
+                                           "name":  "Main Camera",
+                                           "path":  "Main Camera",
+                                           "entityId":  "24822",
+                                           "instanceId":  24822,
+                                           "active":  true,
+                                           "tag":  "MainCamera"
+                                       }
+                                   ]
+                   }
+    },
+    {
+        "status":  "error",
+        "errorCode":  "SKILL_ERROR",
+        "error":  "GameObject not found: path \u0027Camera\u0027",
+        "skill":  "camera_screenshot",
+        "retryStrategy":  "abort"
+    }
+]

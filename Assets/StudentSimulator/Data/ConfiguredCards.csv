@@ -1,0 +1,11 @@
+GroupName,CardName,StyleName,EventScript.titleText,EventScript.questionText,EventScript.answerLeft,EventScript.answerRight,ImageFile,EventScript.cardPropability,EventScript.redrawBlockCnt,EventScript.maxDraws,StudentCard.unique,Left_身心,Left_学业,Left_人际,Left_经济,Right_身心,Right_学业,Right_人际,Right_经济
+Student,E001,cs_default,室友开黑,室友说今晚五排缺一，但你晚上本来打算背单词。,去打一会儿,坚持学习,,1,0,100,false,5,-5,5,0,0,10,-10,0
+Student,E002,cs_default,早八迟到,你睁开眼，距离早八上课还有十二分钟。,打车冲过去,继续睡,,1,0,100,false,-5,5,0,0,10,-10,0,0
+Student,E003,cs_default,社团招新,社团学长热情地向你介绍活动，说加入后能认识很多朋友。,加入社团,婉拒离开,,1,0,100,false,0,0,0,0,0,0,0,0
+Student,E004,cs_default,小组作业,小组作业截止前一天，群里只有你发了进度。,主动统筹,等别人先动,,1,0,100,false,0,0,0,0,0,0,0,0
+Student,E005,cs_default,朋友失恋,朋友发来消息，说自己在操场坐了很久。,去陪朋友,先完成作业,,1,0,100,false,0,0,0,0,0,0,0,0
+Student,E006,cs_default,兼职邀请,校外兼职临时缺人，报酬不错，但会占用整晚时间。,接下兼职,拒绝兼职,,1,0,100,false,0,0,0,0,0,0,0,0
+Student,E007,cs_default,老师点名,老师突然点你回答问题，但你什么都没听到,硬着头皮答,说还没想好,,1,0,100,false,0,0,0,0,0,0,0,0
+Student,E008,cs_default,校园比赛,一个比赛正在报名，主题和你的兴趣有关，但准备时间很紧。,报名参赛,暂时观望,,1,0,100,false,0,0,0,0,0,0,0,0
+Student,E009,cs_default,报名材料,奖学金申请快截止了，需要整理一大堆证明材料。,认真准备,放弃申请,,1,0,100,false,0,0,0,0,0,0,0,0
+Student,E010,cs_default,电脑崩溃,你正在写作业，电脑突然卡死，文件还没保存。,重头开始做,直接休息,,1,0,100,false,0,0,0,0,0,0,0,0

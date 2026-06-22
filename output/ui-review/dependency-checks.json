@@ -1,0 +1,867 @@
+﻿[
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "sceneName":  "Game",
+                       "target":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/StatsButton",
+                       "totalReferences":  71,
+                       "objectsAnalyzed":  3,
+                       "analysis":  [
+                                        {
+                                            "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/StatsButton",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/StatsButton/Icon",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/StatsButton/selIcon",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        }
+                                    ],
+                       "savedTo":  null,
+                       "markdown":  "# Dependency Analysis: Game\r\n\r\n\u003e Target: `GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/StatsButton`\r\n\u003e Total references: 71 | Objects analyzed: 3\r\n\r\n## Risk Summary\r\n\r\n| Object | Risk | Depended By | Depends On |\r\n|--------|------|-------------|------------|\r\n| `GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/StatsButton` | safe | 0 | 0 |\r\n| `GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/StatsButton/Icon` | safe | 0 | 0 |\r\n| `GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/StatsButton/selIcon` | safe | 0 | 0 |\r\n\r\n---\r\n*Generated: 2026-06-21 23:22*\r\n"
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "sceneName":  "Game",
+                       "target":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/LeaderboardButton",
+                       "totalReferences":  71,
+                       "objectsAnalyzed":  3,
+                       "analysis":  [
+                                        {
+                                            "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/LeaderboardButton",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/LeaderboardButton/Icon",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/LeaderboardButton/selIcon",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        }
+                                    ],
+                       "savedTo":  null,
+                       "markdown":  "# Dependency Analysis: Game\r\n\r\n\u003e Target: `GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/LeaderboardButton`\r\n\u003e Total references: 71 | Objects analyzed: 3\r\n\r\n## Risk Summary\r\n\r\n| Object | Risk | Depended By | Depends On |\r\n|--------|------|-------------|------------|\r\n| `GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/LeaderboardButton` | safe | 0 | 0 |\r\n| `GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/LeaderboardButton/Icon` | safe | 0 | 0 |\r\n| `GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/LeaderboardButton/selIcon` | safe | 0 | 0 |\r\n\r\n---\r\n*Generated: 2026-06-21 23:22*\r\n"
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "sceneName":  "Game",
+                       "target":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/AchievementsButton",
+                       "totalReferences":  71,
+                       "objectsAnalyzed":  3,
+                       "analysis":  [
+                                        {
+                                            "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/AchievementsButton",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/AchievementsButton/Icon",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/AchievementsButton/selIcon",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        }
+                                    ],
+                       "savedTo":  null,
+                       "markdown":  "# Dependency Analysis: Game\r\n\r\n\u003e Target: `GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/AchievementsButton`\r\n\u003e Total references: 71 | Objects analyzed: 3\r\n\r\n## Risk Summary\r\n\r\n| Object | Risk | Depended By | Depends On |\r\n|--------|------|-------------|------------|\r\n| `GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/AchievementsButton` | safe | 0 | 0 |\r\n| `GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/AchievementsButton/Icon` | safe | 0 | 0 |\r\n| `GameCanvas/GamePanel/BottomMenuPanel/MenuButtonPanel/AchievementsButton/selIcon` | safe | 0 | 0 |\r\n\r\n---\r\n*Generated: 2026-06-21 23:22*\r\n"
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "sceneName":  "Game",
+                       "target":  "GameCanvas/InventoryPanel",
+                       "totalReferences":  71,
+                       "objectsAnalyzed":  6,
+                       "analysis":  [
+                                        {
+                                            "path":  "GameCanvas/InventoryPanel",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/InventoryPanel/InventoryBackpanel",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/InventoryPanel/InventoryBackpanel/emptySlot",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/InventoryPanel/InventoryList",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  1,
+                                            "dependsOn":  [
+                                                              {
+                                                                  "target":  "InventoryItem_Minimal",
+                                                                  "script":  "Inventory_UIItemList",
+                                                                  "field":  "UITemplate",
+                                                                  "fieldType":  "GameObject"
+                                                              }
+                                                          ]
+                                        },
+                                        {
+                                            "path":  "GameCanvas/InventoryPanel/InventoryList/MenuButton",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/InventoryPanel/InventoryList/MenuButton/Icon",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        }
+                                    ],
+                       "savedTo":  null,
+                       "markdown":  "# Dependency Analysis: Game\r\n\r\n\u003e Target: `GameCanvas/InventoryPanel`\r\n\u003e Total references: 71 | Objects analyzed: 6\r\n\r\n## Risk Summary\r\n\r\n| Object | Risk | Depended By | Depends On |\r\n|--------|------|-------------|------------|\r\n| `GameCanvas/InventoryPanel` | safe | 0 | 0 |\r\n| `GameCanvas/InventoryPanel/InventoryBackpanel` | safe | 0 | 0 |\r\n| `GameCanvas/InventoryPanel/InventoryBackpanel/emptySlot` | safe | 0 | 0 |\r\n| `GameCanvas/InventoryPanel/InventoryList` | safe | 0 | 1 |\r\n| `GameCanvas/InventoryPanel/InventoryList/MenuButton` | safe | 0 | 0 |\r\n| `GameCanvas/InventoryPanel/InventoryList/MenuButton/Icon` | safe | 0 | 0 |\r\n\r\n---\r\n*Generated: 2026-06-21 23:22*\r\n"
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "sceneName":  "Game",
+                       "target":  "GameCanvas/GamePanel/TopPanel/WarPanel",
+                       "totalReferences":  71,
+                       "objectsAnalyzed":  11,
+                       "analysis":  [
+                                        {
+                                            "path":  "GameCanvas/GamePanel/TopPanel/WarPanel",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/GamePanel/TopPanel/WarPanel/EnemyArmyImage",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/GamePanel/TopPanel/WarPanel/EnemyCastleImage",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/GamePanel/TopPanel/WarPanel/Particle System_fight",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/GamePanel/TopPanel/WarPanel/Particle System_fire",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/GamePanel/TopPanel/WarPanel/Particle System_fireworks",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/GamePanel/TopPanel/WarPanel/Particle System_fireworks/Particle System_fireworks (1)",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/GamePanel/TopPanel/WarPanel/Particle System_fireworks/Particle System_fireworks (2)",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/GamePanel/TopPanel/WarPanel/Particle System_fireworks/Particle System_fireworks (3)",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/GamePanel/TopPanel/WarPanel/PlayerArmyImage",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/GamePanel/TopPanel/WarPanel/PlayerCastleImage",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        }
+                                    ],
+                       "savedTo":  null,
+                       "markdown":  "# Dependency Analysis: Game\r\n\r\n\u003e Target: `GameCanvas/GamePanel/TopPanel/WarPanel`\r\n\u003e Total references: 71 | Objects analyzed: 11\r\n\r\n## Risk Summary\r\n\r\n| Object | Risk | Depended By | Depends On |\r\n|--------|------|-------------|------------|\r\n| `GameCanvas/GamePanel/TopPanel/WarPanel` | safe | 0 | 0 |\r\n| `GameCanvas/GamePanel/TopPanel/WarPanel/EnemyArmyImage` | safe | 0 | 0 |\r\n| `GameCanvas/GamePanel/TopPanel/WarPanel/EnemyCastleImage` | safe | 0 | 0 |\r\n| `GameCanvas/GamePanel/TopPanel/WarPanel/Particle System_fight` | safe | 0 | 0 |\r\n| `GameCanvas/GamePanel/TopPanel/WarPanel/Particle System_fire` | safe | 0 | 0 |\r\n| `GameCanvas/GamePanel/TopPanel/WarPanel/Particle System_fireworks` | safe | 0 | 0 |\r\n| `GameCanvas/GamePanel/TopPanel/WarPanel/Particle System_fireworks/Particle System_fireworks (1)` | safe | 0 | 0 |\r\n| `GameCanvas/GamePanel/TopPanel/WarPanel/Particle System_fireworks/Particle System_fireworks (2)` | safe | 0 | 0 |\r\n| `GameCanvas/GamePanel/TopPanel/WarPanel/Particle System_fireworks/Particle System_fireworks (3)` | safe | 0 | 0 |\r\n| `GameCanvas/GamePanel/TopPanel/WarPanel/PlayerArmyImage` | safe | 0 | 0 |\r\n| `GameCanvas/GamePanel/TopPanel/WarPanel/PlayerCastleImage` | safe | 0 | 0 |\r\n\r\n---\r\n*Generated: 2026-06-21 23:22*\r\n"
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "sceneName":  "Game",
+                       "target":  "GameCanvas/GamePanel/TopPanel/AchievementsPopupPanel",
+                       "totalReferences":  71,
+                       "objectsAnalyzed":  5,
+                       "analysis":  [
+                                        {
+                                            "path":  "GameCanvas/GamePanel/TopPanel/AchievementsPopupPanel",
+                                            "risk":  "low",
+                                            "dependedByCount":  1,
+                                            "dependedBy":  [
+                                                               {
+                                                                   "source":  "Scripts",
+                                                                   "script":  "AchievementsScript",
+                                                                   "field":  "achievementAnimator",
+                                                                   "fieldType":  "Animator"
+                                                               }
+                                                           ],
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/GamePanel/TopPanel/AchievementsPopupPanel/AchieveDescription",
+                                            "risk":  "low",
+                                            "dependedByCount":  1,
+                                            "dependedBy":  [
+                                                               {
+                                                                   "source":  "Scripts",
+                                                                   "script":  "AchievementsScript",
+                                                                   "field":  "anim_descriptionText",
+                                                                   "fieldType":  "Text"
+                                                               }
+                                                           ],
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/GamePanel/TopPanel/AchievementsPopupPanel/AchieveIcon",
+                                            "risk":  "low",
+                                            "dependedByCount":  1,
+                                            "dependedBy":  [
+                                                               {
+                                                                   "source":  "Scripts",
+                                                                   "script":  "AchievementsScript",
+                                                                   "field":  "anim_achievementImage",
+                                                                   "fieldType":  "Image"
+                                                               }
+                                                           ],
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/GamePanel/TopPanel/AchievementsPopupPanel/AchieveIcon/Particle System",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "GameCanvas/GamePanel/TopPanel/AchievementsPopupPanel/AchieveTitle",
+                                            "risk":  "low",
+                                            "dependedByCount":  1,
+                                            "dependedBy":  [
+                                                               {
+                                                                   "source":  "Scripts",
+                                                                   "script":  "AchievementsScript",
+                                                                   "field":  "anim_titleText",
+                                                                   "fieldType":  "Text"
+                                                               }
+                                                           ],
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        }
+                                    ],
+                       "savedTo":  null,
+                       "markdown":  "# Dependency Analysis: Game\r\n\r\n\u003e Target: `GameCanvas/GamePanel/TopPanel/AchievementsPopupPanel`\r\n\u003e Total references: 71 | Objects analyzed: 5\r\n\r\n## Risk Summary\r\n\r\n| Object | Risk | Depended By | Depends On |\r\n|--------|------|-------------|------------|\r\n| `GameCanvas/GamePanel/TopPanel/AchievementsPopupPanel` | low | 1 | 0 |\r\n| `GameCanvas/GamePanel/TopPanel/AchievementsPopupPanel/AchieveDescription` | low | 1 | 0 |\r\n| `GameCanvas/GamePanel/TopPanel/AchievementsPopupPanel/AchieveIcon` | low | 1 | 0 |\r\n| `GameCanvas/GamePanel/TopPanel/AchievementsPopupPanel/AchieveIcon/Particle System` | safe | 0 | 0 |\r\n| `GameCanvas/GamePanel/TopPanel/AchievementsPopupPanel/AchieveTitle` | low | 1 | 0 |\r\n\r\n## Dependency Details\r\n\r\nObjects below are referenced by other scripts. **Disabling/deleting them may cause errors.**\r\n\r\n### `GameCanvas/GamePanel/TopPanel/AchievementsPopupPanel` (risk: low)\r\n\r\n**Referenced by:**\r\n- `Scripts` → `AchievementsScript.achievementAnimator` (Animator)\r\n\r\n### `GameCanvas/GamePanel/TopPanel/AchievementsPopupPanel/AchieveDescription` (risk: low)\r\n\r\n**Referenced by:**\r\n- `Scripts` → `AchievementsScript.anim_descriptionText` (Text)\r\n\r\n### `GameCanvas/GamePanel/TopPanel/AchievementsPopupPanel/AchieveIcon` (risk: low)\r\n\r\n**Referenced by:**\r\n- `Scripts` → `AchievementsScript.anim_achievementImage` (Image)\r\n\r\n### `GameCanvas/GamePanel/TopPanel/AchievementsPopupPanel/AchieveTitle` (risk: low)\r\n\r\n**Referenced by:**\r\n- `Scripts` → `AchievementsScript.anim_titleText` (Text)\r\n\r\n---\r\n*Generated: 2026-06-21 23:22*\r\n"
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "sceneName":  "Game",
+                       "target":  "MenuCanvas/MenuPanel/HighscorePanel",
+                       "totalReferences":  71,
+                       "objectsAnalyzed":  21,
+                       "analysis":  [
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/Group1",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/Group1/LongestReignText",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/Group1/LongestReignText/CountryNameText",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/Group1/LongestReignText/Highscore",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/Group1/ShortestReignText",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/Group1/ShortestReignText/CountryNameText",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/Group1/ShortestReignText/Highscore",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/Group1/TimesPlayedText",
+                                            "risk":  "low",
+                                            "dependedByCount":  1,
+                                            "dependedBy":  [
+                                                               {
+                                                                   "source":  "Scripts",
+                                                                   "script":  "GameStateManager",
+                                                                   "field":  "gamesPlayedCounter",
+                                                                   "fieldType":  "scoreCounter"
+                                                               }
+                                                           ],
+                                            "dependsOnCount":  1,
+                                            "dependsOn":  [
+                                                              {
+                                                                  "target":  "MenuCanvas/MenuPanel/HighscorePanel/Group1/TimesPlayedText/TimesPlayedValue",
+                                                                  "script":  "scoreCounter",
+                                                                  "field":  "scoreValue",
+                                                                  "fieldType":  "Text"
+                                                              }
+                                                          ]
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/Group1/TimesPlayedText/TimesPlayedValue",
+                                            "risk":  "low",
+                                            "dependedByCount":  1,
+                                            "dependedBy":  [
+                                                               {
+                                                                   "source":  "MenuCanvas/MenuPanel/HighscorePanel/Group1/TimesPlayedText",
+                                                                   "script":  "scoreCounter",
+                                                                   "field":  "scoreValue",
+                                                                   "fieldType":  "Text"
+                                                               }
+                                                           ],
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/Group2",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/Group2/BestScoreText",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/Group2/CountryNameText1",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/Group2/CountryNameText1/Highscore1",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/Group2/CountryNameText2",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/Group2/CountryNameText2/Highscore2",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/Group2/CountryNameText3",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/Group2/CountryNameText3/Highscore3",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/MobileLeaderboardButton",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/MobileLeaderboardButton/Text",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/HighscorePanel/TitleText",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        }
+                                    ],
+                       "savedTo":  null,
+                       "markdown":  "# Dependency Analysis: Game\r\n\r\n\u003e Target: `MenuCanvas/MenuPanel/HighscorePanel`\r\n\u003e Total references: 71 | Objects analyzed: 21\r\n\r\n## Risk Summary\r\n\r\n| Object | Risk | Depended By | Depends On |\r\n|--------|------|-------------|------------|\r\n| `MenuCanvas/MenuPanel/HighscorePanel` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/HighscorePanel/Group1` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/HighscorePanel/Group1/LongestReignText` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/HighscorePanel/Group1/LongestReignText/CountryNameText` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/HighscorePanel/Group1/LongestReignText/Highscore` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/HighscorePanel/Group1/ShortestReignText` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/HighscorePanel/Group1/ShortestReignText/CountryNameText` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/HighscorePanel/Group1/ShortestReignText/Highscore` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/HighscorePanel/Group1/TimesPlayedText` | low | 1 | 1 |\r\n| `MenuCanvas/MenuPanel/HighscorePanel/Group1/TimesPlayedText/TimesPlayedValue` | low | 1 | 0 |\r\n| `MenuCanvas/MenuPanel/HighscorePanel/Group2` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/HighscorePanel/Group2/BestScoreText` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/HighscorePanel/Group2/CountryNameText1` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/HighscorePanel/Group2/CountryNameText1/Highscore1` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/HighscorePanel/Group2/CountryNameText2` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/HighscorePanel/Group2/CountryNameText2/Highscore2` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/HighscorePanel/Group2/CountryNameText3` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/HighscorePanel/Group2/CountryNameText3/Highscore3` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/HighscorePanel/MobileLeaderboardButton` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/HighscorePanel/MobileLeaderboardButton/Text` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/HighscorePanel/TitleText` | safe | 0 | 0 |\r\n\r\n## Dependency Details\r\n\r\nObjects below are referenced by other scripts. **Disabling/deleting them may cause errors.**\r\n\r\n### `MenuCanvas/MenuPanel/HighscorePanel/Group1/TimesPlayedText` (risk: low)\r\n\r\n**Referenced by:**\r\n- `Scripts` → `GameStateManager.gamesPlayedCounter` (scoreCounter)\r\n\r\n### `MenuCanvas/MenuPanel/HighscorePanel/Group1/TimesPlayedText/TimesPlayedValue` (risk: low)\r\n\r\n**Referenced by:**\r\n- `MenuCanvas/MenuPanel/HighscorePanel/Group1/TimesPlayedText` → `scoreCounter.scoreValue` (Text)\r\n\r\n---\r\n*Generated: 2026-06-21 23:22*\r\n"
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "sceneName":  "Game",
+                       "target":  "MenuCanvas/MenuPanel/AchievementsPanel",
+                       "totalReferences":  71,
+                       "objectsAnalyzed":  26,
+                       "analysis":  [
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/ML_AchievementsButton",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/ML_AchievementsButton/Text",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  3,
+                                            "dependsOn":  [
+                                                              {
+                                                                  "target":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content",
+                                                                  "script":  "ScrollRect",
+                                                                  "field":  "m_Content",
+                                                                  "fieldType":  "RectTransform"
+                                                              },
+                                                              {
+                                                                  "target":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport",
+                                                                  "script":  "ScrollRect",
+                                                                  "field":  "m_Viewport",
+                                                                  "fieldType":  "RectTransform"
+                                                              },
+                                                              {
+                                                                  "target":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Scrollbar",
+                                                                  "script":  "ScrollRect",
+                                                                  "field":  "m_VerticalScrollbar",
+                                                                  "fieldType":  "Scrollbar"
+                                                              }
+                                                          ]
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Scrollbar",
+                                            "risk":  "low",
+                                            "dependedByCount":  1,
+                                            "dependedBy":  [
+                                                               {
+                                                                   "source":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View",
+                                                                   "script":  "ScrollRect",
+                                                                   "field":  "m_VerticalScrollbar",
+                                                                   "fieldType":  "Scrollbar"
+                                                               }
+                                                           ],
+                                            "dependsOnCount":  2,
+                                            "dependsOn":  [
+                                                              {
+                                                                  "target":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Scrollbar/Sliding Area/Handle",
+                                                                  "script":  "Scrollbar",
+                                                                  "field":  "m_TargetGraphic",
+                                                                  "fieldType":  "Image"
+                                                              },
+                                                              {
+                                                                  "target":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Scrollbar/Sliding Area/Handle",
+                                                                  "script":  "Scrollbar",
+                                                                  "field":  "m_HandleRect",
+                                                                  "fieldType":  "RectTransform"
+                                                              }
+                                                          ]
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Scrollbar/Sliding Area",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Scrollbar/Sliding Area/Handle",
+                                            "risk":  "low",
+                                            "dependedByCount":  2,
+                                            "dependedBy":  [
+                                                               {
+                                                                   "source":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Scrollbar",
+                                                                   "script":  "Scrollbar",
+                                                                   "field":  "m_TargetGraphic",
+                                                                   "fieldType":  "Image"
+                                                               },
+                                                               {
+                                                                   "source":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Scrollbar",
+                                                                   "script":  "Scrollbar",
+                                                                   "field":  "m_HandleRect",
+                                                                   "fieldType":  "RectTransform"
+                                                               }
+                                                           ],
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport",
+                                            "risk":  "low",
+                                            "dependedByCount":  1,
+                                            "dependedBy":  [
+                                                               {
+                                                                   "source":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View",
+                                                                   "script":  "ScrollRect",
+                                                                   "field":  "m_Viewport",
+                                                                   "fieldType":  "RectTransform"
+                                                               }
+                                                           ],
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content",
+                                            "risk":  "low",
+                                            "dependedByCount":  1,
+                                            "dependedBy":  [
+                                                               {
+                                                                   "source":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View",
+                                                                   "script":  "ScrollRect",
+                                                                   "field":  "m_Content",
+                                                                   "fieldType":  "RectTransform"
+                                                               }
+                                                           ],
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement1Marry",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement1Marry/AchieveDescription",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement1Marry/AchieveTitle",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears10",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears10/AchieveDescription",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears10/AchieveTitle",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears20",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears20/AchieveDescription",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears20/AchieveTitle",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears30",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears30/AchieveDescription",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears30/AchieveTitle",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears5",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears5/AchieveDescription",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears5/AchieveTitle",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/TitleText",
+                                            "risk":  "safe",
+                                            "dependedByCount":  0,
+                                            "dependedBy":  null,
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        },
+                                        {
+                                            "path":  "MenuCanvas/MenuPanel/AchievementsPanel/UnlockedValued",
+                                            "risk":  "low",
+                                            "dependedByCount":  1,
+                                            "dependedBy":  [
+                                                               {
+                                                                   "source":  "Scripts",
+                                                                   "script":  "AchievementsScript",
+                                                                   "field":  "achievementProgressText",
+                                                                   "fieldType":  "Text"
+                                                               }
+                                                           ],
+                                            "dependsOnCount":  0,
+                                            "dependsOn":  null
+                                        }
+                                    ],
+                       "savedTo":  null,
+                       "markdown":  "# Dependency Analysis: Game\r\n\r\n\u003e Target: `MenuCanvas/MenuPanel/AchievementsPanel`\r\n\u003e Total references: 71 | Objects analyzed: 26\r\n\r\n## Risk Summary\r\n\r\n| Object | Risk | Depended By | Depends On |\r\n|--------|------|-------------|------------|\r\n| `MenuCanvas/MenuPanel/AchievementsPanel` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/ML_AchievementsButton` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/ML_AchievementsButton/Text` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View` | safe | 0 | 3 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Scrollbar` | low | 1 | 2 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Scrollbar/Sliding Area` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Scrollbar/Sliding Area/Handle` | low | 2 | 0 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport` | low | 1 | 0 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content` | low | 1 | 0 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement1Marry` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement1Marry/AchieveDescription` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement1Marry/AchieveTitle` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears10` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears10/AchieveDescription` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears10/AchieveTitle` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears20` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears20/AchieveDescription` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears20/AchieveTitle` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears30` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears30/AchieveDescription` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears30/AchieveTitle` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears5` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears5/AchieveDescription` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content/Achievement2RuleYears5/AchieveTitle` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/TitleText` | safe | 0 | 0 |\r\n| `MenuCanvas/MenuPanel/AchievementsPanel/UnlockedValued` | low | 1 | 0 |\r\n\r\n## Dependency Details\r\n\r\nObjects below are referenced by other scripts. **Disabling/deleting them may cause errors.**\r\n\r\n### `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Scrollbar` (risk: low)\r\n\r\n**Referenced by:**\r\n- `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View` → `ScrollRect.m_VerticalScrollbar` (Scrollbar)\r\n\r\n### `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Scrollbar/Sliding Area/Handle` (risk: low)\r\n\r\n**Referenced by:**\r\n- `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Scrollbar` → `Scrollbar.m_TargetGraphic` (Image)\r\n- `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Scrollbar` → `Scrollbar.m_HandleRect` (RectTransform)\r\n\r\n### `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport` (risk: low)\r\n\r\n**Referenced by:**\r\n- `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View` → `ScrollRect.m_Viewport` (RectTransform)\r\n\r\n### `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View/Viewport/Content` (risk: low)\r\n\r\n**Referenced by:**\r\n- `MenuCanvas/MenuPanel/AchievementsPanel/Scroll View` → `ScrollRect.m_Content` (RectTransform)\r\n\r\n### `MenuCanvas/MenuPanel/AchievementsPanel/UnlockedValued` (risk: low)\r\n\r\n**Referenced by:**\r\n- `Scripts` → `AchievementsScript.achievementProgressText` (Text)\r\n\r\n---\r\n*Generated: 2026-06-21 23:22*\r\n"
+                   }
+    }
+]

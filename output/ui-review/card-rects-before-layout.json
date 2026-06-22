@@ -1,0 +1,350 @@
+﻿[
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "name":  "Cards",
+                       "entityId":  "24368",
+                       "instanceId":  24368,
+                       "path":  "GameCanvas/Cards",
+                       "anchorMin":  {
+                                         "x":  0.0,
+                                         "y":  0.0
+                                     },
+                       "anchorMax":  {
+                                         "x":  1.0,
+                                         "y":  1.0
+                                     },
+                       "pivot":  {
+                                     "x":  0.5,
+                                     "y":  0.5
+                                 },
+                       "anchoredPosition3D":  {
+                                                  "x":  0.0,
+                                                  "y":  120.0,
+                                                  "z":  0.0
+                                              },
+                       "sizeDelta":  {
+                                         "x":  0.0,
+                                         "y":  0.0
+                                     },
+                       "offsetMin":  {
+                                         "x":  0.0,
+                                         "y":  120.0
+                                     },
+                       "offsetMax":  {
+                                         "x":  0.0,
+                                         "y":  120.0
+                                     },
+                       "localPosition":  {
+                                             "x":  0.0,
+                                             "y":  120.0,
+                                             "z":  0.0
+                                         },
+                       "localEulerAngles":  {
+                                                "x":  0.0,
+                                                "y":  0.0,
+                                                "z":  0.0
+                                            },
+                       "localScale":  {
+                                          "x":  0.52,
+                                          "y":  0.52,
+                                          "z":  1.0
+                                      },
+                       "rect":  {
+                                    "width":  1920.72815,
+                                    "height":  1079.5907
+                                }
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "name":  "MainMenuCard",
+                       "entityId":  "23308",
+                       "instanceId":  23308,
+                       "path":  "GameCanvas/Cards/MainMenuCard",
+                       "anchorMin":  {
+                                         "x":  0.0,
+                                         "y":  0.0
+                                     },
+                       "anchorMax":  {
+                                         "x":  1.0,
+                                         "y":  1.0
+                                     },
+                       "pivot":  {
+                                     "x":  0.5,
+                                     "y":  0.5
+                                 },
+                       "anchoredPosition3D":  {
+                                                  "x":  0.0,
+                                                  "y":  0.0,
+                                                  "z":  0.0
+                                              },
+                       "sizeDelta":  {
+                                         "x":  0.0,
+                                         "y":  0.0
+                                     },
+                       "offsetMin":  {
+                                         "x":  0.0,
+                                         "y":  0.0
+                                     },
+                       "offsetMax":  {
+                                         "x":  0.0,
+                                         "y":  0.0
+                                     },
+                       "localPosition":  {
+                                             "x":  0.0,
+                                             "y":  0.0,
+                                             "z":  0.0
+                                         },
+                       "localEulerAngles":  {
+                                                "x":  0.0,
+                                                "y":  0.0,
+                                                "z":  0.0
+                                            },
+                       "localScale":  {
+                                          "x":  1.0,
+                                          "y":  1.0,
+                                          "z":  1.0
+                                      },
+                       "rect":  {
+                                    "width":  1920.72815,
+                                    "height":  1079.5907
+                                }
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "name":  "Card",
+                       "entityId":  "22940",
+                       "instanceId":  22940,
+                       "path":  "GameCanvas/Cards/MainMenuCard/Card",
+                       "anchorMin":  {
+                                         "x":  0.5,
+                                         "y":  0.5
+                                     },
+                       "anchorMax":  {
+                                         "x":  0.5,
+                                         "y":  0.5
+                                     },
+                       "pivot":  {
+                                     "x":  0.5,
+                                     "y":  0.5
+                                 },
+                       "anchoredPosition3D":  {
+                                                  "x":  0.0,
+                                                  "y":  -150.0,
+                                                  "z":  0.0
+                                              },
+                       "sizeDelta":  {
+                                         "x":  840.0,
+                                         "y":  1240.0
+                                     },
+                       "offsetMin":  {
+                                         "x":  -420.0,
+                                         "y":  -770.0
+                                     },
+                       "offsetMax":  {
+                                         "x":  420.0,
+                                         "y":  470.0
+                                     },
+                       "localPosition":  {
+                                             "x":  0.0,
+                                             "y":  -150.0,
+                                             "z":  0.0
+                                         },
+                       "localEulerAngles":  {
+                                                "x":  0.0,
+                                                "y":  0.0,
+                                                "z":  0.0
+                                            },
+                       "localScale":  {
+                                          "x":  1.0,
+                                          "y":  1.0,
+                                          "z":  1.0
+                                      },
+                       "rect":  {
+                                    "width":  840.0,
+                                    "height":  1240.0
+                                }
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "name":  "TitleText",
+                       "entityId":  "24058",
+                       "instanceId":  24058,
+                       "path":  "GameCanvas/Cards/MainMenuCard/Card/TitleText",
+                       "anchorMin":  {
+                                         "x":  0.5,
+                                         "y":  0.5
+                                     },
+                       "anchorMax":  {
+                                         "x":  0.5,
+                                         "y":  0.5
+                                     },
+                       "pivot":  {
+                                     "x":  0.5,
+                                     "y":  0.5
+                                 },
+                       "anchoredPosition3D":  {
+                                                  "x":  0.0,
+                                                  "y":  450.0,
+                                                  "z":  0.0
+                                              },
+                       "sizeDelta":  {
+                                         "x":  800.0,
+                                         "y":  200.0
+                                     },
+                       "offsetMin":  {
+                                         "x":  -400.0,
+                                         "y":  350.0
+                                     },
+                       "offsetMax":  {
+                                         "x":  400.0,
+                                         "y":  550.0
+                                     },
+                       "localPosition":  {
+                                             "x":  0.0,
+                                             "y":  450.0,
+                                             "z":  0.0
+                                         },
+                       "localEulerAngles":  {
+                                                "x":  0.0,
+                                                "y":  0.0,
+                                                "z":  0.0
+                                            },
+                       "localScale":  {
+                                          "x":  1.0,
+                                          "y":  1.0,
+                                          "z":  1.0
+                                      },
+                       "rect":  {
+                                    "width":  800.0,
+                                    "height":  200.0
+                                }
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "name":  "QuestionText",
+                       "entityId":  "25940",
+                       "instanceId":  25940,
+                       "path":  "GameCanvas/Cards/MainMenuCard/Card/QuestionText",
+                       "anchorMin":  {
+                                         "x":  0.5,
+                                         "y":  0.5
+                                     },
+                       "anchorMax":  {
+                                         "x":  0.5,
+                                         "y":  0.5
+                                     },
+                       "pivot":  {
+                                     "x":  0.5,
+                                     "y":  0.5
+                                 },
+                       "anchoredPosition3D":  {
+                                                  "x":  0.0,
+                                                  "y":  -480.0,
+                                                  "z":  0.0
+                                              },
+                       "sizeDelta":  {
+                                         "x":  800.0,
+                                         "y":  200.0
+                                     },
+                       "offsetMin":  {
+                                         "x":  -400.0,
+                                         "y":  -580.0
+                                     },
+                       "offsetMax":  {
+                                         "x":  400.0,
+                                         "y":  -380.0
+                                     },
+                       "localPosition":  {
+                                             "x":  0.0,
+                                             "y":  -480.0,
+                                             "z":  0.0
+                                         },
+                       "localEulerAngles":  {
+                                                "x":  0.0,
+                                                "y":  0.0,
+                                                "z":  0.0
+                                            },
+                       "localScale":  {
+                                          "x":  1.0,
+                                          "y":  1.0,
+                                          "z":  1.0
+                                      },
+                       "rect":  {
+                                    "width":  800.0,
+                                    "height":  200.0
+                                }
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "name":  "Icon",
+                       "entityId":  "23042",
+                       "instanceId":  23042,
+                       "path":  "GameCanvas/Cards/MainMenuCard/Card/Icon",
+                       "anchorMin":  {
+                                         "x":  0.5,
+                                         "y":  0.5
+                                     },
+                       "anchorMax":  {
+                                         "x":  0.5,
+                                         "y":  0.5
+                                     },
+                       "pivot":  {
+                                     "x":  0.5,
+                                     "y":  0.5
+                                 },
+                       "anchoredPosition3D":  {
+                                                  "x":  0.0,
+                                                  "y":  0.0,
+                                                  "z":  0.0
+                                              },
+                       "sizeDelta":  {
+                                         "x":  400.0,
+                                         "y":  400.0
+                                     },
+                       "offsetMin":  {
+                                         "x":  -200.0,
+                                         "y":  -200.0
+                                     },
+                       "offsetMax":  {
+                                         "x":  200.0,
+                                         "y":  200.0
+                                     },
+                       "localPosition":  {
+                                             "x":  0.0,
+                                             "y":  0.0,
+                                             "z":  0.0
+                                         },
+                       "localEulerAngles":  {
+                                                "x":  0.0,
+                                                "y":  0.0,
+                                                "z":  0.0
+                                            },
+                       "localScale":  {
+                                          "x":  1.0,
+                                          "y":  1.0,
+                                          "z":  1.0
+                                      },
+                       "rect":  {
+                                    "width":  400.0,
+                                    "height":  400.0
+                                }
+                   }
+    }
+]

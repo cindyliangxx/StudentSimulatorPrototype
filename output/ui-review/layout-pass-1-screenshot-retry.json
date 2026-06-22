@@ -1,0 +1,20 @@
+﻿[
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "executed":  "Window/General/Game"
+                   }
+    },
+    {
+        "status":  "success",
+        "result":  {
+                       "success":  true,
+                       "path":  "E:/moniUniversity/StudentSimulatorPrototype/Assets\\Screenshots\\ui-pass1-retry-1920x1080.png",
+                       "width":  1920,
+                       "height":  1080,
+                       "isPlaying":  false,
+                       "note":  "Game View captured in Edit mode — this is the last rendered Game View frame and may be static or blank. Enter Play mode (editor_play) for a live runtime frame. The PNG is written ~1 frame later; if your immediate read fails, wait ~200ms and retry."
+                   }
+    }
+]

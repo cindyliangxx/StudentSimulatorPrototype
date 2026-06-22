@@ -1,0 +1,7 @@
+﻿{
+    "status":  "error",
+    "errorCode":  "SKILL_ERROR",
+    "error":  "Path must start with Assets/ or Packages/: output/ui-review/camera-screenshot-1920x1080.png",
+    "skill":  "camera_screenshot",
+    "retryStrategy":  "abort"
+}

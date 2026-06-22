@@ -1,0 +1,29 @@
+﻿{
+    "results":  [
+                    {
+                        "status":  "success",
+                        "result":  {
+                                       "success":  true,
+                                       "executed":  "File/Save"
+                                   }
+                    },
+                    "",
+                    {
+                        "status":  "closed_process",
+                        "id":  43420,
+                        "name":  "Unity"
+                    }
+                ],
+    "remainingUnityProcesses":  [
+                                    {
+                                        "Id":  41232,
+                                        "ProcessName":  "Unity",
+                                        "MainWindowTitle":  ""
+                                    },
+                                    {
+                                        "Id":  43420,
+                                        "ProcessName":  "Unity",
+                                        "MainWindowTitle":  ""
+                                    }
+                                ]
+}
